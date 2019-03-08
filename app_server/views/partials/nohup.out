@@ -1,0 +1,12 @@
+
+> blogger@0.0.0 start /home/bitnami/blogger
+> node ./bin/www
+
+[0mGET / [32m200 [0m12.056 ms - 2072[0m
+[0mGET /blog [32m200 [0m1.840 ms - 1906[0m
+[0mGET /blog/addBlog [32m200 [0m1.213 ms - 1861[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.384 ms - -[0m
+[0mGET /blog/addBlog [36m304 [0m1.031 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.389 ms - -[0m
+[0mGET /blog [36m304 [0m1.023 ms - -[0m
+[0mGET / [36m304 [0m1.065 ms - -[0m
