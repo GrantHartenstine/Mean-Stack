@@ -7,9 +7,15 @@ var ctrlBlog = require('../controllers/blog');
 router.get('/', ctrlIndex.home);
 
 /* GET blog pages */
-router.get('/blog', ctrlBlog.blogList);
-router.get('/blog/addBlog', ctrlBlog.addBlog);
-router.get('/blog/blog-delete', ctrlBlog.blogDelete);
-router.get('/blog/blog-edit', ctrlBlog.blogEdit);
+router.get('/blog-list', ctrlBlog.blogList);
+
+router.get('/blog-add', ctrlBlog.addBlog);
+router.post('/blog-add', ctrlBlog.doAddBlog);
+
+router.get('/blog-edit/:blogID', ctrlBlog.blogEdit);
+router.post('/blog-edit/:blogID', ctrlBlog.doBlogEdit);
+
+router.get('/blog-delete/:blogID', ctrlBlog.blogDelete);
+router.post('/blog-delete/:blogID', ctrlBlog.doBlogDelete);
 
 module.exports = router;

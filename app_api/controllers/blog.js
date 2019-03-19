@@ -1,33 +1,125 @@
-/* GET blog page */
-module.exports.blogList = function(req, res) {
-    res.render('blog', {
-        title: 'Blog List',
-        blogList: [{
-          blogTitle: 'My First Attempt.',
-          blogText: 'If you can read this I was successful.',
-          createdOnDate: '02-24-2019, 9:00PM'
-        }, {
-          blogTitle: 'A Second Attempt.',
-          blogText: 'Blogging is bad, making blog sites is not.',
-          createdOnDate: '02-24-2019, 9:07PM'
-	    }, {
-          blogTitle: 'A Third Attempt.',
-          blogText: 'Orange Man Bad.',
-          createdOnDate: '02-24-2019, 9:15 PM'
-	    }]
-    });
+var mongoose = require('mongoose');
+var Blog = mongoose.model('Blog');
+
+var sendJSONresponse = function(res, status, content){
+	res.status(status);
+	res.json(content);
 };
 
-/* GET blog add page */
-module.exports.addBlog = function(req, res) {
-  res.render('addBlog', {title: 'Add Blog' });
+// POST a new blog
+module.exports.blogCreate = function (req, res) {
+	console.log(req.body);
+	Blog.create({
+	 blogTitle: req.body.title,
+	 blogText: req.body.text,
+	 createdOn: req.body.date
+	},
+	function(err, blog) {
+	  if(err) {
+		console.log(err);
+	   	sendJSONresponse(res, 400, err);
+	  }
+	  else {
+		console.log(blog);
+		sendJSONresponse(res, 201, blog);
+	  }
+	});
 };
 
-/* GET blog delete page */
-module.exports.blogDelete = function(req, res) {
-  res.render ('blog-delete', {title: 'Delete Blog' });
+// GET list of all blogs
+module.exports.blogsListAll = function (req, res) {
+ console.log('Fetching all blog documents');
+ Blog
+	.find({}, function(err, results) {
+	 if (err) {
+		console.log(err);
+		sendJSONresponse(res, 404, err);
+		return;
+	 }
+	 console.log(results);
+	 sendJSONresponse(res, 200, results);
+	 });
 };
-/* GET blog edit page */
-module.exports.blogEdit = function(req, res) {
-  res.render ('blog-edit', {title: 'Edit Blog' });
+
+// GET a blog by ID
+module.exports.blogRead = function (req, res) {
+ console.log('Finding blog details', req.params);
+ if (req.params && req.params.blogID) {
+  Blog
+	.findById(req.params.blogID)
+	.exec(function(err, blog) {
+	  if (!blog) {
+		sendJSONresponse(res, 404, 
+		 {"message": "blogID not found"});
+		 return;
+	  }
+	  else if (err) {
+		console.log(err);
+		sendJSONresponse(res, 404, err);
+		return;
+	  }
+	  console.log(blog);
+	  sendJSONresponse(res, 200, blog);	
+	});
+ }
+ else {
+	console.log('No blogID specified');
+	sendJSONresponse(res, 404,
+	{"message": "No blogID in request"});
+ }
+};
+
+// PUT: Update the blog that has this ID 
+module.exports.blogsUpdateOne = function (req, res) {
+ if(!req.params.blogID) {
+	sendJSONresponse(res, 404,
+	{"message": "Not found, blogID is required"});
+	return;
+ }
+ Blog
+	.findById(req.params.blogID)
+	.exec(function(err, blog) {
+	  if (!blog) {
+		sendJSONresponse(res, 404,
+		{"message": "blogID not found"});
+		return;
+	  }
+	  else if (err) {
+		sendJSONresponse(res, 400, err);
+		return;
+	  }
+	  blog.blogTitle = req.body.title;
+	  blog.blogText = req.body.text;
+	  blog.createdOn = req.body.date;
+	  blog.save(function(err, blog) {
+	   if (err) {
+		sendJSONresponse(res, 404, err);
+	   }
+	   else {
+		sendJSONresponse(res, 200, blog);
+	   }
+	   });
+	});
+};
+
+// DELETE the blog that has this ID
+module.exports.blogDelete = function (req, res) {
+ var blogID = req.params.blogID;
+ if (blogID) {
+  Blog
+	.findByIdAndRemove(blogID)
+	.exec(function(err, blog) {
+	 if (err) {
+		console.log(err);
+		sendJSONresponse(res, 404, err);
+		return;
+	 }
+	 console.log("Blog ID " + blogID + " deleted");
+	 sendJSONresponse(res, 204, null);
+	});
+ }
+ else {
+	sendJSONresponse(res, 404, 
+	{"message": "No blogID"});
+ }
 };

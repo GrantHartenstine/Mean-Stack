@@ -19,8 +19,8 @@ module.exports.blogList = function(req, res) {
 };
 
 /* GET blog add page */
-module.exports.addBlog = function(req, res) {
-  res.render('addBlog', {title: 'Add Blog' });
+module.exports.blogAdd = function(req, res) {
+  res.render('blog-add', {title: 'Add Blog' });
 };
 
 /* GET blog delete page */

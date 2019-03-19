@@ -1,9 +1,18 @@
 var mongoose = require('mongoose');
 
 var blogSchema = new mongoose.Schema({
-    blogTitle: String,
-    blogText: String,
-    createdOnDate: String
+        blogTitle: {
+	 type: String,
+	 required: true
+	},
+        blogText: {
+	 type: String,
+	 required: true
+	},
+        createdOn: {
+	 type: Date,
+	 required: true
+	}
 });
 
-mongoose.model('blogList', blogSchema);
+mongoose.model('Blog', blogSchema);
