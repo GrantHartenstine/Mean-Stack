@@ -7,7 +7,7 @@ var sendJSONresponse = function(res, status, content){
 };
 
 // POST a new blog
-module.exports.blogCreate = function (req, res) {
+module.exports.blogsCreate = function (req, res) {
 	console.log(req.body);
 	Blog.create({
 	 blogTitle: req.body.title,
@@ -42,7 +42,7 @@ module.exports.blogsListAll = function (req, res) {
 };
 
 // GET a blog by ID
-module.exports.blogRead = function (req, res) {
+module.exports.blogsRead = function (req, res) {
  console.log('Finding blog details', req.params);
  if (req.params && req.params.blogID) {
   Blog
@@ -70,7 +70,7 @@ module.exports.blogRead = function (req, res) {
 };
 
 // PUT: Update the blog that has this ID 
-module.exports.blogsUpdateOne = function (req, res) {
+module.exports.blogsUpdate = function (req, res) {
  if(!req.params.blogID) {
 	sendJSONresponse(res, 404,
 	{"message": "Not found, blogID is required"});

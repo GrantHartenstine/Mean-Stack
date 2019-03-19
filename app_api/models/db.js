@@ -1,7 +1,7 @@
-var mongoose = require( 'mongoose' );
-var gracefulShutdown;
-var dbURI = 'mongodb://localhost/blogger3';
-mongoose.connect(dbURI);
+e = require('mongoose');
+var dbURI = process.env.DB_URI;
+
+mongoose.connect(dbURI, { useNewUrlParser: true });
 
 // Monitor and report when database is connected                      
 mongoose.connection.on('connected', function () {
@@ -42,3 +42,5 @@ process.on('SIGTERM', function() {
   gracefulShutdown('Heroku app shutdown', function () {
     process.exit(0);
 }); });
+
+require('./blogs');
