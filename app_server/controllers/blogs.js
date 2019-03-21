@@ -1,4 +1,4 @@
-t = require('request');
+var request = require('request');
 var serverURL = process.env.SVR_URL;
 
 var renderBlogList = function (req, res, responseBody) {

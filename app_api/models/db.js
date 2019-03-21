@@ -1,4 +1,4 @@
-e = require('mongoose');
+var mongoose = require('mongoose');
 var dbURI = process.env.DB_URI;
 
 mongoose.connect(dbURI, { useNewUrlParser: true });

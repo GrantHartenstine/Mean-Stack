@@ -42,7 +42,7 @@ module.exports.blogsListAll = function (req, res) {
 };
 
 // GET a blog by ID
-module.exports.blogsRead = function (req, res) {
+module.exports.blogsReadOne = function (req, res) {
  console.log('Finding blog details', req.params);
  if (req.params && req.params.blogID) {
   Blog
@@ -70,7 +70,7 @@ module.exports.blogsRead = function (req, res) {
 };
 
 // PUT: Update the blog that has this ID 
-module.exports.blogsUpdate = function (req, res) {
+module.exports.blogsUpdateOne = function (req, res) {
  if(!req.params.blogID) {
 	sendJSONresponse(res, 404,
 	{"message": "Not found, blogID is required"});
@@ -103,7 +103,7 @@ module.exports.blogsUpdate = function (req, res) {
 };
 
 // DELETE the blog that has this ID
-module.exports.blogDelete = function (req, res) {
+module.exports.blogsDeleteOne = function (req, res) {
  var blogID = req.params.blogID;
  if (blogID) {
   Blog
