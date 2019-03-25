@@ -15,7 +15,7 @@ var renderBlogList = function (req, res, responseBody) {
 	message = "No blogs have been posted yet.";
   }
  }
- res.render('list-blog',
+ res.render('blog',
  {
 	title: 'Blog List',
 	blogs: responseBody,
@@ -29,7 +29,7 @@ var renderBlogList = function (req, res, responseBody) {
 };
 
 var renderEditBlog = function (req, res, blogData) {
- res.render('edit-blog',
+ res.render('blog-edit',
  {
 	title: 'Edit Blog',
 	blogData: blogData,
@@ -39,7 +39,7 @@ var renderEditBlog = function (req, res, blogData) {
 };
 
 var renderDeleteBlog = function (req, res, blogData) {
- res.render('delete-blog',
+ res.render('blog-delete',
  {
 	title: 'Delete Blog',
 	blogData: blogData,
@@ -48,8 +48,8 @@ var renderDeleteBlog = function (req, res, blogData) {
  });
 };
 
-/* GET 'list-blog' page */
-module.exports.listBlog = function(req, res) {
+/* GET 'blog' page */
+module.exports.blogList = function(req, res) {
  var requestOptions;
  var path = '/api/blogs';
 
@@ -75,7 +75,7 @@ module.exports.listBlog = function(req, res) {
 
 /* GET 'add-blog' page */
 module.exports.addBlog = function(req, res) {
-  res.render('add-blog', {title: 'Add Blog' });
+  res.render('blog-add', {title: 'Add Blog' });
 };
 
 /* POST blog */
@@ -98,7 +98,7 @@ module.exports.doAddBlog = function(req, res) {
  
  request(requestOptions, function(err, response, body) {
   if(response.statusCode === 201) {
-	res.redirect('/list-blog');
+	res.redirect('/blog');
   }
   else {
 	res.status(response.statusCode);	
@@ -151,7 +151,7 @@ module.exports.doEditBlog = function(req, res) {
  
  request(requestOptions, function(err, response, body) {
   if(response.statusCode === 200) {
-	res.redirect('/list-blog');
+	res.redirect('/blog');
   }
   else {
 	res.status(response.statusCode);	
@@ -198,7 +198,7 @@ module.exports.doDeleteBlog = function(req, res) {
  
  request(requestOptions, function(err, response, body) {
   if(response.statusCode === 204) {
-	res.redirect('/blog-list');
+	res.redirect('/blog');
   }
   else {
 	res.status(response.statusCode);	
