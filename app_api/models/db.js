@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var dbURI = process.env.DB_URI;
+var dbURI = 'mongodb://blog:blog@localhost:27017/blog';
 
 mongoose.connect(dbURI, { useNewUrlParser: true });
 

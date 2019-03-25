@@ -1,13 +1,13 @@
 var express = require('express');
 var router = express.Router();
 var ctrlIndex = require('../controllers/home');
-var ctrlBlog = require('../controllers/blog');
+var ctrlBlog = require('../controllers/blogs');
 
 /* GET home page */
 router.get('/', ctrlIndex.home);
 
 /* GET blog pages */
-router.get('/blog-list', ctrlBlog.blogList);
+router.get('/blog', ctrlBlog.blogList);
 
 router.get('/blog-add', ctrlBlog.addBlog);
 router.post('/blog-add', ctrlBlog.doAddBlog);
