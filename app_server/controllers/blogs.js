@@ -1,5 +1,5 @@
 var request = require('request');
-var serverURL = process.env.SVR_URL;
+var apiOptions = { server: 'http://18.224.67.53/'};
 
 var renderBlogList = function (req, res, responseBody) {
  var messageTitle;
@@ -17,7 +17,7 @@ var renderBlogList = function (req, res, responseBody) {
  }
  res.render('blog',
  {
-	title: 'Blog List',
+	title: 'Blog',
 	blogs: responseBody,
 	messageTitle: messageTitle,
 	message: message
@@ -28,7 +28,7 @@ var renderBlogList = function (req, res, responseBody) {
  }
 };
 
-var renderEditBlog = function (req, res, blogData) {
+var renderBlogEdit = function (req, res, blogData) {
  res.render('blog-edit',
  {
 	title: 'Edit Blog',
@@ -38,7 +38,7 @@ var renderEditBlog = function (req, res, blogData) {
  });
 };
 
-var renderDeleteBlog = function (req, res, blogData) {
+var renderBlogDelete = function (req, res, blogData) {
  res.render('blog-delete',
  {
 	title: 'Delete Blog',
@@ -51,10 +51,10 @@ var renderDeleteBlog = function (req, res, blogData) {
 /* GET 'blog' page */
 module.exports.blogList = function(req, res) {
  var requestOptions;
- var path = '/api/blogs';
+ var path = '/api/blog';
 
  requestOptions = {
-	url: serverURL + path,
+	url:apiOptions.server + path,
 	method: "GET",
 	json: {}
  };
@@ -65,7 +65,7 @@ module.exports.blogList = function(req, res) {
   }
   else if (response.statusCode === 200) {
 	console.log("Documents Found: " + body.length)
-	renderlistBlog(req, res, body);
+	renderBlogList(req, res, body);
   }
   else {
 	console.log(response.statusCode);
@@ -73,7 +73,7 @@ module.exports.blogList = function(req, res) {
  });
 };
 
-/* GET 'add-blog' page */
+/* GET 'blog-add' page */
 module.exports.addBlog = function(req, res) {
   res.render('blog-add', {title: 'Add Blog' });
 };
@@ -106,8 +106,8 @@ module.exports.doAddBlog = function(req, res) {
  });
 };
 
-/* GET 'edit-blog' page */
-module.exports.editBlog = function(req, res) {
+/* GET 'blog-edit' page */
+module.exports.blogEdit = function(req, res) {
  var requestOptions;
  var path = '/api/blogs/' + req.params.blogID;
 
@@ -123,7 +123,7 @@ module.exports.editBlog = function(req, res) {
   }
   else if (response.statusCode === 200) {
 	console.log(body)
-	renderEditBlog(req, res, body);
+	renderBlogEdit(req, res, body);
   }
   else {
 	console.log(response.statusCode);
@@ -132,7 +132,7 @@ module.exports.editBlog = function(req, res) {
 };
 
 /* PUT a blog update */
-module.exports.doEditBlog = function(req, res) {
+module.exports.doBlogEdit = function(req, res) {
  var putData;
  var requestOptions;
  var path = '/api/blogs/' + req.params.blogID;
@@ -159,8 +159,8 @@ module.exports.doEditBlog = function(req, res) {
  });
 };
 
-/* GET 'delete-blog' page */
-module.exports.deleteBlog = function(req, res) {
+/* GET 'blog-delete' page */
+module.exports.blogDelete = function(req, res) {
  var requestOptions;
  var path = '/api/blogs/' + req.params.blogID;
 
@@ -176,7 +176,7 @@ module.exports.deleteBlog = function(req, res) {
   }
   else if (response.statusCode === 200) {
 	console.log(body)
-	renderDeleteBlog(req, res, body);
+	renderBlogDelete(req, res, body);
   }
   else {
 	console.log(response.statusCode);
@@ -185,7 +185,7 @@ module.exports.deleteBlog = function(req, res) {
 };
 
 /* DELETE a blog */
-module.exports.doDeleteBlog = function(req, res) {
+module.exports.doBlogDelete = function(req, res) {
  var putData;
  var requestOptions;
  var path = '/api/blogs/' + req.params.blogID;
