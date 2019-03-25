@@ -110,3 +110,213 @@ Mongoose connected to mongodb://localhost/blogger2
 [0mGET / [32m200 [0m0.816 ms - 2148[0m
 [0mGET / [32m200 [0m0.752 ms - 2148[0m
 [0mGET / [32m200 [0m0.805 ms - 2148[0m
+
+> blogger@0.0.0 start /home/bitnami/blogger3
+> node ./bin/www
+
+
+/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428
+    throw new MongooseError('The `uri` parameter to `openUri()` must be a ' +
+    ^
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at new MongooseError (/home/bitnami/blogger3/node_modules/mongoose/lib/error/mongooseError.js:13:11)
+    at NativeConnection.Connection.openUri (/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428:11)
+    at Mongoose.connect (/home/bitnami/blogger3/node_modules/mongoose/lib/index.js:271:15)
+    at Object.<anonymous> (/home/bitnami/blogger3/app_api/models/db.js:4:10)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/bitnami/blogger3/app.js:6:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! blogger@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the blogger@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/bitnami/.npm/_logs/2019-03-25T00_50_32_109Z-debug.log
+
+> blogger@0.0.0 start /home/bitnami/blogger3
+> node ./bin/www
+
+
+/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428
+    throw new MongooseError('The `uri` parameter to `openUri()` must be a ' +
+    ^
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at new MongooseError (/home/bitnami/blogger3/node_modules/mongoose/lib/error/mongooseError.js:13:11)
+    at NativeConnection.Connection.openUri (/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428:11)
+    at Mongoose.connect (/home/bitnami/blogger3/node_modules/mongoose/lib/index.js:271:15)
+    at Object.<anonymous> (/home/bitnami/blogger3/app_api/models/db.js:4:10)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/bitnami/blogger3/app.js:6:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! blogger@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the blogger@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/bitnami/.npm/_logs/2019-03-25T00_52_02_023Z-debug.log
+
+> blogger@0.0.0 start /home/bitnami/blogger3
+> node ./bin/www
+
+
+/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428
+    throw new MongooseError('The `uri` parameter to `openUri()` must be a ' +
+    ^
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at new MongooseError (/home/bitnami/blogger3/node_modules/mongoose/lib/error/mongooseError.js:13:11)
+    at NativeConnection.Connection.openUri (/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428:11)
+    at Mongoose.connect (/home/bitnami/blogger3/node_modules/mongoose/lib/index.js:271:15)
+    at Object.<anonymous> (/home/bitnami/blogger3/app_api/models/db.js:4:10)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/bitnami/blogger3/app.js:6:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! blogger@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the blogger@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/bitnami/.npm/_logs/2019-03-25T00_55_46_710Z-debug.log
+
+> blogger@0.0.0 start /home/bitnami/blogger3
+> node ./bin/www
+
+
+> blogger@0.0.0 start /home/bitnami/blogger3
+> node ./bin/www
+
+
+/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428
+    throw new MongooseError('The `uri` parameter to `openUri()` must be a ' +
+    ^
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at new MongooseError (/home/bitnami/blogger3/node_modules/mongoose/lib/error/mongooseError.js:13:11)
+    at NativeConnection.Connection.openUri (/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428:11)
+    at Mongoose.connect (/home/bitnami/blogger3/node_modules/mongoose/lib/index.js:271:15)
+    at Object.<anonymous> (/home/bitnami/blogger3/app_api/models/db.js:4:10)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/bitnami/blogger3/app.js:6:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+
+/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428
+    throw new MongooseError('The `uri` parameter to `openUri()` must be a ' +
+    ^
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at new MongooseError (/home/bitnami/blogger3/node_modules/mongoose/lib/error/mongooseError.js:13:11)
+    at NativeConnection.Connection.openUri (/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428:11)
+    at Mongoose.connect (/home/bitnami/blogger3/node_modules/mongoose/lib/index.js:271:15)
+    at Object.<anonymous> (/home/bitnami/blogger3/app_api/models/db.js:4:10)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/bitnami/blogger3/app.js:6:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! blogger@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the blogger@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! blogger@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the blogger@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/bitnami/.npm/_logs/2019-03-25T01_04_31_657Z-debug.log
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/bitnami/.npm/_logs/2019-03-25T01_04_31_657Z-debug.log
+
+> blogger@0.0.0 start /home/bitnami/blogger3
+> node ./bin/www
+
+
+/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428
+    throw new MongooseError('The `uri` parameter to `openUri()` must be a ' +
+    ^
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at new MongooseError (/home/bitnami/blogger3/node_modules/mongoose/lib/error/mongooseError.js:13:11)
+    at NativeConnection.Connection.openUri (/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428:11)
+    at Mongoose.connect (/home/bitnami/blogger3/node_modules/mongoose/lib/index.js:271:15)
+    at Object.<anonymous> (/home/bitnami/blogger3/app_api/models/db.js:4:10)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/bitnami/blogger3/app.js:6:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! blogger@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the blogger@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/bitnami/.npm/_logs/2019-03-25T01_20_57_881Z-debug.log
