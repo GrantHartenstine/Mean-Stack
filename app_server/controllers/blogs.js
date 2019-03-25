@@ -1,5 +1,5 @@
 var request = require('request');
-var apiOptions = { server: 'http://18.224.67.53/'};
+var apiOptions = { server: 'http://18.224.67.53'};
 
 var renderBlogList = function (req, res, responseBody) {
  var messageTitle;
