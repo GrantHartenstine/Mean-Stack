@@ -9,21 +9,21 @@
     <div class="container">
      <% include ./partials/navbar %>
      <h1><%= title %></h1>
-      <% for ( var i = 0; i < blogList.length; i++ ) {%>
+      <% blogList.forEach(function(blog) {%>
        <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6">
         <div class="card text-white bg-primary mb-3">
          <div class="card-header"><h3><%= blogList[i].blogTitle %></h3></div>
          <div class="card-body">
           <p class="card-text"><%= blogList[i].blogText %></p>
           <p class="card-footer">
-           <%= blogList[i].createdOnDate %>
-           <a href="/blog/blog-edit" class="btn btn-warning float-right" role="button">Edit Blog</a>
-           <a href="/blog/blog-delete" class="btn btn-danger float-right" role="button">Delete Blog</a>
+           <%= blog.createdOn %>
+           <a href="/blog-edit/<%= blog.blogid" class="btn btn-warning float-right" role="button">Edit Blog</a>
+           <a href="/blog-delete/<%= blog.blogid %>" class="btn btn-danger float-right" role="button">Delete Blog</a>
           </p>
          </div>
         </div>
        </div>
-      <% } %>
+      <% }); %>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
