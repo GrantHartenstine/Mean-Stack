@@ -9,10 +9,10 @@ var sendJSONresponse = function(res, status, content){
 // POST a new blog
 module.exports.blogMake = function (req, res) {
 	console.log(req.body);
-	Blog.make({
-	 blogTitle: req.body.title,
-	 blogText: req.body.text,
-	 createdOn: req.body.date
+	Blog.
+	 create({
+	 blogTitle: req.body.blogTitle,
+	 blogText: req.body.blogText,
 	},
 	function(err, blog) {
 	  if(err) {
@@ -30,16 +30,34 @@ module.exports.blogMake = function (req, res) {
 module.exports.blogList = function (req, res) {
  console.log('Fetching all blog documents');
  Blog
-	.find({}, function(err, results) {
-	 if (err) {
-		console.log(err);
-		sendJSONresponse(res, 404, err);
+	.find() 
+	.exec(function(err, results)	{
+	 if (!results) {
+		sendJSONresponse(res, 404, {
+			"message" : "No blogs found!"
+		});
 		return;
+	 }else if(err) {
+	 console.log(err);
+	 sendJSONresponse(res, 404, err);
+	 return;
 	 }
 	 console.log(results);
-	 sendJSONresponse(res, 200, results);
-	 });
+	 sendJSONresponse(res, 200, buildBlogList(req, res, results));
+			});
 };
+ var buildBlogList = function(req, res, results) {
+	var blog = [ ];
+	results.forEach(function (obj) {
+	  blog.push({
+		blogID : obj._id,
+		blogTitle : obj.blogTitle,
+		blogText : obj.blogText,
+		createdOn : obj.createdOn
+	 });
+        });
+	return blog;
+    };
 
 // GET a blog by ID
 module.exports.blogRead = function (req, res) {
@@ -88,9 +106,9 @@ module.exports.blogUpdate = function (req, res) {
 		sendJSONresponse(res, 400, err);
 		return;
 	  }
-	  blog.blogTitle = req.body.title;
-	  blog.blogText = req.body.text;
-	  blog.createdOn = req.body.date;
+	  blog.blogTitle = req.body.blogTitle;
+	  blog.blogText = req.body.blogText;
+	  //blog.createdOn = req.body.createdOn;
 	  blog.save(function(err, blog) {
 	   if (err) {
 		sendJSONresponse(res, 404, err);
