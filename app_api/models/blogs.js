@@ -10,8 +10,7 @@ var blogSchema = new mongoose.Schema({
 	 required: true
 	},
         createdOn: {
-	 type: Date,
-	 required: true
+	 type: Date, "default" : Date.now,
 	}
 });
 
