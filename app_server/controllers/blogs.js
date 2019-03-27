@@ -82,7 +82,7 @@ module.exports.addBlog = function(req, res) {
 module.exports.doAddBlog = function(req, res) {
  var postData;
  var requestOptions;
- var path = '/api/blogs';
+ var path = '/api/blog';
 
  postData = {
 	title: req.body.title,
@@ -109,7 +109,7 @@ module.exports.doAddBlog = function(req, res) {
 /* GET 'blog-edit' page */
 module.exports.blogEdit = function(req, res) {
  var requestOptions;
- var path = '/api/blogs/' + req.params.blogID;
+ var path = '/api/blog/' + req.params.blogID;
 
  requestOptions =  {
 	url:apiOptions.server + path,
@@ -135,7 +135,7 @@ module.exports.blogEdit = function(req, res) {
 module.exports.doBlogEdit = function(req, res) {
  var putData;
  var requestOptions;
- var path = '/api/blogs/' + req.params.blogID;
+ var path = '/api/blog/' + req.params.blogID;
 
  putData = {
 	title: req.body.title,
@@ -162,7 +162,7 @@ module.exports.doBlogEdit = function(req, res) {
 /* GET 'blog-delete' page */
 module.exports.blogDelete = function(req, res) {
  var requestOptions;
- var path = '/api/blogs/' + req.params.blogID;
+ var path = '/api/blog/' + req.params.blogID;
 
  requestOptions =  {
 	url: apiOptions.server + path,
@@ -188,7 +188,7 @@ module.exports.blogDelete = function(req, res) {
 module.exports.doBlogDelete = function(req, res) {
  var putData;
  var requestOptions;
- var path = '/api/blogs/' + req.params.blogID;
+ var path = '/api/blog/' + req.params.blogID;
 
  requestOptions = {
 	url: apiOptions.server + path,
