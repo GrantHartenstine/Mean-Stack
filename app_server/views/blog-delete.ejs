@@ -10,14 +10,14 @@
     <% include ./partials/navbar %>
     <h1><%= title %></h1>
     <div class="card border-primary" style="width:50%;">
-      <form method="post" action="/blogdelete/<%= blogInfo._id %>">
+      <form method="post" action="/blogdelete/<%= blogData._id %>">
         <div class="form-group">
           <label style="width: 100%">Blog Title</label>
-          <input class="form-control" id="blogTitle" name="blogTitle" type="text" value="<%= blogInfo.blogTitle %>" readonly>
+          <input class="form-control" id="blogTitle" name="blogTitle" type="text" value="<%= blogData.blogTitle %>" readonly>
         </div>
         <div class="form-group">
           <label style="width: 100%;">Blog Text</label>
-            <input class="form-control" id="blogText" name="blogText" rows="3" value="<%= blogInfo.blogText %>" readonly></textarea>
+            <input class="form-control" id="blogText" name="blogText" rows="3" value="<%= blogData.blogText %>" readonly></textarea>
               <div class="text-right">
                 <input class="btn btn-danger" value="Delete Post" type="submit">
               </div>
