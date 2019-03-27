@@ -89,36 +89,21 @@ module.exports.blogRead = function (req, res) {
 
 // PUT: Update the blog that has this ID 
 module.exports.blogUpdate = function (req, res) {
- if(!req.params.blogID) {
-	sendJSONresponse(res, 404,
-	{"message": "Not found, blogID is required"});
-	return;
- }
- Blog
-	.findById(req.params.blogID)
-	.exec(function(err, blog) {
-	  if (!blog) {
-		sendJSONresponse(res, 404,
-		{"message": "blogID not found"});
-		return;
-	  }
-	  else if (err) {
+ console.log("Updating Blog Entry : " + req.params.blogID);
+ console.log(req.body);
+ blog
+	.findByIdAndUpdate(
+	   { _id: req.params.blogID },
+	   { $set: {"blogTitle" : req.body.blogTitle ,"blogText" : req.body.blogtext}},
+
+	function(err, response) {
+	   if(err)  {
 		sendJSONresponse(res, 400, err);
-		return;
-	  }
-	  blog.blogTitle = req.body.blogTitle;
-	  blog.blogText = req.body.blogText;
-	  //blog.createdOn = req.body.createdOn;
-	  blog.save(function(err, blog) {
-	   if (err) {
-		sendJSONresponse(res, 404, err);
+	   } else {
+		sendJSONresponse(res, 201, response);
 	   }
-	   else {
-		sendJSONresponse(res, 200, blog);
-	   }
-	   });
-	});
-};
+	}
+)};
 
 // DELETE the blog that has this ID
 module.exports.blogDelete = function (req, res) {
