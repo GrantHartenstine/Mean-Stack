@@ -85,9 +85,9 @@ module.exports.doAddBlog = function(req, res) {
  var path = '/api/blog';
 
  postData = {
-	title: req.body.blogTitle,
-	text: req.body.blogText,
-	date: Date.now()
+	blogTitle: req.body.blogTitle,
+	blogText: req.body.blogText,
+	createdOn: Date.now()
  };
 
  requestOptions = {
@@ -138,9 +138,9 @@ module.exports.doBlogEdit = function(req, res) {
  var path = '/api/blog/' + req.params.blogID;
 
  putData = {
-	title: req.body.blogTitle,
-	text: req.body.blogText,
-	date: Date.now()
+	blogTitle: req.body.blogTitle,
+	blogText: req.body.blogText,
+	createdOn: Date.now()
  };
 
  requestOptions = {
