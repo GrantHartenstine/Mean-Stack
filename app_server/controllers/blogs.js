@@ -91,7 +91,7 @@ module.exports.doAddBlog = function(req, res) {
  };
 
  requestOptions = {
-	url: serverURL + path,
+	url:apiOptions.server + path,
 	method: "POST",
 	json: postData
  };
@@ -112,7 +112,7 @@ module.exports.blogEdit = function(req, res) {
  var path = '/api/blogs/' + req.params.blogID;
 
  requestOptions =  {
-	url: serverURL + path,
+	url:apiOptions.server + path,
 	method: "GET",
 	json: {}
  };
@@ -144,7 +144,7 @@ module.exports.doBlogEdit = function(req, res) {
  };
 
  requestOptions = {
-	url: serverURL + path,
+	url: apiOptions.server + path,
 	method: "PUT",
 	json: putData
  };
@@ -165,7 +165,7 @@ module.exports.blogDelete = function(req, res) {
  var path = '/api/blogs/' + req.params.blogID;
 
  requestOptions =  {
-	url: serverURL + path,
+	url: apiOptions.server + path,
 	method: "GET",
 	json: {}
  };
@@ -191,7 +191,7 @@ module.exports.doBlogDelete = function(req, res) {
  var path = '/api/blogs/' + req.params.blogID;
 
  requestOptions = {
-	url: serverURL + path,
+	url: apiOptions.server + path,
 	method: "DELETE",
 	json: {} 
  };
