@@ -1,0 +1,872 @@
+
+> blogger@0.0.0 start /home/bitnami/blogger2
+> node ./bin/www
+
+(node:27095) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+Mongoose connected to mongodb://localhost/blogger2
+[0mGET /blog [32m200 [0m11.939 ms - 3768[0m
+[0mGET /blog [36m304 [0m1.882 ms - -[0m
+[0mGET /blog/addBlog [36m304 [0m1.214 ms - -[0m
+[0mGET /blog [36m304 [0m0.901 ms - -[0m
+[0mGET /blog/blog-delete [36m304 [0m1.239 ms - -[0m
+[0mGET /blog [36m304 [0m0.864 ms - -[0m
+[0mGET /blog/blog-edit [36m304 [0m1.104 ms - -[0m
+[0mGET / [36m304 [0m1.381 ms - -[0m
+
+> blogger@0.0.0 start /home/bitnami/blogger2
+> node ./bin/www
+
+(node:27171) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+Mongoose connected to mongodb://localhost/blogger2
+[0mGET / [36m304 [0m11.102 ms - -[0m
+[0mGET /blog [36m304 [0m2.503 ms - -[0m
+[0mGET /blog [36m304 [0m1.849 ms - -[0m
+
+> blogger@0.0.0 start /home/bitnami/blogger2
+> node ./bin/www
+
+(node:27250) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+Mongoose connected to mongodb://localhost/blogger2
+[0mGET /blog [32m200 [0m11.306 ms - 3768[0m
+[0mGET /blog [36m304 [0m2.025 ms - -[0m
+[0mGET /blog [36m304 [0m1.032 ms - -[0m
+[0mGET /blog [36m304 [0m0.883 ms - -[0m
+[0mGET /blog [36m304 [0m0.866 ms - -[0m
+[0mGET /blog [36m304 [0m0.926 ms - -[0m
+[0mGET /blog [36m304 [0m0.918 ms - -[0m
+[0mGET /blog [36m304 [0m0.875 ms - -[0m
+[0mGET /blog [36m304 [0m0.824 ms - -[0m
+[0mGET /blog [36m304 [0m0.898 ms - -[0m
+[0mGET /blog [36m304 [0m0.917 ms - -[0m
+[0mGET /blog [36m304 [0m0.906 ms - -[0m
+[0mGET /blog [36m304 [0m0.887 ms - -[0m
+[0mGET /blog [36m304 [0m0.889 ms - -[0m
+[0mGET /blog [36m304 [0m0.943 ms - -[0m
+[0mGET /blog [36m304 [0m1.501 ms - -[0m
+[0mGET /blog [36m304 [0m0.817 ms - -[0m
+[0mGET /blog [36m304 [0m0.864 ms - -[0m
+[0mGET /blog [36m304 [0m0.807 ms - -[0m
+[0mGET /blog [36m304 [0m0.849 ms - -[0m
+[0mGET /blog [36m304 [0m0.923 ms - -[0m
+[0mGET /blog [36m304 [0m0.948 ms - -[0m
+[0mGET /blog [36m304 [0m0.907 ms - -[0m
+[0mGET /blog [36m304 [0m0.908 ms - -[0m
+[0mGET /blog [36m304 [0m0.758 ms - -[0m
+[0mGET /blog [36m304 [0m1.204 ms - -[0m
+[0mGET /blog [36m304 [0m0.905 ms - -[0m
+[0mGET /blog [36m304 [0m0.921 ms - -[0m
+[0mGET /blog [36m304 [0m0.901 ms - -[0m
+[0mGET /blog [36m304 [0m0.921 ms - -[0m
+[0mGET /blog [36m304 [0m0.885 ms - -[0m
+[0mGET /blog [36m304 [0m0.869 ms - -[0m
+[0mGET /blog [36m304 [0m0.871 ms - -[0m
+[0mGET /blog [36m304 [0m0.902 ms - -[0m
+[0mGET /blog [36m304 [0m1.203 ms - -[0m
+[0mGET /blog [36m304 [0m0.845 ms - -[0m
+[0mGET /blog [36m304 [0m0.850 ms - -[0m
+[0mGET /blog [36m304 [0m0.933 ms - -[0m
+[0mGET /blog [36m304 [0m0.857 ms - -[0m
+[0mGET /blog [36m304 [0m0.962 ms - -[0m
+[0mGET /blog [36m304 [0m0.846 ms - -[0m
+[0mGET /blog [36m304 [0m0.883 ms - -[0m
+[0mGET /blog [36m304 [0m0.865 ms - -[0m
+[0mGET /blog/addBlog [36m304 [0m1.159 ms - -[0m
+[0mGET / [36m304 [0m1.729 ms - -[0m
+[0mGET /blog [36m304 [0m5.215 ms - -[0m
+[0mGET /blog [36m304 [0m0.860 ms - -[0m
+[0mGET / [36m304 [0m1.071 ms - -[0m
+[0mGET / [32m200 [0m1.355 ms - 2148[0m
+[0mGET / [32m200 [0m2.057 ms - 2148[0m
+[0mGET / [32m200 [0m0.775 ms - 2148[0m
+[0mGET http://www.proxylists.net/proxyjudge.php [33m404 [0m3.098 ms - 1482[0m
+[0mGET / [32m200 [0m0.876 ms - 2148[0m
+[0mGET / [32m200 [0m0.728 ms - 2148[0m
+[0mGET /favicon.ico [33m404 [0m1.023 ms - 1482[0m
+[0mGET /blog [32m200 [0m0.873 ms - 3768[0m
+[0mGET /blog [36m304 [0m1.225 ms - -[0m
+[0mGET /blog/addBlog [32m200 [0m1.000 ms - 1948[0m
+[0mGET /blog [36m304 [0m0.861 ms - -[0m
+[0mGET /blog/addBlog [36m304 [0m0.795 ms - -[0m
+[0mGET /blog [36m304 [0m0.871 ms - -[0m
+[0mGET /blog/blog-delete [32m200 [0m1.046 ms - 1945[0m
+[0mGET /blog/blog-edit [32m200 [0m1.076 ms - 1939[0m
+[0mGET /upgrade_handle.php?cmd=getupgradinginfo [33m404 [0m0.852 ms - 1482[0m
+[0mGET / [32m200 [0m0.769 ms - 2148[0m
+[0mGET / [32m200 [0m0.727 ms - 2148[0m
+[0mGET / [36m304 [0m0.691 ms - -[0m
+[0mGET / [32m200 [0m0.746 ms - 2148[0m
+[0mGET / [32m200 [0m0.798 ms - 2148[0m
+[0mGET / [32m200 [0m0.823 ms - 2148[0m
+[0mGET / [32m200 [0m0.751 ms - 2148[0m
+[0mGET / [32m200 [0m0.686 ms - 2148[0m
+[0mGET / [32m200 [0m0.772 ms - 2148[0m
+[0mGET /blog [32m200 [0m0.962 ms - 3768[0m
+[0mGET /favicon.ico [33m404 [0m0.779 ms - 1482[0m
+[0mGET / [32m200 [0m0.795 ms - 2148[0m
+[0mGET / [32m200 [0m0.803 ms - 2148[0m
+[0mGET / [32m200 [0m0.832 ms - 2148[0m
+[0mGET / [32m200 [0m0.756 ms - 2148[0m
+[0mGET / [32m200 [0m0.759 ms - 2148[0m
+[0mGET / [32m200 [0m0.816 ms - 2148[0m
+[0mGET / [32m200 [0m0.752 ms - 2148[0m
+[0mGET / [32m200 [0m0.805 ms - 2148[0m
+
+> blogger@0.0.0 start /home/bitnami/blogger3
+> node ./bin/www
+
+
+/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428
+    throw new MongooseError('The `uri` parameter to `openUri()` must be a ' +
+    ^
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at new MongooseError (/home/bitnami/blogger3/node_modules/mongoose/lib/error/mongooseError.js:13:11)
+    at NativeConnection.Connection.openUri (/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428:11)
+    at Mongoose.connect (/home/bitnami/blogger3/node_modules/mongoose/lib/index.js:271:15)
+    at Object.<anonymous> (/home/bitnami/blogger3/app_api/models/db.js:4:10)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/bitnami/blogger3/app.js:6:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! blogger@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the blogger@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/bitnami/.npm/_logs/2019-03-25T00_50_32_109Z-debug.log
+
+> blogger@0.0.0 start /home/bitnami/blogger3
+> node ./bin/www
+
+
+/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428
+    throw new MongooseError('The `uri` parameter to `openUri()` must be a ' +
+    ^
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at new MongooseError (/home/bitnami/blogger3/node_modules/mongoose/lib/error/mongooseError.js:13:11)
+    at NativeConnection.Connection.openUri (/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428:11)
+    at Mongoose.connect (/home/bitnami/blogger3/node_modules/mongoose/lib/index.js:271:15)
+    at Object.<anonymous> (/home/bitnami/blogger3/app_api/models/db.js:4:10)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/bitnami/blogger3/app.js:6:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! blogger@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the blogger@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/bitnami/.npm/_logs/2019-03-25T00_52_02_023Z-debug.log
+
+> blogger@0.0.0 start /home/bitnami/blogger3
+> node ./bin/www
+
+
+/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428
+    throw new MongooseError('The `uri` parameter to `openUri()` must be a ' +
+    ^
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at new MongooseError (/home/bitnami/blogger3/node_modules/mongoose/lib/error/mongooseError.js:13:11)
+    at NativeConnection.Connection.openUri (/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428:11)
+    at Mongoose.connect (/home/bitnami/blogger3/node_modules/mongoose/lib/index.js:271:15)
+    at Object.<anonymous> (/home/bitnami/blogger3/app_api/models/db.js:4:10)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/bitnami/blogger3/app.js:6:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! blogger@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the blogger@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/bitnami/.npm/_logs/2019-03-25T00_55_46_710Z-debug.log
+
+> blogger@0.0.0 start /home/bitnami/blogger3
+> node ./bin/www
+
+
+> blogger@0.0.0 start /home/bitnami/blogger3
+> node ./bin/www
+
+
+/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428
+    throw new MongooseError('The `uri` parameter to `openUri()` must be a ' +
+    ^
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at new MongooseError (/home/bitnami/blogger3/node_modules/mongoose/lib/error/mongooseError.js:13:11)
+    at NativeConnection.Connection.openUri (/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428:11)
+    at Mongoose.connect (/home/bitnami/blogger3/node_modules/mongoose/lib/index.js:271:15)
+    at Object.<anonymous> (/home/bitnami/blogger3/app_api/models/db.js:4:10)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/bitnami/blogger3/app.js:6:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+
+/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428
+    throw new MongooseError('The `uri` parameter to `openUri()` must be a ' +
+    ^
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at new MongooseError (/home/bitnami/blogger3/node_modules/mongoose/lib/error/mongooseError.js:13:11)
+    at NativeConnection.Connection.openUri (/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428:11)
+    at Mongoose.connect (/home/bitnami/blogger3/node_modules/mongoose/lib/index.js:271:15)
+    at Object.<anonymous> (/home/bitnami/blogger3/app_api/models/db.js:4:10)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/bitnami/blogger3/app.js:6:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! blogger@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the blogger@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! blogger@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the blogger@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/bitnami/.npm/_logs/2019-03-25T01_04_31_657Z-debug.log
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/bitnami/.npm/_logs/2019-03-25T01_04_31_657Z-debug.log
+
+> blogger@0.0.0 start /home/bitnami/blogger3
+> node ./bin/www
+
+
+/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428
+    throw new MongooseError('The `uri` parameter to `openUri()` must be a ' +
+    ^
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at new MongooseError (/home/bitnami/blogger3/node_modules/mongoose/lib/error/mongooseError.js:13:11)
+    at NativeConnection.Connection.openUri (/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428:11)
+    at Mongoose.connect (/home/bitnami/blogger3/node_modules/mongoose/lib/index.js:271:15)
+    at Object.<anonymous> (/home/bitnami/blogger3/app_api/models/db.js:4:10)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/bitnami/blogger3/app.js:6:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! blogger@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the blogger@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/bitnami/.npm/_logs/2019-03-25T01_20_57_881Z-debug.log
+
+> blogger@0.0.0 start /home/bitnami/blogger3
+> node ./bin/www
+
+
+/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428
+    throw new MongooseError('The `uri` parameter to `openUri()` must be a ' +
+    ^
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at new MongooseError (/home/bitnami/blogger3/node_modules/mongoose/lib/error/mongooseError.js:13:11)
+    at NativeConnection.Connection.openUri (/home/bitnami/blogger3/node_modules/mongoose/lib/connection.js:428:11)
+    at Mongoose.connect (/home/bitnami/blogger3/node_modules/mongoose/lib/index.js:271:15)
+    at Object.<anonymous> (/home/bitnami/blogger3/app_api/models/db.js:4:10)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/bitnami/blogger3/app.js:6:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! blogger@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the blogger@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/bitnami/.npm/_logs/2019-03-25T01_35_44_655Z-debug.log
+
+> blogger@0.0.0 start /home/bitnami/blogger3
+> node ./bin/www
+
+Mongoose connected to mongodb://blog:blog@localhost:27017/blog
+[0mGET / [36m304 [0m11.539 ms - -[0m
+Fetching all blog documents
+[ { _id: 5c9be0bd0df72a772c79e3b6,
+    blogTitle: 'old',
+    blogText: 'old',
+    createdOn: 2019-03-27T20:44:45.132Z,
+    __v: 0 },
+  { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs succ',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m30.471 ms - 237[0m
+Documents Found: 2
+[0mGET /blog [36m304 [0m46.246 ms - -[0m
+[0mGET /blog-add [36m304 [0m1.395 ms - -[0m
+Fetching all blog documents
+[ { _id: 5c9be0bd0df72a772c79e3b6,
+    blogTitle: 'old',
+    blogText: 'old',
+    createdOn: 2019-03-27T20:44:45.132Z,
+    __v: 0 },
+  { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs succ',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m3.408 ms - 237[0m
+Documents Found: 2
+[0mGET /blog [36m304 [0m8.165 ms - -[0m
+[0mGET /blog-add [36m304 [0m1.972 ms - -[0m
+{ blogTitle: 'test',
+  blogText: 'testing to make sure it lives without console',
+  createdOn: 1553720315751 }
+{ _id: 5c9be3fb652a23782255f195,
+  blogTitle: 'test',
+  blogText: 'testing to make sure it lives without console',
+  createdOn: 2019-03-27T20:58:35.757Z,
+  __v: 0 }
+[0mPOST /api/blog [32m201 [0m14.176 ms - 159[0m
+[0mPOST /blog-add [36m302 [0m22.052 ms - 54[0m
+Fetching all blog documents
+[ { _id: 5c9be0bd0df72a772c79e3b6,
+    blogTitle: 'old',
+    blogText: 'old',
+    createdOn: 2019-03-27T20:44:45.132Z,
+    __v: 0 },
+  { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs succ',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5c9be3fb652a23782255f195,
+    blogTitle: 'test',
+    blogText: 'testing to make sure it lives without console',
+    createdOn: 2019-03-27T20:58:35.757Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m3.486 ms - 392[0m
+Documents Found: 3
+[0mGET /blog [32m200 [0m7.834 ms - 3819[0m
+Finding blog details { blogID: '5c9be3fb652a23782255f195' }
+{ _id: 5c9be3fb652a23782255f195,
+  blogTitle: 'test',
+  blogText: 'testing to make sure it lives without console',
+  createdOn: 2019-03-27T20:58:35.757Z,
+  __v: 0 }
+[0mGET /api/blog/5c9be3fb652a23782255f195 [32m200 [0m6.454 ms - 159[0m
+{ _id: '5c9be3fb652a23782255f195',
+  blogTitle: 'test',
+  blogText: 'testing to make sure it lives without console',
+  createdOn: '2019-03-27T20:58:35.757Z',
+  __v: 0 }
+[0mGET /blog-edit/5c9be3fb652a23782255f195 [32m200 [0m10.856 ms - 2615[0m
+Updating Blog Entry : 5c9be3fb652a23782255f195
+{ blogTitle: 'success',
+  blogText: 'testing to make sure it lives without console',
+  createdOn: 1553720325628 }
+(node:30754) DeprecationWarning: collection.findAndModify is deprecated. Use findOneAndUpdate, findOneAndReplace or findOneAndDelete instead.
+[0mPUT /api/blog/5c9be3fb652a23782255f195 [32m201 [0m8.443 ms - 159[0m
+[0mPOST /blog-edit/5c9be3fb652a23782255f195 [0m- [0m- ms - -[0m
+Fetching all blog documents
+[ { _id: 5c9be0bd0df72a772c79e3b6,
+    blogTitle: 'old',
+    blogText: 'old',
+    createdOn: 2019-03-27T20:44:45.132Z,
+    __v: 0 },
+  { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs succ',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5c9be3fb652a23782255f195,
+    blogTitle: 'success',
+    blogText: 'testing to make sure it lives without console',
+    createdOn: 2019-03-27T20:58:35.757Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m2.688 ms - 395[0m
+Documents Found: 3
+[0mGET /blog [32m200 [0m6.207 ms - 3822[0m
+Fetching all blog documents
+[ { _id: 5c9be0bd0df72a772c79e3b6,
+    blogTitle: 'old',
+    blogText: 'old',
+    createdOn: 2019-03-27T20:44:45.132Z,
+    __v: 0 },
+  { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs succ',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5c9be3fb652a23782255f195,
+    blogTitle: 'success',
+    blogText: 'testing to make sure it lives without console',
+    createdOn: 2019-03-27T20:58:35.757Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m2.520 ms - 395[0m
+Documents Found: 3
+[0mGET /blog [32m200 [0m5.643 ms - 3822[0m
+[0mGET /apple-touch-icon-precomposed.png [33m404 [0m1.339 ms - 1482[0m
+[0mGET /apple-touch-icon.png [33m404 [0m0.877 ms - 1482[0m
+[0mGET /favicon.ico [33m404 [0m0.649 ms - 1482[0m
+[0mGET /apple-touch-icon-precomposed.png [33m404 [0m0.655 ms - 1482[0m
+[0mGET /apple-touch-icon.png [33m404 [0m0.644 ms - 1482[0m
+[0mGET /favicon.ico [33m404 [0m0.778 ms - 1482[0m
+Fetching all blog documents
+[ { _id: 5c9be0bd0df72a772c79e3b6,
+    blogTitle: 'old',
+    blogText: 'old',
+    createdOn: 2019-03-27T20:44:45.132Z,
+    __v: 0 },
+  { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs succ',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5c9be3fb652a23782255f195,
+    blogTitle: 'success',
+    blogText: 'testing to make sure it lives without console',
+    createdOn: 2019-03-27T20:58:35.757Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m3.596 ms - 395[0m
+Documents Found: 3
+[0mGET /blog [32m200 [0m6.628 ms - 3822[0m
+[0mGET /apple-touch-icon-precomposed.png [33m404 [0m0.671 ms - 1482[0m
+[0mGET /apple-touch-icon.png [33m404 [0m0.739 ms - 1482[0m
+[0mGET /favicon.ico [33m404 [0m0.734 ms - 1482[0m
+[0mGET /apple-touch-icon-precomposed.png [33m404 [0m0.768 ms - 1482[0m
+[0mGET /apple-touch-icon.png [33m404 [0m0.813 ms - 1482[0m
+[0mGET /favicon.ico [33m404 [0m0.694 ms - 1482[0m
+Fetching all blog documents
+[ { _id: 5c9be0bd0df72a772c79e3b6,
+    blogTitle: 'old',
+    blogText: 'old',
+    createdOn: 2019-03-27T20:44:45.132Z,
+    __v: 0 },
+  { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs succ',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5c9be3fb652a23782255f195,
+    blogTitle: 'success',
+    blogText: 'testing to make sure it lives without console',
+    createdOn: 2019-03-27T20:58:35.757Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m3.130 ms - 395[0m
+Documents Found: 3
+[0mGET /blog [32m200 [0m5.978 ms - 3822[0m
+Fetching all blog documents
+[ { _id: 5c9be0bd0df72a772c79e3b6,
+    blogTitle: 'old',
+    blogText: 'old',
+    createdOn: 2019-03-27T20:44:45.132Z,
+    __v: 0 },
+  { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs succ',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5c9be3fb652a23782255f195,
+    blogTitle: 'success',
+    blogText: 'testing to make sure it lives without console',
+    createdOn: 2019-03-27T20:58:35.757Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m2.195 ms - 395[0m
+Documents Found: 3
+[0mGET /blog [32m200 [0m4.883 ms - 3822[0m
+[0mGET /apple-touch-icon-precomposed.png [33m404 [0m0.599 ms - 1482[0m
+[0mGET /apple-touch-icon-precomposed.png [33m404 [0m0.573 ms - 1482[0m
+[0mGET /apple-touch-icon.png [33m404 [0m0.632 ms - 1482[0m
+[0mGET /apple-touch-icon.png [33m404 [0m0.577 ms - 1482[0m
+[0mGET /favicon.ico [33m404 [0m0.642 ms - 1482[0m
+[0mGET /favicon.ico [33m404 [0m0.545 ms - 1482[0m
+[0mGET /apple-touch-icon-precomposed.png [33m404 [0m1.244 ms - 1482[0m
+[0mGET /apple-touch-icon-precomposed.png [33m404 [0m0.641 ms - 1482[0m
+[0mGET /apple-touch-icon.png [33m404 [0m0.583 ms - 1482[0m
+[0mGET /apple-touch-icon.png [33m404 [0m0.680 ms - 1482[0m
+[0mGET /favicon.ico [33m404 [0m0.543 ms - 1482[0m
+[0mGET /favicon.ico [33m404 [0m0.638 ms - 1482[0m
+Fetching all blog documents
+[ { _id: 5c9be0bd0df72a772c79e3b6,
+    blogTitle: 'old',
+    blogText: 'old',
+    createdOn: 2019-03-27T20:44:45.132Z,
+    __v: 0 },
+  { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs succ',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5c9be3fb652a23782255f195,
+    blogTitle: 'success',
+    blogText: 'testing to make sure it lives without console',
+    createdOn: 2019-03-27T20:58:35.757Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m2.381 ms - 395[0m
+Documents Found: 3
+[0mGET /blog [32m200 [0m5.267 ms - 3822[0m
+Fetching all blog documents
+[ { _id: 5c9be0bd0df72a772c79e3b6,
+    blogTitle: 'old',
+    blogText: 'old',
+    createdOn: 2019-03-27T20:44:45.132Z,
+    __v: 0 },
+  { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs succ',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5c9be3fb652a23782255f195,
+    blogTitle: 'success',
+    blogText: 'testing to make sure it lives without console',
+    createdOn: 2019-03-27T20:58:35.757Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m1.825 ms - 395[0m
+Documents Found: 3
+[0mGET /blog [32m200 [0m4.816 ms - 3822[0m
+[0mGET /apple-touch-icon-precomposed.png [33m404 [0m0.616 ms - 1482[0m
+[0mGET /apple-touch-icon-precomposed.png [33m404 [0m0.601 ms - 1482[0m
+[0mGET /apple-touch-icon.png [33m404 [0m0.622 ms - 1482[0m
+[0mGET /apple-touch-icon.png [33m404 [0m0.655 ms - 1482[0m
+[0mGET /favicon.ico [33m404 [0m0.601 ms - 1482[0m
+[0mGET /apple-touch-icon-precomposed.png [33m404 [0m0.755 ms - 1482[0m
+[0mGET /apple-touch-icon.png [33m404 [0m0.557 ms - 1482[0m
+[0mGET /favicon.ico [33m404 [0m0.549 ms - 1482[0m
+Fetching all blog documents
+[ { _id: 5c9be0bd0df72a772c79e3b6,
+    blogTitle: 'old',
+    blogText: 'old',
+    createdOn: 2019-03-27T20:44:45.132Z,
+    __v: 0 },
+  { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs succ',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5c9be3fb652a23782255f195,
+    blogTitle: 'success',
+    blogText: 'testing to make sure it lives without console',
+    createdOn: 2019-03-27T20:58:35.757Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m2.200 ms - 395[0m
+Documents Found: 3
+[0mGET /blog [32m200 [0m5.521 ms - 3822[0m
+[0mGET /apple-touch-icon-precomposed.png [33m404 [0m0.608 ms - 1482[0m
+[0mGET /apple-touch-icon.png [33m404 [0m0.552 ms - 1482[0m
+[0mGET /favicon.ico [33m404 [0m0.590 ms - 1482[0m
+[0mGET /apple-touch-icon-precomposed.png [33m404 [0m0.580 ms - 1482[0m
+[0mGET /apple-touch-icon.png [33m404 [0m0.641 ms - 1482[0m
+[0mGET /favicon.ico [33m404 [0m0.659 ms - 1482[0m
+[0mGET /favicon.ico [33m404 [0m0.576 ms - 1482[0m
+[0mGET /apple-touch-icon-precomposed.png [33m404 [0m0.646 ms - 1482[0m
+Fetching all blog documents
+[ { _id: 5c9be0bd0df72a772c79e3b6,
+    blogTitle: 'old',
+    blogText: 'old',
+    createdOn: 2019-03-27T20:44:45.132Z,
+    __v: 0 },
+  { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs succ',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5c9be3fb652a23782255f195,
+    blogTitle: 'success',
+    blogText: 'testing to make sure it lives without console',
+    createdOn: 2019-03-27T20:58:35.757Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m2.312 ms - 395[0m
+Documents Found: 3
+[0mGET /blog [32m200 [0m5.659 ms - 3822[0m
+[0mGET /apple-touch-icon.png [33m404 [0m0.608 ms - 1482[0m
+[0mGET /favicon.ico [33m404 [0m0.619 ms - 1482[0m
+[0mGET /apple-touch-icon-precomposed.png [33m404 [0m0.654 ms - 1482[0m
+[0mGET /apple-touch-icon.png [33m404 [0m0.631 ms - 1482[0m
+[0mGET /favicon.ico [33m404 [0m0.594 ms - 1482[0m
+[0mGET /apple-touch-icon-precomposed.png [33m404 [0m0.589 ms - 1482[0m
+[0mGET /apple-touch-icon.png [33m404 [0m0.571 ms - 1482[0m
+[0mGET /favicon.ico [33m404 [0m0.658 ms - 1482[0m
+[0mGET / [31m500 [0m2.545 ms - 1859[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger3/app_server/views"
+    at Function.render (/home/bitnami/blogger3/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/bitnami/blogger3/node_modules/express/lib/response.js:1008:7)
+    at /home/bitnami/blogger3/app.js:43:7
+    at Layer.handle_error (/home/bitnami/blogger3/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger3/node_modules/express/lib/router/index.js:315:13)
+    at /home/bitnami/blogger3/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/bitnami/blogger3/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/bitnami/blogger3/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/home/bitnami/blogger3/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger3/node_modules/express/lib/router/index.js:315:13)
+    at /home/bitnami/blogger3/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/bitnami/blogger3/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/bitnami/blogger3/node_modules/express/lib/router/index.js:275:10)
+    at /home/bitnami/blogger3/node_modules/express/lib/router/index.js:635:15
+    at IncomingMessage.next (/home/bitnami/blogger3/node_modules/express/lib/router/index.js:260:14)
+    at done (/home/bitnami/blogger3/node_modules/express/lib/response.js:1003:25)
+[0mGET /apple-touch-icon-precomposed.png [33m404 [0m0.747 ms - 1816[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger3/app_server/views"
+    at Function.render (/home/bitnami/blogger3/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/bitnami/blogger3/node_modules/express/lib/response.js:1008:7)
+    at /home/bitnami/blogger3/app.js:43:7
+    at Layer.handle_error (/home/bitnami/blogger3/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger3/node_modules/express/lib/router/index.js:315:13)
+    at /home/bitnami/blogger3/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/bitnami/blogger3/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/bitnami/blogger3/node_modules/express/lib/router/index.js:275:10)
+    at /home/bitnami/blogger3/app.js:32:3
+    at Layer.handle [as handle_request] (/home/bitnami/blogger3/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/bitnami/blogger3/node_modules/express/lib/router/index.js:317:13)
+    at /home/bitnami/blogger3/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/bitnami/blogger3/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/bitnami/blogger3/node_modules/express/lib/router/index.js:275:10)
+    at /home/bitnami/blogger3/node_modules/express/lib/router/index.js:635:15
+    at next (/home/bitnami/blogger3/node_modules/express/lib/router/index.js:260:14)
+[0mGET /apple-touch-icon.png [33m404 [0m0.804 ms - 1816[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger3/app_server/views"
+    at Function.render (/home/bitnami/blogger3/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/bitnami/blogger3/node_modules/express/lib/response.js:1008:7)
+    at /home/bitnami/blogger3/app.js:43:7
+    at Layer.handle_error (/home/bitnami/blogger3/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger3/node_modules/express/lib/router/index.js:315:13)
+    at /home/bitnami/blogger3/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/bitnami/blogger3/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/bitnami/blogger3/node_modules/express/lib/router/index.js:275:10)
+    at /home/bitnami/blogger3/app.js:32:3
+    at Layer.handle [as handle_request] (/home/bitnami/blogger3/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/bitnami/blogger3/node_modules/express/lib/router/index.js:317:13)
+    at /home/bitnami/blogger3/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/bitnami/blogger3/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/bitnami/blogger3/node_modules/express/lib/router/index.js:275:10)
+    at /home/bitnami/blogger3/node_modules/express/lib/router/index.js:635:15
+    at next (/home/bitnami/blogger3/node_modules/express/lib/router/index.js:260:14)
+[0mGET / [32m200 [0m1.223 ms - 2144[0m
+Fetching all blog documents
+[ { _id: 5c9be0bd0df72a772c79e3b6,
+    blogTitle: 'old',
+    blogText: 'old',
+    createdOn: 2019-03-27T20:44:45.132Z,
+    __v: 0 },
+  { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs succ',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5c9be3fb652a23782255f195,
+    blogTitle: 'success',
+    blogText: 'testing to make sure it lives without console',
+    createdOn: 2019-03-27T20:58:35.757Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m2.420 ms - 395[0m
+Documents Found: 3
+[0mGET /blog [36m304 [0m5.684 ms - -[0m
+[0mGET /blog-add [36m304 [0m0.961 ms - -[0m
+Fetching all blog documents
+[ { _id: 5c9be0bd0df72a772c79e3b6,
+    blogTitle: 'old',
+    blogText: 'old',
+    createdOn: 2019-03-27T20:44:45.132Z,
+    __v: 0 },
+  { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs succ',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5c9be3fb652a23782255f195,
+    blogTitle: 'success',
+    blogText: 'testing to make sure it lives without console',
+    createdOn: 2019-03-27T20:58:35.757Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m2.455 ms - 395[0m
+Documents Found: 3
+[0mGET /blog [36m304 [0m6.255 ms - -[0m
+Finding blog details { blogID: '5c9be2bb471f9077ceb9a151' }
+{ _id: 5c9be2bb471f9077ceb9a151,
+  blogTitle: 'New glob',
+  blogText: 'globs succ',
+  createdOn: 2019-03-27T20:53:15.797Z,
+  __v: 0 }
+[0mGET /api/blog/5c9be2bb471f9077ceb9a151 [32m200 [0m2.318 ms - 128[0m
+{ _id: '5c9be2bb471f9077ceb9a151',
+  blogTitle: 'New glob',
+  blogText: 'globs succ',
+  createdOn: '2019-03-27T20:53:15.797Z',
+  __v: 0 }
+[0mGET /blog-edit/5c9be2bb471f9077ceb9a151 [32m200 [0m5.872 ms - 2584[0m
+Updating Blog Entry : 5c9be2bb471f9077ceb9a151
+{ blogTitle: 'New glob',
+  blogText: 'globs are hard',
+  createdOn: 1553728276905 }
+[0mPUT /api/blog/5c9be2bb471f9077ceb9a151 [32m201 [0m2.279 ms - 128[0m
+[0mPOST /blog-edit/5c9be2bb471f9077ceb9a151 [0m- [0m- ms - -[0m
+Fetching all blog documents
+[ { _id: 5c9be0bd0df72a772c79e3b6,
+    blogTitle: 'old',
+    blogText: 'old',
+    createdOn: 2019-03-27T20:44:45.132Z,
+    __v: 0 },
+  { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs are hard',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5c9be3fb652a23782255f195,
+    blogTitle: 'success',
+    blogText: 'testing to make sure it lives without console',
+    createdOn: 2019-03-27T20:58:35.757Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m2.415 ms - 399[0m
+Documents Found: 3
+[0mGET /blog [32m200 [0m5.325 ms - 3826[0m
+[0mGET /blog-add [36m304 [0m1.809 ms - -[0m
+[0mGET / [36m304 [0m0.938 ms - -[0m
+
+> blogger@0.0.0 start /home/bitnami/blogger4
+> node ./bin/www
+
+Mongoose connected to mongodb://blog:blog@localhost:27017/blog
+[0mGET / [36m304 [0m5.454 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.792 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.600 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.567 ms - -[0m
+Fetching all blog documents
+[ { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs are hard',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5ca0fd52652a23782255f198,
+    blogTitle: 'Fresh',
+    blogText: 'Post',
+    createdOn: 2019-03-31T17:48:02.432Z,
+    __v: 0 },
+  { _id: 5cad269c3a61580eb478da54,
+    blogTitle: 'Joe',
+    blogText: 'is gud',
+    createdOn: 2019-04-09T23:11:24.473Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m23.278 ms - -[0m
+Fetching all blog documents
+[ { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs are hard',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5ca0fd52652a23782255f198,
+    blogTitle: 'Fresh',
+    blogText: 'Post',
+    createdOn: 2019-03-31T17:48:02.432Z,
+    __v: 0 },
+  { _id: 5cad269c3a61580eb478da54,
+    blogTitle: 'Joe',
+    blogText: 'is gud',
+    createdOn: 2019-04-09T23:11:24.473Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m3.676 ms - -[0m
+Fetching all blog documents
+[ { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs are hard',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5ca0fd52652a23782255f198,
+    blogTitle: 'Fresh',
+    blogText: 'Post',
+    createdOn: 2019-03-31T17:48:02.432Z,
+    __v: 0 },
+  { _id: 5cad269c3a61580eb478da54,
+    blogTitle: 'Joe',
+    blogText: 'is gud',
+    createdOn: 2019-04-09T23:11:24.473Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m2.758 ms - -[0m
+Fetching all blog documents
+[ { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs are hard',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5ca0fd52652a23782255f198,
+    blogTitle: 'Fresh',
+    blogText: 'Post',
+    createdOn: 2019-03-31T17:48:02.432Z,
+    __v: 0 },
+  { _id: 5cad269c3a61580eb478da54,
+    blogTitle: 'Joe',
+    blogText: 'is gud',
+    createdOn: 2019-04-09T23:11:24.473Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m2.668 ms - -[0m

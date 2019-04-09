@@ -1,0 +1,281 @@
+
+> blogger@0.0.0 start /home/bitnami/blogger4
+> node ./bin/www
+
+Mongoose connected to mongodb://blog:blog@localhost:27017/blog
+[0mGET / [32m200 [0m6.737 ms - 5230[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m2.047 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.954 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.857 ms - -[0m
+[0mGET / [36m304 [0m0.810 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.148 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.194 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m0.312 ms - -[0m
+Fetching all blog documents
+[ { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs are hard',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5ca0fd52652a23782255f198,
+    blogTitle: 'Fresh',
+    blogText: 'Post',
+    createdOn: 2019-03-31T17:48:02.432Z,
+    __v: 0 },
+  { _id: 5cad269c3a61580eb478da54,
+    blogTitle: 'Joe',
+    blogText: 'is gud',
+    createdOn: 2019-04-09T23:11:24.473Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m23.643 ms - -[0m
+Fetching all blog documents
+[ { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs are hard',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5ca0fd52652a23782255f198,
+    blogTitle: 'Fresh',
+    blogText: 'Post',
+    createdOn: 2019-03-31T17:48:02.432Z,
+    __v: 0 },
+  { _id: 5cad269c3a61580eb478da54,
+    blogTitle: 'Joe',
+    blogText: 'is gud',
+    createdOn: 2019-04-09T23:11:24.473Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m3.626 ms - -[0m
+Fetching all blog documents
+[ { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs are hard',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5ca0fd52652a23782255f198,
+    blogTitle: 'Fresh',
+    blogText: 'Post',
+    createdOn: 2019-03-31T17:48:02.432Z,
+    __v: 0 },
+  { _id: 5cad269c3a61580eb478da54,
+    blogTitle: 'Joe',
+    blogText: 'is gud',
+    createdOn: 2019-04-09T23:11:24.473Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m2.809 ms - -[0m
+Finding blog details { blogID: '5c9be2bb471f9077ceb9a151' }
+{ _id: 5c9be2bb471f9077ceb9a151,
+  blogTitle: 'New glob',
+  blogText: 'globs are hard',
+  createdOn: 2019-03-27T20:53:15.797Z,
+  __v: 0 }
+[0mGET /api/blog/5c9be2bb471f9077ceb9a151 [32m200 [0m6.763 ms - 132[0m
+Finding blog details { blogID: '5c9be2bb471f9077ceb9a151' }
+{ _id: 5c9be2bb471f9077ceb9a151,
+  blogTitle: 'New glob',
+  blogText: 'globs are hard',
+  createdOn: 2019-03-27T20:53:15.797Z,
+  __v: 0 }
+[0mGET /api/blog/5c9be2bb471f9077ceb9a151 [36m304 [0m3.174 ms - -[0m
+Fetching all blog documents
+[ { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs are hard',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5ca0fd52652a23782255f198,
+    blogTitle: 'Fresh',
+    blogText: 'Post',
+    createdOn: 2019-03-31T17:48:02.432Z,
+    __v: 0 },
+  { _id: 5cad269c3a61580eb478da54,
+    blogTitle: 'Joe',
+    blogText: 'is gud',
+    createdOn: 2019-04-09T23:11:24.473Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m2.715 ms - -[0m
+Finding blog details { blogID: '5c9be2bb471f9077ceb9a151' }
+{ _id: 5c9be2bb471f9077ceb9a151,
+  blogTitle: 'New glob',
+  blogText: 'globs are hard',
+  createdOn: 2019-03-27T20:53:15.797Z,
+  __v: 0 }
+[0mGET /api/blog/5c9be2bb471f9077ceb9a151 [36m304 [0m2.396 ms - -[0m
+Finding blog details { blogID: '5c9be2bb471f9077ceb9a151' }
+{ _id: 5c9be2bb471f9077ceb9a151,
+  blogTitle: 'New glob',
+  blogText: 'globs are hard',
+  createdOn: 2019-03-27T20:53:15.797Z,
+  __v: 0 }
+[0mGET /api/blog/5c9be2bb471f9077ceb9a151 [36m304 [0m1.675 ms - -[0m
+
+> blogger@0.0.0 start /home/bitnami/blogger4
+> node ./bin/www
+
+Mongoose connected to mongodb://blog:blog@localhost:27017/blog
+[0mGET / [36m304 [0m5.400 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.453 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.265 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m0.304 ms - -[0m
+[0mGET / [36m304 [0m0.493 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.134 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.106 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.054 ms - -[0m
+[0mGET / [36m304 [0m0.427 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.326 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m0.613 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m0.611 ms - -[0m
+[0mGET / [36m304 [0m0.472 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.384 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m0.277 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m0.261 ms - -[0m
+[0mGET / [36m304 [0m0.846 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.434 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.468 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.451 ms - -[0m
+[0mGET / [36m304 [0m0.497 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.381 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m0.329 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m0.367 ms - -[0m
+[0mGET / [36m304 [0m0.473 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.076 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.042 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.088 ms - -[0m
+[0mGET / [36m304 [0m0.496 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.447 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m0.653 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m0.679 ms - -[0m
+Fetching all blog documents
+[ { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs are hard',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5ca0fd52652a23782255f198,
+    blogTitle: 'Fresh',
+    blogText: 'Post',
+    createdOn: 2019-03-31T17:48:02.432Z,
+    __v: 0 },
+  { _id: 5cad269c3a61580eb478da54,
+    blogTitle: 'Joe',
+    blogText: 'is gud',
+    createdOn: 2019-04-09T23:11:24.473Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m23.779 ms - -[0m
+[0mGET / [36m304 [0m0.472 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m2.048 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.151 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.203 ms - -[0m
+Fetching all blog documents
+[ { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs are hard',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5ca0fd52652a23782255f198,
+    blogTitle: 'Fresh',
+    blogText: 'Post',
+    createdOn: 2019-03-31T17:48:02.432Z,
+    __v: 0 },
+  { _id: 5cad269c3a61580eb478da54,
+    blogTitle: 'Joe',
+    blogText: 'is gud',
+    createdOn: 2019-04-09T23:11:24.473Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m3.502 ms - -[0m
+{ blogTitle: 'Girls', blogText: 'Are stupid' }
+{ _id: 5cad2b8ff1a38e10285469a4,
+  blogTitle: 'Girls',
+  blogText: 'Are stupid',
+  createdOn: 2019-04-09T23:32:31.093Z,
+  __v: 0 }
+[0mPOST /api/blog [32m201 [0m26.519 ms - 125[0m
+Fetching all blog documents
+[ { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs are hard',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5ca0fd52652a23782255f198,
+    blogTitle: 'Fresh',
+    blogText: 'Post',
+    createdOn: 2019-03-31T17:48:02.432Z,
+    __v: 0 },
+  { _id: 5cad269c3a61580eb478da54,
+    blogTitle: 'Joe',
+    blogText: 'is gud',
+    createdOn: 2019-04-09T23:11:24.473Z,
+    __v: 0 },
+  { _id: 5cad2b8ff1a38e10285469a4,
+    blogTitle: 'Girls',
+    blogText: 'Are stupid',
+    createdOn: 2019-04-09T23:32:31.093Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m2.588 ms - 480[0m
+Finding blog details { blogID: '5cad2b8ff1a38e10285469a4' }
+{ _id: 5cad2b8ff1a38e10285469a4,
+  blogTitle: 'Girls',
+  blogText: 'Are stupid',
+  createdOn: 2019-04-09T23:32:31.093Z,
+  __v: 0 }
+[0mGET /api/blog/5cad2b8ff1a38e10285469a4 [32m200 [0m5.942 ms - 125[0m
+Finding blog details { blogID: '5cad2b8ff1a38e10285469a4' }
+{ _id: 5cad2b8ff1a38e10285469a4,
+  blogTitle: 'Girls',
+  blogText: 'Are stupid',
+  createdOn: 2019-04-09T23:32:31.093Z,
+  __v: 0 }
+[0mGET /api/blog/5cad2b8ff1a38e10285469a4 [36m304 [0m2.312 ms - -[0m
+(node:4136) DeprecationWarning: collection.findAndModify is deprecated. Use findOneAndUpdate, findOneAndReplace or findOneAndDelete instead.
+Blog ID 5cad2b8ff1a38e10285469a4 deleted
+[0mDELETE /api/blog/5cad2b8ff1a38e10285469a4 [32m204 [0m7.908 ms - -[0m
+Fetching all blog documents
+[ { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs are hard',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5ca0fd52652a23782255f198,
+    blogTitle: 'Fresh',
+    blogText: 'Post',
+    createdOn: 2019-03-31T17:48:02.432Z,
+    __v: 0 },
+  { _id: 5cad269c3a61580eb478da54,
+    blogTitle: 'Joe',
+    blogText: 'is gud',
+    createdOn: 2019-04-09T23:11:24.473Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m2.472 ms - 359[0m
+Finding blog details { blogID: '5cad269c3a61580eb478da54' }
+{ _id: 5cad269c3a61580eb478da54,
+  blogTitle: 'Joe',
+  blogText: 'is gud',
+  createdOn: 2019-04-09T23:11:24.473Z,
+  __v: 0 }
+[0mGET /api/blog/5cad269c3a61580eb478da54 [32m200 [0m3.654 ms - 119[0m
+Finding blog details { blogID: '5cad269c3a61580eb478da54' }
+{ _id: 5cad269c3a61580eb478da54,
+  blogTitle: 'Joe',
+  blogText: 'is gud',
+  createdOn: 2019-04-09T23:11:24.473Z,
+  __v: 0 }
+[0mGET /api/blog/5cad269c3a61580eb478da54 [36m304 [0m2.514 ms - -[0m
+Updating Blog Entry : 5cad269c3a61580eb478da54
+{ blogTitle: 'Joe', blogText: 'is gud at git' }
+[0mPUT /api/blog/5cad269c3a61580eb478da54 [32m201 [0m6.339 ms - 119[0m
+Fetching all blog documents
+[ { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs are hard',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5ca0fd52652a23782255f198,
+    blogTitle: 'Fresh',
+    blogText: 'Post',
+    createdOn: 2019-03-31T17:48:02.432Z,
+    __v: 0 },
+  { _id: 5cad269c3a61580eb478da54,
+    blogTitle: 'Joe',
+    blogText: 'is gud at git',
+    createdOn: 2019-04-09T23:11:24.473Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m2.114 ms - 366[0m
