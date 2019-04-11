@@ -62,4 +62,3 @@ module.exports.login = function(req, res) {
   })(req, res);
 
 };
-//var usersRouter = require ('./app_server/routes/users');
