@@ -1,4 +1,3 @@
-
 var app = angular.module('bloggerApp');
 
 //*** Authentication Service and Methods **
@@ -144,4 +143,4 @@ app.controller('RegisterController', [ '$http', '$location', 'authentication', f
           $location.path(vm.returnPage);
         });
     };
-}]);/var usersRouter = require ('./app_server/routes/users');
+}]);
