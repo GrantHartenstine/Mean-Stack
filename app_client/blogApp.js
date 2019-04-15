@@ -154,18 +154,18 @@ function getAllBlogs($http) {
 	return $http.get('/api/blog');
 }
 
-function addBlog($http, blogInfo) {
-	return $http.post('/api/blog', blogInfo);
+function addBlog($http, blogInfo, authentication) {
+	return $http.post('/api/blog', blogInfo { headers: { Authorization: 'Bearer '+ authentication.getToken() }} );
 }
 
 function getBlogById($http, blogID) {
 	return $http.get('/api/blog/' + blogID);
 }
 
-function updateBlogById($http, blogInfo, blogID) {
-	return $http.put('/api/blog/' + blogID , blogInfo);
+function updateBlogById($http, authentication, blogInfo, blogID) {
+	return $http.put('/api/blog/' + blogID , blogInfo, { headers: { Authorization: 'Bearer '+ authentication.getToken() }} );
 }
 
-function deleteBlogById($http, id) {
-	return $http.delete('/api/blog/' + id);
+function deleteBlogById($http, authentication,  id) {
+	return $http.delete('/api/blog/' + id, { headers: { Authorization: 'Bearer '+ authentication.getToken() }} );
 }
