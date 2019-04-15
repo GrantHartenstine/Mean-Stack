@@ -18,7 +18,7 @@ function authentication ($window, $http) {
 		return $http.post('/api/register', user).success(function(data){
 		  saveToken(data.token);
 		});
-	});
+	};
 
 	var login = function(user) {
         	console.log('Attempting to login user ' + user.email + ' ' + user.password);
@@ -130,7 +130,7 @@ app.controller('BlogController', [ '$http', 'authentication',  function BlogCont
 		title: 'Blog List'
 	};
 
-	vm. loggedIn = function() {
+	vm.loggedIn = function() {
 		return authentication.loggedIn();
 	}
 
@@ -142,7 +142,7 @@ app.controller('BlogController', [ '$http', 'authentication',  function BlogCont
 		.error(function (e) {
 			vm.message = "Could not get list of blogs";
 		});
-});
+}]);
 
 
 app.controller('AddController', [ '$http', '$location', 'authentication',  function AddController($http, $location, authentication) {
@@ -212,6 +212,7 @@ app.controller('EditController', [ '$http', '$routeParams', '$location', 'authen
 
 	vm.loggedIn = function() {
 		return authentication.loggedIn();
+	}
 
 	getBlogById($http, vm.id)
 		.success(function(blogInfo) {
@@ -230,7 +231,8 @@ app.controller('EditController', [ '$http', '$routeParams', '$location', 'authen
 		updateBlogById($http, blogInfo, vm.id)
 			.success(function(blogInfo) {
 				vm.message = "Blog data updated!";
-				$location.path('/blog').replace();			})
+				$location.path('/blog').replace();
+			})
 			.error(function (e) {
 				vm.message = "Could not update blog given id of " + vm.id + userForm.blogTitle.text + " " + userForm.blogText.text;
 			});
@@ -317,7 +319,7 @@ function getAllBlogs($http) {
 }
 
 function addBlog($http, blogInfo, authentication) {
-	return $http.post('/api/blog', blogInfo { headers: { Authorization: 'Bearer '+ authentication.getToken() }} );
+	return $http.post('/api/blog', blogInfo, { headers: { Authorization: 'Bearer '+ authentication.getToken() }} );
 }
 
 function getBlogById($http, blogID) {
