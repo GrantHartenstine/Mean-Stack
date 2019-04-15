@@ -100,13 +100,13 @@ app.config(function($routeProvider) {
 
 	.when('/register', {
             templateUrl: 'pages/register.html',
-           	 controller: 'registerController',
+           	 controller: 'RegisterController',
            	 controllerAs: 'vm'
        		 })
 
 	.when('/login', {
             templateUrl: 'pages/login.html',
-           	controller: 'loginController',
+           	controller: 'LoginController',
             	controllerAs: 'vm'
         	})
 
@@ -239,7 +239,7 @@ app.controller('EditController', [ '$http', '$routeParams', '$location', 'authen
 	}
 }]);
 
-app.controller('registerController', [ '$http', '$location', 'authentication', function registerController($http, $location, authentication) {
+app.controller('RegisterController', [ '$http', '$location', 'authentication', function RegisterController($http, $location, authentication) {
     var vm = this;
 
     vm.pageHeader = 'Create a new Blogger account';
@@ -277,7 +277,7 @@ app.controller('registerController', [ '$http', '$location', 'authentication', f
     };
 }]);
 
-app.controller('loginController', [ '$http', '$location', 'authentication', function loginController($http, $location, authentication) {
+app.controller('LoginController', [ '$http', '$location', 'authentication', function LoginController($http, $location, authentication) {
     var vm = this;
 
     vm.pageHeader = 'Sign in to Blogger';
