@@ -24,7 +24,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'app_client')));
-app.use('/common/nav', express.static(__dirname + '/app_client/common/nav'));
+app.use('/nav', express.static(__dirname + '/app_client/common/nav'));
 app.use(passport.initialize());
 
 //app.use('/', routes);
