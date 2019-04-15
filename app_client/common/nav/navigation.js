@@ -1,4 +1,4 @@
-var app = angular.module('bloggerApp');
+var app = angular.module('blogApp');
 
 //*** Directives ***
 app.directive('navigation', function() {
@@ -11,13 +11,13 @@ app.directive('navigation', function() {
 });
 
 //*** Controller ***
-app.controller('NavigationController', ['$state', '$location', 'authentication', function NavigationController($state, $location, authentication) {
+app.controller('NavigationController', ['$http', '$location', 'authentication', function NavigationController($http, $location, authentication) {
     var vm = this;
     vm.currentPath = $location.path();
     vm.currentUser = function()  {
         return authentication.currentUser();
     }
-    vm.isLoggedIn = function() {
+    vm.loggedIn = function() {
         return authentication.isLoggedIn();
     }
     vm.logout = function() {
