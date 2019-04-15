@@ -18,7 +18,7 @@ app.controller('NavigationController', ['$http', '$location', 'authentication', 
         return authentication.currentUser();
     }
     vm.loggedIn = function() {
-        return authentication.isLoggedIn();
+        return authentication.loggedIn();
     }
     vm.logout = function() {
       authentication.logout();
