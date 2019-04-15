@@ -1,5 +1,70 @@
 var app = angular.module('blogApp', ['ngRoute']);
 
+//*** Authentication ***
+app.service('authentication', authentication);
+authentication.$inject = ['window', '$http'];
+function authentication ($window, $http) {
+
+	var saveToken = function (token) {
+		$window.localStorage['blog-token'] = token;
+	};
+
+	var getToken = function () {
+		return $window.localStorage['blog-token'];
+	};
+
+	var register = function(user) {
+		console.log('Registering new user ' + user.email + ' ' + user.password);
+		return $http.post('/api/register', user).success(function(data){
+		  saveToken(data.token);
+		});
+	});
+
+	var login = function(user) {
+        	console.log('Attempting to login user ' + user.email + ' ' + user.password);
+        	return $http.post('/api/login', user).success(function(data) {
+            	  saveToken(data.token);
+       		 });
+   	 };
+
+    	var logout = function() {
+        	$window.localStorage.removeItem('blog-token');
+   	 };
+
+    	var isLoggedIn = function() {
+        	var token = getToken();
+
+		if(token){
+            	  var payload = JSON.parse($window.atob(token.split('.')[1]));
+
+		return payload.exp > Date.now() / 1000;
+        	  } else {
+           	    return false;
+ 		  }
+	};
+
+	var currentUser = function() {
+		if(isLoggedIn()){
+		  var token = getToken();
+            	  var payload = JSON.parse($window.atob(token.split('.')[1]));
+            	  return {
+                    email : payload.email,
+                    name : payload.name
+           	  };
+       		 }
+	};
+
+	return {
+	  saveToken : saveToken,
+	  getToken : getToken,
+          register : register,
+          login : login,
+          logout : logout,
+          isLoggedIn : isLoggedIn,
+          currentUser : currentUser
+    };
+}
+
 //*** Router Provider ***
 app.config(function($routeProvider) {
   $routeProvider
@@ -21,17 +86,29 @@ app.config(function($routeProvider) {
 		  controllerAs: 'vm'
 		  })
 
-        .when('/blog-edit/:id', {
-	      templateUrl: 'pages/blog-edit.html',
-		  controller: 'EditController',
-		  controllerAs: 'vm'
-		  })
+       .when('/blog-edit/:id', {
+	     templateUrl: 'pages/blog-edit.html',
+		 controller: 'EditController',
+		 controllerAs: 'vm'
+		 })
 
 	.when('/blog-delete/:id', {
-	      templateUrl: 'pages/blog-delete.html',
-		  controller: 'DeleteController',
-		  controllerAs: 'vm'
-		  })
+	     templateUrl: 'pages/blog-delete.html',
+		 controller: 'DeleteController',
+		 controllerAs: 'vm'
+		 })
+
+	.when('/register', {
+            templateUrl: 'pages/register.html',
+           	 controller: 'registerController',
+           	 controllerAs: 'vm'
+       		 })
+
+	.when('/login', {
+            templateUrl: 'pages/login.html',
+           	controller: 'loginController',
+            	controllerAs: 'vm'
+        	})
 
       .otherwise({redirectTo: '/'});
     });
@@ -47,7 +124,7 @@ app.controller('HomeController', function HomeController() {
 });
 
 
-app.controller('BlogController', function BlogController($http) {
+app.controller('BlogController', [ '$http', 'authentication',  function BlogController($http, authentication) {
 	var vm = this;
 	vm.pageHeader = {
 		title: 'Blog List'
@@ -64,7 +141,7 @@ app.controller('BlogController', function BlogController($http) {
 });
 
 
-app.controller('AddController', [ '$http', '$location', function AddController($http, $location) {
+app.controller('AddController', [ '$http', '$location', 'authentication',  function AddController($http, $location, authentication) {
 	var vm = this;
 	vm.blog = {};
 	vm.title = "Grant Hartenstine's Blog";
@@ -75,7 +152,7 @@ app.controller('AddController', [ '$http', '$location', function AddController($
 		blogInfo.blogTitle = userForm.blogTitle.value;
 		blogInfo.blogText = userForm.blogText.value;
 
-		addBlog($http, blogInfo)
+		addBlog($http, blogInfo, authentication)
 			.success(function(blogInfo) {
 				console.log(blogInfo);
 				$location.path('/blog').replace();
@@ -86,13 +163,15 @@ app.controller('AddController', [ '$http', '$location', function AddController($
 	};
 }]);
 
-app.controller('DeleteController', [ '$http', '$routeParams', '$location', function DeleteController($http, $routeParams, $location) {
+app.controller('DeleteController', [ '$http', '$routeParams', '$location', 'authentication', function DeleteController($http, $routeParams, $location, authentication) {
 	var vm = this;
 	vm.blog = {};
 	vm.id = $routeParams.id;
 	vm.pageHeader = {
 		title: 'Blog Delete'
 	};
+
+	vm.loggedIn
 
 	getBlogById($http, vm.id)
 		.success(function(blogInfo) {
@@ -106,7 +185,7 @@ app.controller('DeleteController', [ '$http', '$routeParams', '$location', funct
 	vm.submit = function() {
 		var blogInfo = vm.blog;
 
-	deleteBlogById($http, vm.id)
+	deleteBlogById($http, vm.id, authentication)
 		.success(function(blogInfo) {
 			vm.message = "Blog deleted!";
 			$location.path('/blog').replace();
