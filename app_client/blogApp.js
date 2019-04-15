@@ -31,7 +31,7 @@ function authentication ($window, $http) {
         	$window.localStorage.removeItem('blog-token');
    	 };
 
-    	var isLoggedIn = function() {
+    	var loggedIn = function() {
         	var token = getToken();
 
 		if(token){
@@ -44,7 +44,7 @@ function authentication ($window, $http) {
 	};
 
 	var currentUser = function() {
-		if(isLoggedIn()){
+		if(loggedIn()){
 		  var token = getToken();
             	  var payload = JSON.parse($window.atob(token.split('.')[1]));
             	  return {
@@ -60,7 +60,7 @@ function authentication ($window, $http) {
           register : register,
           login : login,
           logout : logout,
-          isLoggedIn : isLoggedIn,
+          loggedIn : loggedIn,
           currentUser : currentUser
     };
 }
@@ -130,6 +130,10 @@ app.controller('BlogController', [ '$http', 'authentication',  function BlogCont
 		title: 'Blog List'
 	};
 
+	vm. loggedIn = function() {
+		return authentication.loggedIn();
+	}
+
 	getAllBlogs($http)
 		.success(function(data) {
 			vm.blogs = data;
@@ -171,7 +175,9 @@ app.controller('DeleteController', [ '$http', '$routeParams', '$location', 'auth
 		title: 'Blog Delete'
 	};
 
-	vm.loggedIn
+	vm.loggedIn = function(){
+		return authentication.loggedIn();
+	}
 
 	getBlogById($http, vm.id)
 		.success(function(blogInfo) {
@@ -197,12 +203,15 @@ app.controller('DeleteController', [ '$http', '$routeParams', '$location', 'auth
 }]);
 
 
-app.controller('EditController', [ '$http', '$routeParams', '$location', function EditController($http, $routeParams, $location) {
+app.controller('EditController', [ '$http', '$routeParams', '$location', 'authentication', function EditController($http, $routeParams, $location, authentication) {
 	var vm = this;
 	vm.blog = {};
 	vm.title = "Grant Hartenstine's Blog";
 	vm.pageHeader = "Blog Edit";
 	vm.id = $routeParams.id;
+
+	vm.loggedIn = function() {
+		return authentication.loggedIn();
 
 	getBlogById($http, vm.id)
 		.success(function(blogInfo) {
@@ -228,6 +237,80 @@ app.controller('EditController', [ '$http', '$routeParams', '$location', functio
 	}
 }]);
 
+app.controller('registerController', [ '$http', '$location', 'authentication', function registerController($http, $location, authentication) {
+    var vm = this;
+
+    vm.pageHeader = 'Create a new Blogger account';
+
+    vm.credentials = {
+        name : "",
+        email : "",
+        password : ""
+    };
+
+    vm.returnPage = $location.search().page || '/blog';
+
+    vm.onSubmit = function () {
+        vm.formError = "";
+        if (!vm.credentials.name || !vm.credentials.email || !vm.credentials.password) {
+            vm.formError = "All fields required, please try again";
+            return false;
+        } else {
+            vm.doRegister();
+        }
+    };
+
+    vm.doRegister = function() {
+        vm.formError = "";
+        authentication
+            .register(vm.credentials)
+            .error(function(err){
+                vm.formError = "Error registering. Email already registered. Try again with a different email address."
+                //vm.formError = err;
+            })
+            .then(function(){
+                $location.search('page', null);
+                $location.path(vm.returnPage);
+            });
+    };
+}]);
+
+app.controller('loginController', [ '$http', '$location', 'authentication', function loginController($http, $location, authentication) {
+    var vm = this;
+
+    vm.pageHeader = 'Sign in to Blogger';
+
+    vm.credentials = {
+        email : "",
+        password : ""
+    };
+
+    vm.returnPage = $location.search().page || '/blog';
+
+    vm.onSubmit = function () {
+        vm.formError = "";
+        if (!vm.credentials.email || !vm.credentials.password) {
+            vm.formError = "All fields required, please try again";
+            return false;
+        } else {
+            vm.doLogin();
+        }
+    };
+
+    vm.doLogin = function() {
+        vm.formError = "";
+        authentication
+            .login(vm.credentials)
+            .error(function(err){
+                var obj = err;
+                vm.formError = obj.message;
+            })
+            .then(function(){
+                $location.search('page', null);
+                $location.path(vm.returnPage);
+            });
+    };
+}]);
 
 function getAllBlogs($http) {
 	return $http.get('/api/blog');
