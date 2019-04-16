@@ -45,8 +45,8 @@
                 <h5 class ="card-title">{{blog.blogTitle}}</h5>
                 <h5 class ="card-title">{{blog.blogText}}</h5>
                 <h5 class="card-title">{{blog.createdOn}}</h5>
-		<ng-show="vm.loggedIn()" a href="#/blog-edit/{{ blog.blogID }}" role="button"><span>Edit Blog</span></a>
-		<ng-show="vm.loggedIn()" a href="#/blog-delete/{{ blog.blogID }}" role="button"><span>Delete Blog</a>
+		<ng-show="vm.loggedIn()" a href="#/blog-edit/{{ blog.blogID }}" role="button">Edit Blog</a>
+		<ng-show="vm.loggedIn()" a href="#/blog-delete/{{ blog.blogID }}" role="button">Delete Blog</a>
             </div>
             <div class="card-footer"></div>
         </div>

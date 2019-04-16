@@ -228,7 +228,7 @@ app.controller('EditController', [ '$http', '$routeParams', '$location', 'authen
 		blogInfo.blogTitle = userForm.blogTitle.value;
 		blogInfo.blogText = userForm.blogText.value;
 
-		updateBlogById($http, blogInfo, vm.id)
+		updateBlogById($http, blogInfo, vm.id, authentication)
 			.success(function(blogInfo) {
 				vm.message = "Blog data updated!";
 				$location.path('/blog').replace();
@@ -326,10 +326,10 @@ function getBlogById($http, blogID) {
 	return $http.get('/api/blog/' + blogID);
 }
 
-function updateBlogById($http, authentication, blogInfo, blogID) {
+function updateBlogById($http, blogInfo, blogID, authentication) {
 	return $http.put('/api/blog/' + blogID , blogInfo, { headers: { Authorization: 'Bearer '+ authentication.getToken() }} );
 }
 
-function deleteBlogById($http, authentication,  id) {
+function deleteBlogById($http, id,  authentication) {
 	return $http.delete('/api/blog/' + id, { headers: { Authorization: 'Bearer '+ authentication.getToken() }} );
 }
