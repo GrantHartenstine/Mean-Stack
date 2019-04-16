@@ -242,7 +242,7 @@ app.controller('EditController', [ '$http', '$routeParams', '$location', 'authen
 app.controller('RegisterController', [ '$http', '$location', 'authentication', function RegisterController($http, $location, authentication) {
     var vm = this;
 
-    vm.pageHeader = 'Create a new Blogger account';
+    vm.pageHeader = 'Create a new account';
 
     vm.credentials = {
         name : "",
@@ -280,7 +280,7 @@ app.controller('RegisterController', [ '$http', '$location', 'authentication', f
 app.controller('LoginController', [ '$http', '$location', 'authentication', function LoginController($http, $location, authentication) {
     var vm = this;
 
-    vm.pageHeader = 'Sign in to Blogger';
+    vm.pageHeader = 'Sign in';
 
     vm.credentials = {
         email : "",
