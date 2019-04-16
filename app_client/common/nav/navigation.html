@@ -3,7 +3,7 @@
 <a class="navbar-brand" href="#/">My Blog</a>
 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#/blog-list">List Blogs</a>
+        <a class="nav-item nav-link active" href="#/blog">List Blogs</a>
         <a ng-show="vm.loggedIn()" class="nav-item nav-link active" href="#/blog-add">Add Blog</a>
         <a ng-show="!vm.loggedIn()" class="nav-item nav-link active" href="#/login">Sign In</a>
         <a ng-show="vm.loggedIn()" class="nav-item nav-link active" href="" ng-click="vm.logout()"Logout <small>({{ vm.currentUser().email }})</small></a>

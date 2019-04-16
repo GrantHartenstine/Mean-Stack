@@ -114,7 +114,6 @@
       <div class="form-group">
          <label for="name">Full Name</label>
          <input type="text" class="form-control" id="name" placeholder="Enter First and Last Name" ng-model="vm.credentials.name>
-         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
       </div>
 
       <div class="form-group">
@@ -128,7 +127,6 @@
          <input type="password" class="form-control" id="password" placeholder="Enter Password" ng-model="vm.credentials.password">
       </div>
       <div class="form-group form-check">
-         <input type="checkbox" class="form-check-input" id="exampleCheck1">
       </div>
         <button type="submit" class="btn btn-primary">Register!</button>
     </form>
@@ -137,24 +135,26 @@
 <!-- End Registration Page -->
 
 <!-- Login Page -->
-<script type="text/ng-template" id="pages/register.html">
-    <p>Not a member? Please <a href="/#register?page={{ vm.returnPage }}">register</a> first.</p>
+<script type="text/ng-template" id="pages/login.html">
+    <p></p>
+    <!-- <p>Not a member? Please <a href="/#register?page={{ vm.returnPage }}">register</a> first.</p> -->
     <h1>{{ vm.pageHeader }}</h1>
-    <h4>{{ vm.message }}</h4>
-
+    <h4>Not a member? Please <a href="/#register?page={{ vm.returnPage }}">register</a> first.</h4> 
+    
     <form>
-      <div class="form-group">
-         <label for="name">Full Name</label>
-         <input type="text" class="form-control" id="name" placeholder="Enter First and Last Name" ng-model="vm.credentials.name>
-         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-      </div>
-
       <div class="form-group">
          <label for="email">Email Address</label>
          <input type="email" class="form-control" id="email" placeholder="Enter Email Address" ng-model="vm.credentials.email">
          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
       </div>
+
+      <div class="form-group">
+	 <label for="password">Password</label>
+	 <input type="password" class="form-control" id="password" placeholder="Enter your password" ng-model="vm.credentials.password">
+      </div>
+	<button type="submit" class="btn btn-primary">Sign in!</button>
     </form>
+</script>
 
 <!-- End Login Page -->
 

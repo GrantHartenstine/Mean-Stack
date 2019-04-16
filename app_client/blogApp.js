@@ -2,7 +2,7 @@ var app = angular.module('blogApp', ['ngRoute']);
 
 //*** Authentication ***
 app.service('authentication', authentication);
-authentication.$inject = ['window', '$http'];
+authentication.$inject = ['$window', '$http'];
 function authentication ($window, $http) {
 
 	var saveToken = function (token) {
