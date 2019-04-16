@@ -1,4 +1,5 @@
-<!-- Navigation -->  
+<!-- Navigation -->
+<div class="banner">  
 <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-primary">
 <a class="navbar-brand" href="#/">My Blog</a>
 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -8,5 +9,6 @@
         <a ng-show="!vm.loggedIn()" class="nav-item nav-link active" href="#/login">Sign In</a>
         <a ng-show="vm.loggedIn()" class="nav-item nav-link active" href="" ng-click="vm.logout()"Logout <small>({{ vm.currentUser().email }})</small></a>
     </div>
+</div>
 </div>
 </nav>
