@@ -279,3 +279,90 @@ Fetching all blog documents
     createdOn: 2019-04-09T23:11:24.473Z,
     __v: 0 } ]
 [0mGET /api/blog [32m200 [0m2.114 ms - 366[0m
+
+> blogger@0.0.0 start /home/bitnami/blogger5
+> node ./bin/www
+
+Mongoose connected to mongodb://blog:blog@localhost:27017/blog
+Fetching all blog documents
+[ { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs are hard!',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5ca0fd52652a23782255f198,
+    blogTitle: 'Fresh',
+    blogText: 'Post',
+    createdOn: 2019-03-31T17:48:02.432Z,
+    __v: 0 },
+  { _id: 5cad269c3a61580eb478da54,
+    blogTitle: 'Joe',
+    blogText: 'is gud at git',
+    createdOn: 2019-04-09T23:11:24.473Z,
+    __v: 0 },
+  { _id: 5cb53756fdd75d0f61d9118b,
+    blogTitle: 'popcorn',
+    blogText: 'is yummy',
+    createdOn: 2019-04-16T02:00:54.486Z,
+    __v: 0 },
+  { _id: 5cb537b61e0a510f80060180,
+    blogTitle: 'grant',
+    blogText: 'really sucks',
+    createdOn: 2019-04-16T02:02:30.367Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m26.452 ms - -[0m
+[0mPOST /api/login [32m200 [0m29.001 ms - 244[0m
+Fetching all blog documents
+[ { _id: 5c9be2bb471f9077ceb9a151,
+    blogTitle: 'New glob',
+    blogText: 'globs are hard!',
+    createdOn: 2019-03-27T20:53:15.797Z,
+    __v: 0 },
+  { _id: 5ca0fd52652a23782255f198,
+    blogTitle: 'Fresh',
+    blogText: 'Post',
+    createdOn: 2019-03-31T17:48:02.432Z,
+    __v: 0 },
+  { _id: 5cad269c3a61580eb478da54,
+    blogTitle: 'Joe',
+    blogText: 'is gud at git',
+    createdOn: 2019-04-09T23:11:24.473Z,
+    __v: 0 },
+  { _id: 5cb53756fdd75d0f61d9118b,
+    blogTitle: 'popcorn',
+    blogText: 'is yummy',
+    createdOn: 2019-04-16T02:00:54.486Z,
+    __v: 0 },
+  { _id: 5cb537b61e0a510f80060180,
+    blogTitle: 'grant',
+    blogText: 'really sucks',
+    createdOn: 2019-04-16T02:02:30.367Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m3.438 ms - -[0m
+
+> blogger@0.0.0 start /home/bitnami/blogger5
+> node ./bin/www
+
+Mongoose connected to mongodb://blog:blog@localhost:27017/blog
+Fetching all blog documents
+[ { _id: 5cb54355632bc211ab15eb31,
+    blogTitle: 'test',
+    blogText: 'test1',
+    createdOn: 2019-04-16T02:52:05.157Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m22.142 ms - -[0m
+Fetching all blog documents
+[ { _id: 5cb54355632bc211ab15eb31,
+    blogTitle: 'test',
+    blogText: 'test1',
+    createdOn: 2019-04-16T02:52:05.157Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m2.795 ms - -[0m
+[0mPOST /api/login [32m200 [0m30.577 ms - 244[0m
+Fetching all blog documents
+[ { _id: 5cb54355632bc211ab15eb31,
+    blogTitle: 'test',
+    blogText: 'test1',
+    createdOn: 2019-04-16T02:52:05.157Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m2.600 ms - -[0m
