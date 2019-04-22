@@ -24,7 +24,7 @@
 <!-- Angular Templates -->
 
 <!-- Home Page -->
-<script type="text/ng-template" id="pages/home.html">\
+<script type="text/ng-template" id="pages/home.html">
 	<p></p>
   <div class="banner">
     <h1>{{vm.pageHeader.title}}</h1>
@@ -45,8 +45,9 @@
                 <h5 class ="card-title">{{blog.blogTitle}}</h5>
                 <h5 class ="card-title">{{blog.blogText}}</h5>
                 <h5 class="card-title">{{blog.createdOn}}</h5>
-		<ng-show="vm.isLoggedIn()" a href="#/blog-edit/{{ blog.blogID }}" role="button">Edit Blog</a>
-		<ng-show="vm.isLoggedIn()" a href="#/blog-delete/{{ blog.blogID }}" role="button">Delete Blog</a>
+		Published by {{ blog.userName }} on {{ blog.createdOn }} <br />
+		<a ng-show="vm.loggedIn()" href="#/blog-edit/{{ blog.blogID }}" role="button">Edit Blog</a>
+		<a ng-show="vm.loggedIn()" href="#/blog-delete/{{ blog.blogID }}" role="button">Delete Blog</a>
             </div>
             <div class="card-footer"></div>
         </div>

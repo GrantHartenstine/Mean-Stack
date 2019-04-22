@@ -366,3 +366,678 @@ Fetching all blog documents
     createdOn: 2019-04-16T02:52:05.157Z,
     __v: 0 } ]
 [0mGET /api/blog [36m304 [0m2.600 ms - -[0m
+[0mGET /phpMyAdmin/scripts/setup.php [33m404 [0m5.838 ms - 1395[0m
+[0mGET /market/detail?symbol=ethusdt [33m404 [0m1.219 ms - 1395[0m
+[0mGET / [32m200 [0m13.937 ms - 7330[0m
+[0mGET /TP/public/index.php [33m404 [0m16.495 ms - 1395[0m
+[0mGET /TP/index.php [33m404 [0m0.789 ms - 1395[0m
+[0mGET /thinkphp/html/public/index.php [33m404 [0m1.083 ms - 1395[0m
+[0mGET / [32m200 [0m0.840 ms - 7330[0m
+[0mGET / [32m200 [0m0.574 ms - 7330[0m
+[0mGET / [32m200 [0m0.695 ms - 7330[0m
+[0mGET / [32m200 [0m11.214 ms - 7330[0m
+[0mGET / [32m200 [0m0.473 ms - 7330[0m
+[0mGET / [32m200 [0m0.510 ms - 7330[0m
+[0mGET / [32m200 [0m6.424 ms - 7330[0m
+[0mGET / [32m200 [0m0.465 ms - 7330[0m
+[0mGET / [32m200 [0m1.138 ms - 7330[0m
+[0mGET /wp-login.php [33m404 [0m31.319 ms - 1395[0m
+[0mGET / [36m304 [0m11.501 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.314 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.279 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m0.409 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.292 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.989 ms - -[0m
+Fetching all blog documents
+[ { _id: 5cb54355632bc211ab15eb31,
+    blogTitle: 'test',
+    blogText: 'test1',
+    createdOn: 2019-04-16T02:52:05.157Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m83.261 ms - -[0m
+{ blogTitle: 'raw', blogText: 'data' }
+{ _id: 5cb71ccf75651511eb482251,
+  blogTitle: 'raw',
+  blogText: 'data',
+  createdOn: 2019-04-17T12:32:15.080Z,
+  __v: 0 }
+[0mPOST /api/blog [32m201 [0m121.679 ms - 117[0m
+Fetching all blog documents
+[ { _id: 5cb54355632bc211ab15eb31,
+    blogTitle: 'test',
+    blogText: 'test1',
+    createdOn: 2019-04-16T02:52:05.157Z,
+    __v: 0 },
+  { _id: 5cb71ccf75651511eb482251,
+    blogTitle: 'raw',
+    blogText: 'data',
+    createdOn: 2019-04-17T12:32:15.080Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m1.824 ms - 229[0m
+[0mGET / [32m200 [0m1.852 ms - 7330[0m
+[0mGET / [32m200 [0m0.472 ms - 7330[0m
+[0mGET /administrator/index.php [33m404 [0m0.858 ms - 1395[0m
+[0mGET / [32m200 [0m0.497 ms - 7330[0m
+[0mGET /lib/angular-route.min.js [32m200 [0m0.823 ms - 3884[0m
+[0mGET /lib/angular-ui-router.min.js [32m200 [0m1.537 ms - 19546[0m
+[0mGET /common/nav/navigation.js [32m200 [0m3.716 ms - 756[0m
+[0mGET /blogApp.js [32m200 [0m4.106 ms - 9010[0m
+[0mGET /nav/navigation.html [32m200 [0m0.950 ms - 693[0m
+[0mGET /favicon.ico [33m404 [0m1.232 ms - 1395[0m
+Fetching all blog documents
+[ { _id: 5cb54355632bc211ab15eb31,
+    blogTitle: 'test',
+    blogText: 'test1',
+    createdOn: 2019-04-16T02:52:05.157Z,
+    __v: 0 },
+  { _id: 5cb71ccf75651511eb482251,
+    blogTitle: 'raw',
+    blogText: 'data',
+    createdOn: 2019-04-17T12:32:15.080Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m2.537 ms - 229[0m
+Fetching all blog documents
+[ { _id: 5cb54355632bc211ab15eb31,
+    blogTitle: 'test',
+    blogText: 'test1',
+    createdOn: 2019-04-16T02:52:05.157Z,
+    __v: 0 },
+  { _id: 5cb71ccf75651511eb482251,
+    blogTitle: 'raw',
+    blogText: 'data',
+    createdOn: 2019-04-17T12:32:15.080Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m1.958 ms - -[0m
+Fetching all blog documents
+[ { _id: 5cb54355632bc211ab15eb31,
+    blogTitle: 'test',
+    blogText: 'test1',
+    createdOn: 2019-04-16T02:52:05.157Z,
+    __v: 0 },
+  { _id: 5cb71ccf75651511eb482251,
+    blogTitle: 'raw',
+    blogText: 'data',
+    createdOn: 2019-04-17T12:32:15.080Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m1.989 ms - -[0m
+[0mPOST /api/login [32m200 [0m23.074 ms - 253[0m
+Fetching all blog documents
+[ { _id: 5cb54355632bc211ab15eb31,
+    blogTitle: 'test',
+    blogText: 'test1',
+    createdOn: 2019-04-16T02:52:05.157Z,
+    __v: 0 },
+  { _id: 5cb71ccf75651511eb482251,
+    blogTitle: 'raw',
+    blogText: 'data',
+    createdOn: 2019-04-17T12:32:15.080Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m1.831 ms - -[0m
+Mongoose disconnected
+Mongoose disconnected through Heroku app shutdown
+
+> blogger@0.0.0 start /home/bitnami/blogger5
+> node ./bin/www
+
+Mongoose connected to mongodb://blog:blog@localhost:27017/blog
+[0mGET / [36m304 [0m5.903 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.275 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m2.690 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m2.400 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.963 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m2.556 ms - -[0m
+Fetching all blog documents
+[ { _id: 5cb54355632bc211ab15eb31,
+    blogTitle: 'test',
+    blogText: 'test1 bam told you',
+    createdOn: 2019-04-16T02:52:05.157Z,
+    __v: 0 },
+  { _id: 5cb78e8cb29c2d2731067341,
+    blogTitle: 'new',
+    blogText: 'blog',
+    createdOn: 2019-04-17T20:37:32.423Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m21.539 ms - -[0m
+Fetching all blog documents
+[ { _id: 5cb54355632bc211ab15eb31,
+    blogTitle: 'test',
+    blogText: 'test1 bam told you',
+    createdOn: 2019-04-16T02:52:05.157Z,
+    __v: 0 },
+  { _id: 5cb78e8cb29c2d2731067341,
+    blogTitle: 'new',
+    blogText: 'blog',
+    createdOn: 2019-04-17T20:37:32.423Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m5.463 ms - -[0m
+Fetching all blog documents
+[ { _id: 5cb54355632bc211ab15eb31,
+    blogTitle: 'test',
+    blogText: 'test1 bam told you',
+    createdOn: 2019-04-16T02:52:05.157Z,
+    __v: 0 },
+  { _id: 5cb78e8cb29c2d2731067341,
+    blogTitle: 'new',
+    blogText: 'blog',
+    createdOn: 2019-04-17T20:37:32.423Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m4.541 ms - -[0m
+[0mPOST /api/login [32m200 [0m39.405 ms - 253[0m
+Fetching all blog documents
+[ { _id: 5cb54355632bc211ab15eb31,
+    blogTitle: 'test',
+    blogText: 'test1 bam told you',
+    createdOn: 2019-04-16T02:52:05.157Z,
+    __v: 0 },
+  { _id: 5cb78e8cb29c2d2731067341,
+    blogTitle: 'new',
+    blogText: 'blog',
+    createdOn: 2019-04-17T20:37:32.423Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m3.419 ms - -[0m
+{ blogTitle: 'we', blogText: 'live' }
+{ _id: 5cb8d2fb7a7f773307aec22f,
+  blogTitle: 'we',
+  blogText: 'live',
+  createdOn: 2019-04-18T19:41:47.312Z,
+  __v: 0 }
+[0mPOST /api/blog [32m201 [0m18.700 ms - 116[0m
+Fetching all blog documents
+[ { _id: 5cb54355632bc211ab15eb31,
+    blogTitle: 'test',
+    blogText: 'test1 bam told you',
+    createdOn: 2019-04-16T02:52:05.157Z,
+    __v: 0 },
+  { _id: 5cb78e8cb29c2d2731067341,
+    blogTitle: 'new',
+    blogText: 'blog',
+    createdOn: 2019-04-17T20:37:32.423Z,
+    __v: 0 },
+  { _id: 5cb8d2fb7a7f773307aec22f,
+    blogTitle: 'we',
+    blogText: 'live',
+    createdOn: 2019-04-18T19:41:47.312Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m2.347 ms - 354[0m
+[0mGET / [32m200 [0m3.408 ms - 7326[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.815 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.925 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.952 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.963 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m3.661 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.247 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.284 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.333 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.354 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.428 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m2.169 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m2.138 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m2.162 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m2.190 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m3.393 ms - -[0m
+[0mGET / [32m200 [0m4.302 ms - 7326[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.426 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.446 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.430 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.444 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.441 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m2.031 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.954 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m2.767 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m2.832 ms - -[0m
+[0mGET / [32m200 [0m4.199 ms - 7326[0m
+[0mGET /nav/navigation.html [36m304 [0m3.156 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.390 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.387 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.410 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.406 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.464 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.785 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.847 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.886 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.908 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m2.107 ms - -[0m
+[0mGET / [32m200 [0m3.532 ms - 7326[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.327 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.354 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.401 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.440 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.438 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m2.002 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m2.107 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m2.160 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m2.721 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m3.408 ms - -[0m
+[0mGET / [32m200 [0m4.843 ms - 7326[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.317 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.324 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.334 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.370 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.447 ms - -[0m
+[0mGET / [32m200 [0m0.547 ms - 7326[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.800 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.843 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.752 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.758 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m2.650 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.381 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.448 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.516 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.540 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.439 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.651 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.709 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.763 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m2.193 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m2.392 ms - -[0m
+[0mGET / [32m200 [0m3.762 ms - 7326[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.265 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.234 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.203 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.218 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.389 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m3.950 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m4.053 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m4.070 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m3.968 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m4.520 ms - -[0m
+[0mGET / [32m200 [0m5.856 ms - 7326[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.356 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.356 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.368 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.385 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.469 ms - -[0m
+[0mGET / [32m200 [0m3.712 ms - 7326[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m4.207 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m2.424 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m2.426 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m2.713 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m3.341 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.422 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.397 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.431 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.439 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.451 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m2.153 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m2.116 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m2.148 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.945 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m2.773 ms - -[0m
+[0mGET / [32m200 [0m2.805 ms - 7326[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.320 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.337 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.390 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.391 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.478 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.808 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.861 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.966 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m2.020 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m2.222 ms - -[0m
+[0mGET / [32m200 [0m3.677 ms - 7326[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.438 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.449 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.445 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.430 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.446 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.837 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m2.014 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m2.069 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m2.007 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m2.622 ms - -[0m
+[0mGET / [32m200 [0m3.930 ms - 7326[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.361 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.327 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.385 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.457 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.415 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.705 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.756 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.654 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.700 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m2.416 ms - -[0m
+[0mGET / [32m200 [0m3.380 ms - 7326[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.750 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.764 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.347 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.379 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.412 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.824 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.889 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.946 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.866 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m2.448 ms - -[0m
+[0mGET / [32m200 [0m3.695 ms - 7326[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.278 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.281 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.298 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.324 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.443 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.472 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.440 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m3.107 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m3.990 ms - -[0m
+[0mGET / [32m200 [0m3.903 ms - 7326[0m
+[0mGET /common/nav/navigation.js [36m304 [0m0.868 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m13.113 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m5.488 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.549 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.532 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.364 ms - -[0m
+[0mGET / [32m200 [0m0.502 ms - 7326[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.235 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.267 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.280 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.300 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m1.480 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.917 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m0.952 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m0.998 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.041 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.309 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.866 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m0.939 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m2.443 ms - -[0m
+[0mGET / [32m200 [0m3.634 ms - 7326[0m
+[0mGET /common/nav/navigation.js [36m304 [0m2.235 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m1.250 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.349 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.406 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.453 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.488 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.351 ms - -[0m
+[0mGET / [32m200 [0m0.390 ms - 7326[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.216 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.215 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.223 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.237 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m1.392 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.947 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m0.959 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m0.985 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.014 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.323 ms - -[0m
+[0mGET / [36m304 [0m0.387 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.206 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.213 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.233 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.174 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m1.551 ms - -[0m
+[0mGET / [36m304 [0m0.411 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.866 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.899 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.917 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.375 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m5.223 ms - -[0m
+[0mGET / [36m304 [0m0.468 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.537 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.023 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.051 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.010 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.449 ms - -[0m
+[0mGET http://169.254.169.254/latest/meta-data [33m404 [0m8.613 ms - 1395[0m
+[0mGET / [32m200 [0m0.579 ms - 7326[0m
+[0mGET /lib/angular-route.min.js [32m200 [0m1.152 ms - 3884[0m
+[0mGET /lib/angular-ui-router.min.js [32m200 [0m1.103 ms - 19546[0m
+[0mGET /common/nav/navigation.js [32m200 [0m0.918 ms - 756[0m
+[0mGET /blogApp.js [32m200 [0m1.124 ms - 9010[0m
+[0mGET /nav/navigation.html [32m200 [0m1.162 ms - 693[0m
+[0mGET /favicon.ico [33m404 [0m1.089 ms - 1395[0m
+Fetching all blog documents
+[ { _id: 5cb54355632bc211ab15eb31,
+    blogTitle: 'test',
+    blogText: 'test1 bam told you',
+    createdOn: 2019-04-16T02:52:05.157Z,
+    __v: 0 },
+  { _id: 5cb78e8cb29c2d2731067341,
+    blogTitle: 'new',
+    blogText: 'blog',
+    createdOn: 2019-04-17T20:37:32.423Z,
+    __v: 0 },
+  { _id: 5cb8d2fb7a7f773307aec22f,
+    blogTitle: 'we',
+    blogText: 'live',
+    createdOn: 2019-04-18T19:41:47.312Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m8.013 ms - 354[0m
+[0mPOST /api/register [32m200 [0m15.988 ms - 257[0m
+Fetching all blog documents
+[ { _id: 5cb54355632bc211ab15eb31,
+    blogTitle: 'test',
+    blogText: 'test1 bam told you',
+    createdOn: 2019-04-16T02:52:05.157Z,
+    __v: 0 },
+  { _id: 5cb78e8cb29c2d2731067341,
+    blogTitle: 'new',
+    blogText: 'blog',
+    createdOn: 2019-04-17T20:37:32.423Z,
+    __v: 0 },
+  { _id: 5cb8d2fb7a7f773307aec22f,
+    blogTitle: 'we',
+    blogText: 'live',
+    createdOn: 2019-04-18T19:41:47.312Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m2.587 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m1.110 ms - 1395[0m
+{ blogTitle: 'Prof add', blogText: 'Test' }
+{ _id: 5cb8dbde7a7f773307aec231,
+  blogTitle: 'Prof add',
+  blogText: 'Test',
+  createdOn: 2019-04-18T20:19:42.952Z,
+  __v: 0 }
+[0mPOST /api/blog [32m201 [0m2.717 ms - 122[0m
+Fetching all blog documents
+[ { _id: 5cb54355632bc211ab15eb31,
+    blogTitle: 'test',
+    blogText: 'test1 bam told you',
+    createdOn: 2019-04-16T02:52:05.157Z,
+    __v: 0 },
+  { _id: 5cb78e8cb29c2d2731067341,
+    blogTitle: 'new',
+    blogText: 'blog',
+    createdOn: 2019-04-17T20:37:32.423Z,
+    __v: 0 },
+  { _id: 5cb8d2fb7a7f773307aec22f,
+    blogTitle: 'we',
+    blogText: 'live',
+    createdOn: 2019-04-18T19:41:47.312Z,
+    __v: 0 },
+  { _id: 5cb8dbde7a7f773307aec231,
+    blogTitle: 'Prof add',
+    blogText: 'Test',
+    createdOn: 2019-04-18T20:19:42.952Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m1.913 ms - 472[0m
+Finding blog details { blogID: '5cb8dbde7a7f773307aec231' }
+{ _id: 5cb8dbde7a7f773307aec231,
+  blogTitle: 'Prof add',
+  blogText: 'Test',
+  createdOn: 2019-04-18T20:19:42.952Z,
+  __v: 0 }
+[0mGET /api/blog/5cb8dbde7a7f773307aec231 [32m200 [0m4.159 ms - 122[0m
+Finding blog details { blogID: '5cb8dbde7a7f773307aec231' }
+{ _id: 5cb8dbde7a7f773307aec231,
+  blogTitle: 'Prof add',
+  blogText: 'Test',
+  createdOn: 2019-04-18T20:19:42.952Z,
+  __v: 0 }
+[0mGET /api/blog/5cb8dbde7a7f773307aec231 [36m304 [0m1.922 ms - -[0m
+Updating Blog Entry : 5cb8dbde7a7f773307aec231
+{ blogTitle: 'Prof add', blogText: 'Testmmmm' }
+[0mPUT /api/blog/5cb8dbde7a7f773307aec231 [32m201 [0m8.518 ms - 122[0m
+Fetching all blog documents
+[ { _id: 5cb54355632bc211ab15eb31,
+    blogTitle: 'test',
+    blogText: 'test1 bam told you',
+    createdOn: 2019-04-16T02:52:05.157Z,
+    __v: 0 },
+  { _id: 5cb78e8cb29c2d2731067341,
+    blogTitle: 'new',
+    blogText: 'blog',
+    createdOn: 2019-04-17T20:37:32.423Z,
+    __v: 0 },
+  { _id: 5cb8d2fb7a7f773307aec22f,
+    blogTitle: 'we',
+    blogText: 'live',
+    createdOn: 2019-04-18T19:41:47.312Z,
+    __v: 0 },
+  { _id: 5cb8dbde7a7f773307aec231,
+    blogTitle: 'Prof add',
+    blogText: 'Testmmmm',
+    createdOn: 2019-04-18T20:19:42.952Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m1.915 ms - 476[0m
+Finding blog details { blogID: '5cb8dbde7a7f773307aec231' }
+{ _id: 5cb8dbde7a7f773307aec231,
+  blogTitle: 'Prof add',
+  blogText: 'Testmmmm',
+  createdOn: 2019-04-18T20:19:42.952Z,
+  __v: 0 }
+[0mGET /api/blog/5cb8dbde7a7f773307aec231 [32m200 [0m2.372 ms - 126[0m
+Finding blog details { blogID: '5cb8dbde7a7f773307aec231' }
+{ _id: 5cb8dbde7a7f773307aec231,
+  blogTitle: 'Prof add',
+  blogText: 'Testmmmm',
+  createdOn: 2019-04-18T20:19:42.952Z,
+  __v: 0 }
+[0mGET /api/blog/5cb8dbde7a7f773307aec231 [36m304 [0m1.333 ms - -[0m
+Blog ID 5cb8dbde7a7f773307aec231 deleted
+[0mDELETE /api/blog/5cb8dbde7a7f773307aec231 [32m204 [0m3.720 ms - -[0m
+Fetching all blog documents
+[ { _id: 5cb54355632bc211ab15eb31,
+    blogTitle: 'test',
+    blogText: 'test1 bam told you',
+    createdOn: 2019-04-16T02:52:05.157Z,
+    __v: 0 },
+  { _id: 5cb78e8cb29c2d2731067341,
+    blogTitle: 'new',
+    blogText: 'blog',
+    createdOn: 2019-04-17T20:37:32.423Z,
+    __v: 0 },
+  { _id: 5cb8d2fb7a7f773307aec22f,
+    blogTitle: 'we',
+    blogText: 'live',
+    createdOn: 2019-04-18T19:41:47.312Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m2.108 ms - 354[0m
+[0mGET / [36m304 [0m0.447 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m1.599 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.577 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m1.551 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m1.509 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m1.650 ms - -[0m
+[0mGET / [32m200 [0m0.761 ms - 7326[0m
+[0mGET /mysql/admin/index.php?lang=en [33m404 [0m8.790 ms - 1395[0m
+[0mHEAD /robots.txt [33m404 [0m2.628 ms - 1395[0m
+[0mGET / [32m200 [0m1.181 ms - 7326[0m
+[0mGET / [32m200 [0m0.515 ms - 7326[0m
+[0mGET /w00tw00t.at.blackhats.romanian.anti-sec:) [33m404 [0m1.931 ms - 1395[0m
+[0mGET /phpMyAdmin/scripts/setup.php [33m404 [0m0.852 ms - 1395[0m
+[0mGET /phpmyadmin/scripts/setup.php [33m404 [0m1.838 ms - 1395[0m
+[0mGET /pma/scripts/setup.php [33m404 [0m0.811 ms - 1395[0m
+[0mGET /phpmy/scripts/setup.php [33m404 [0m0.817 ms - 1395[0m
+[0mOPTIONS * [33m404 [0m0.592 ms - 1512[0m
+[0mGET / [32m200 [0m0.522 ms - 7326[0m
+[0mGET http://5.188.210.101/echo.php [33m404 [0m6.017 ms - 1395[0m
+[0mGET / [32m200 [0m0.615 ms - 7326[0m
+[0mGET / [32m200 [0m0.474 ms - 7326[0m
+[0mGET / [32m200 [0m0.652 ms - 7326[0m
+[0mGET /wp-login.php [33m404 [0m0.808 ms - 1395[0m
+[0mGET / [32m200 [0m0.553 ms - 7326[0m
+[0mGET /blogApp.js [36m304 [0m1.394 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.774 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m0.628 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m1.095 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.554 ms - -[0m
+Fetching all blog documents
+[ { _id: 5cb54355632bc211ab15eb31,
+    blogTitle: 'test',
+    blogText: 'test1 bam told you',
+    createdOn: 2019-04-16T02:52:05.157Z,
+    __v: 0 },
+  { _id: 5cb78e8cb29c2d2731067341,
+    blogTitle: 'new',
+    blogText: 'blog',
+    createdOn: 2019-04-17T20:37:32.423Z,
+    __v: 0 },
+  { _id: 5cb8d2fb7a7f773307aec22f,
+    blogTitle: 'we',
+    blogText: 'live',
+    createdOn: 2019-04-18T19:41:47.312Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m42.198 ms - 354[0m
+Fetching all blog documents
+[ { _id: 5cb54355632bc211ab15eb31,
+    blogTitle: 'test',
+    blogText: 'test1 bam told you',
+    createdOn: 2019-04-16T02:52:05.157Z,
+    __v: 0 },
+  { _id: 5cb78e8cb29c2d2731067341,
+    blogTitle: 'new',
+    blogText: 'blog',
+    createdOn: 2019-04-17T20:37:32.423Z,
+    __v: 0 },
+  { _id: 5cb8d2fb7a7f773307aec22f,
+    blogTitle: 'we',
+    blogText: 'live',
+    createdOn: 2019-04-18T19:41:47.312Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m2.180 ms - -[0m
+Fetching all blog documents
+[ { _id: 5cb54355632bc211ab15eb31,
+    blogTitle: 'test',
+    blogText: 'test1 bam told you',
+    createdOn: 2019-04-16T02:52:05.157Z,
+    __v: 0 },
+  { _id: 5cb78e8cb29c2d2731067341,
+    blogTitle: 'new',
+    blogText: 'blog',
+    createdOn: 2019-04-17T20:37:32.423Z,
+    __v: 0 },
+  { _id: 5cb8d2fb7a7f773307aec22f,
+    blogTitle: 'we',
+    blogText: 'live',
+    createdOn: 2019-04-18T19:41:47.312Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m2.810 ms - -[0m
+[0mGET /lib/angular-route.min.js.map [36m304 [0m1.124 ms - -[0m
+Fetching all blog documents
+[ { _id: 5cb54355632bc211ab15eb31,
+    blogTitle: 'test',
+    blogText: 'test1 bam told you',
+    createdOn: 2019-04-16T02:52:05.157Z,
+    __v: 0 },
+  { _id: 5cb78e8cb29c2d2731067341,
+    blogTitle: 'new',
+    blogText: 'blog',
+    createdOn: 2019-04-17T20:37:32.423Z,
+    __v: 0 },
+  { _id: 5cb8d2fb7a7f773307aec22f,
+    blogTitle: 'we',
+    blogText: 'live',
+    createdOn: 2019-04-18T19:41:47.312Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m1.922 ms - -[0m
+[0mGET /mysql/admin/index.php?lang=en [33m404 [0m1.778 ms - 1395[0m
+[0mGET / [32m200 [0m0.971 ms - 7326[0m
+[0mGET /w00tw00t.at.blackhats.romanian.anti-sec:) [33m404 [0m0.874 ms - 1395[0m
+[0mGET /phpMyAdmin/setup.php [33m404 [0m0.762 ms - 1395[0m
+[0mGET /phpmyadmin/setup.php [33m404 [0m0.734 ms - 1395[0m
+[0mGET /phpmy/scripts/setup.php [33m404 [0m0.738 ms - 1395[0m
+[0mGET /phpmyadmin/setup.php/index.php [33m404 [0m0.735 ms - 1395[0m
+[0mGET /phpMyAdmin/setup.php/index.php [33m404 [0m0.729 ms - 1395[0m
+[0mGET /mysql/admin/index.php?lang=en [33m404 [0m0.850 ms - 1395[0m
+[0mGET / [32m200 [0m3.219 ms - 7326[0m
+[0mGET / [32m200 [0m0.519 ms - 7326[0m
+[0mGET / [32m200 [0m0.468 ms - 7326[0m
+[0mHEAD http://112.124.42.80:63435/ [32m200 [0m0.379 ms - 7326[0m
+[0mGET / [32m200 [0m0.544 ms - 7326[0m
+[0mGET /mysql/admin/index.php?lang=en [33m404 [0m2.069 ms - 1395[0m
+[0mGET / [32m200 [0m0.672 ms - 7326[0m
+[0mGET http://110.249.212.46/testget?q=23333&port=80 [33m404 [0m0.831 ms - 1395[0m
+[0mGET /manager/html [33m404 [0m2.230 ms - 1395[0m
+[0mGET / [32m200 [0m0.452 ms - 7326[0m
+[0mGET / [32m200 [0m0.493 ms - 7326[0m
+[0mGET http://110.249.212.46/testget?q=23333&port=80 [33m404 [0m2.736 ms - 1395[0m
+[0mGET / [32m200 [0m0.539 ms - 7326[0m
+[0mGET / [32m200 [0m0.445 ms - 7326[0m

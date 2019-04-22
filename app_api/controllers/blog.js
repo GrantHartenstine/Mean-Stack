@@ -13,6 +13,8 @@ module.exports.blogMake = function (req, res) {
 	 create({
 	 blogTitle: req.body.blogTitle,
 	 blogText: req.body.blogText,
+	 userName: req.body.userName,
+	 userEmail: req.body.userEmail,
 	},
 	function(err, blog) {
 	  if(err) {
@@ -53,6 +55,8 @@ module.exports.blogList = function (req, res) {
 		blogID : obj._id,
 		blogTitle : obj.blogTitle,
 		blogText : obj.blogText,
+		userName : obj.userName,
+		userEmail : obj.userEmail,
 		createdOn : obj.createdOn
 	 });
         });

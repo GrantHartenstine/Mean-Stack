@@ -870,3 +870,18 @@ Fetching all blog documents
     createdOn: 2019-04-09T23:11:24.473Z,
     __v: 0 } ]
 [0mGET /api/blog [36m304 [0m2.668 ms - -[0m
+
+> blogger@0.0.0 start /home/bitnami/blogger5
+> node ./bin/www
+
+Port 80 is already in use
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! blogger@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the blogger@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/bitnami/.npm/_logs/2019-04-17T20_36_57_629Z-debug.log

@@ -155,6 +155,8 @@ app.controller('AddController', [ '$http', '$location', 'authentication',  funct
 		var blogInfo = vm.blog;
 		blogInfo.blogTitle = userForm.blogTitle.value;
 		blogInfo.blogText = userForm.blogText.value;
+		blogInfo.userName = authentication.currentUser().name;
+		blogInfo.userEmail = authentication.currentUser().email
 
 		addBlog($http, blogInfo, authentication)
 			.success(function(blogInfo) {
