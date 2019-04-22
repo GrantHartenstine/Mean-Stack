@@ -134,6 +134,10 @@ app.controller('BlogController', [ '$http', 'authentication',  function BlogCont
 		return authentication.loggedIn();
 	}
 
+	vm.isAuthor = function(blog) {
+		return vm.loggedIn() && authentication.currentUser().email == blog.userEmail;
+	}
+
 	getAllBlogs($http)
 		.success(function(data) {
 			vm.blogs = data;
@@ -156,7 +160,7 @@ app.controller('AddController', [ '$http', '$location', 'authentication',  funct
 		blogInfo.blogTitle = userForm.blogTitle.value;
 		blogInfo.blogText = userForm.blogText.value;
 		blogInfo.userName = authentication.currentUser().name;
-		blogInfo.userEmail = authentication.currentUser().email
+		blogInfo.userEmail = authentication.currentUser().email;
 
 		addBlog($http, blogInfo, authentication)
 			.success(function(blogInfo) {

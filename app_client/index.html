@@ -46,8 +46,8 @@
                 <h5 class ="card-title">{{blog.blogText}}</h5>
                 <h5 class="card-title">{{blog.createdOn}}</h5>
 		Published by {{ blog.userName }} on {{ blog.createdOn }} <br />
-		<a ng-show="vm.loggedIn()" href="#/blog-edit/{{ blog.blogID }}" role="button">Edit Blog</a>
-		<a ng-show="vm.loggedIn()" href="#/blog-delete/{{ blog.blogID }}" role="button">Delete Blog</a>
+		<a ng-show="vm.loggedIn() && vm.isAuthor(blog)" href="#/blog-edit/{{ blog.blogID }}" role="button">Edit Blog</a>
+		<a ng-show="vm.loggedIn() && vm.isAuthor(blog)" href="#/blog-delete/{{ blog.blogID }}" role="button">Delete Blog</a>
             </div>
             <div class="card-footer"></div>
         </div>
