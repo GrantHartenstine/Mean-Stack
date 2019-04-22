@@ -48,6 +48,7 @@
 		Published by {{ blog.userName }} on {{ blog.createdOn }} <br />
 		<a ng-show="vm.loggedIn() && vm.isAuthor(blog)" href="#/blog-edit/{{ blog.blogID }}" role="button">Edit Blog</a>
 		<a ng-show="vm.loggedIn() && vm.isAuthor(blog)" href="#/blog-delete/{{ blog.blogID }}" role="button">Delete Blog</a>
+		<a ng-show="vm.loggedIn() && vm.isAuthor(blog)" href="#/blog-comment/{{ blog.blogID }}" role="button">Blog Comments</a>
             </div>
             <div class="card-footer"></div>
         </div>
@@ -107,6 +108,24 @@
     </div>
 </script>
 <!-- End Edit Page -->
+
+<!-- Comment Page -->
+<script type="text/ng-template" id="pages/blog-comment.html">
+    <p></p>
+    <h1>{{ vm.pageHeader }}</h1>
+    <div class="card border-primary" style="width: 50%">
+        <form name="userForm" ng-submit="vm.submit()" ng-Controller="CommentController" style="padding: 20px">
+            <div class="form-group">
+                <label class="text-primary">Blog Title</label>
+                <input class="form-control" id="blogTitle" name="blogTitle" value="{{ vm.blog.blogTitle }}">
+                <label class="text-primary">Blog Text</label>
+                <textarea class="form-control" id="blogText" name="blogText" rows="3">{{ vm.blog.blogText }}</textarea>
+            </div>
+            <input type="submit" class="btn btn-primary" value="Add Comment">
+        </form>
+    </div>
+</script>
+<!-- End Comments Page -->
 
 <!-- Register Page -->
 <script type="text/ng-template" id="pages/register.html">
