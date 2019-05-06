@@ -2,7 +2,7 @@ var app = angular.module('blogApp', ['ngRoute']);
 
 //*** Authentication ***
 app.service('authentication', authentication);
-authentication.$inject = ['$window', '$http'];
+authentication.$inject = ['$window', '$http', '$scope'];
 function authentication ($window, $http) {
 
 	var saveToken = function (token) {
@@ -320,6 +320,38 @@ app.controller('LoginController', [ '$http', '$location', 'authentication', func
     };
 }]);
 
+app.controller('UserListController', [ '$http', '$scope', '$interval', 'authentication', 
+	function UserListController($http, $scope, $interval, authentication) {
+		var vm = this;
+		vm.pageHeader = {
+			title: 'User List'
+		};
+
+		// Initially gets list of users								 
+		getAllUsers($http)
+		  .success(function(data) {
+			vm.users = data;
+			vm.message = "Users list found!";
+		  })
+		  .error(function (e) {
+			vm.message = "Could not get list of users";
+		});
+
+		// Refreshes lists of users periodically					  
+		$scope.callAtInterval = function() {
+			console.log("Interval occurred");
+			getAllUsers($http)
+			  .success(function(data) {
+				vm.users = data;
+				vm.message = "Users list found!";
+			  })
+			  .error(function (e) {
+				vm.message = "Could not get list of users";
+			});								  
+		}
+		$interval( function(){$scope.callAtInterval();}, 3000, 0, true);									  							  
+}]);
+
 function getAllBlogs($http) {
 	return $http.get('/api/blog');
 }
@@ -339,3 +371,9 @@ function updateBlogById($http, blogInfo, blogID, authentication) {
 function deleteBlogById($http, id,  authentication) {
 	return $http.delete('/api/blog/' + id, { headers: { Authorization: 'Bearer '+ authentication.getToken() }} );
 }
+
+function getAllUsers($http, data) {
+	return $http.get('/api/users/' + userID, userInfo, { headers: { Authorization: 'Bearer '+ authentication.getToken() }} );
+} 
+
+

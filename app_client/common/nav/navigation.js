@@ -11,7 +11,7 @@ app.directive('navigation', function() {
 });
 
 //*** Controller ***
-app.controller('NavigationController', ['$http', '$location', 'authentication', function NavigationController($http, $location, authentication) {
+app.controller('NavigationController', ['$state', '$location', 'authentication', function NavigationController($state, $location, authentication) {
     var vm = this;
     vm.currentPath = $location.path();
     vm.currentUser = function()  {
